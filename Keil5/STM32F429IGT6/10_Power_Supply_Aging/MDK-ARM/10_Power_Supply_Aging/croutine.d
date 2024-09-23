@@ -1,0 +1,13 @@
+.\10_power_supply_aging\croutine.o: ..\FreeRTOS\croutine.c
+.\10_power_supply_aging\croutine.o: ..\FreeRTOS\include\FreeRTOS.h
+.\10_power_supply_aging\croutine.o: D:\keil5\ARM\ARMCC\Bin\..\include\stddef.h
+.\10_power_supply_aging\croutine.o: D:\keil5\ARM\ARMCC\Bin\..\include\stdint.h
+.\10_power_supply_aging\croutine.o: ..\FreeRTOS\include\FreeRTOSConfig.h
+.\10_power_supply_aging\croutine.o: ..\FreeRTOS\include\projdefs.h
+.\10_power_supply_aging\croutine.o: ..\FreeRTOS\include\portable.h
+.\10_power_supply_aging\croutine.o: ..\FreeRTOS\include\deprecated_definitions.h
+.\10_power_supply_aging\croutine.o: ..\FreeRTOS\portable\RVDS\ARM_CM4F\portmacro.h
+.\10_power_supply_aging\croutine.o: ..\FreeRTOS\include\mpu_wrappers.h
+.\10_power_supply_aging\croutine.o: ..\FreeRTOS\include\task.h
+.\10_power_supply_aging\croutine.o: ..\FreeRTOS\include\list.h
+.\10_power_supply_aging\croutine.o: ..\FreeRTOS\include\croutine.h

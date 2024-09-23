@@ -1,0 +1,15 @@
+.\06_freertos_mutex\event_groups.o: ..\FreeRTOS\event_groups.c
+.\06_freertos_mutex\event_groups.o: D:\keil5\ARM\ARMCC\Bin\..\include\stdlib.h
+.\06_freertos_mutex\event_groups.o: ..\FreeRTOS\include\FreeRTOS.h
+.\06_freertos_mutex\event_groups.o: D:\keil5\ARM\ARMCC\Bin\..\include\stddef.h
+.\06_freertos_mutex\event_groups.o: D:\keil5\ARM\ARMCC\Bin\..\include\stdint.h
+.\06_freertos_mutex\event_groups.o: ..\FreeRTOS\include\FreeRTOSConfig.h
+.\06_freertos_mutex\event_groups.o: ..\FreeRTOS\include\projdefs.h
+.\06_freertos_mutex\event_groups.o: ..\FreeRTOS\include\portable.h
+.\06_freertos_mutex\event_groups.o: ..\FreeRTOS\include\deprecated_definitions.h
+.\06_freertos_mutex\event_groups.o: ..\FreeRTOS\portable\RVDS\ARM_CM4F\portmacro.h
+.\06_freertos_mutex\event_groups.o: ..\FreeRTOS\include\mpu_wrappers.h
+.\06_freertos_mutex\event_groups.o: ..\FreeRTOS\include\task.h
+.\06_freertos_mutex\event_groups.o: ..\FreeRTOS\include\list.h
+.\06_freertos_mutex\event_groups.o: ..\FreeRTOS\include\timers.h
+.\06_freertos_mutex\event_groups.o: ..\FreeRTOS\include\event_groups.h

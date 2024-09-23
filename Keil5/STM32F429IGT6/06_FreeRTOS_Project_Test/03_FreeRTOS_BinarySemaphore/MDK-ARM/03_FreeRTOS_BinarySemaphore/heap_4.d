@@ -1,0 +1,14 @@
+.\03_freertos_binarysemaphore\heap_4.o: ..\FreeRTOS\portable\MemMang\heap_4.c
+.\03_freertos_binarysemaphore\heap_4.o: D:\keil5\ARM\ARMCC\Bin\..\include\stdlib.h
+.\03_freertos_binarysemaphore\heap_4.o: D:\keil5\ARM\ARMCC\Bin\..\include\string.h
+.\03_freertos_binarysemaphore\heap_4.o: ..\FreeRTOS\include\FreeRTOS.h
+.\03_freertos_binarysemaphore\heap_4.o: D:\keil5\ARM\ARMCC\Bin\..\include\stddef.h
+.\03_freertos_binarysemaphore\heap_4.o: D:\keil5\ARM\ARMCC\Bin\..\include\stdint.h
+.\03_freertos_binarysemaphore\heap_4.o: ..\FreeRTOS\include\FreeRTOSConfig.h
+.\03_freertos_binarysemaphore\heap_4.o: ..\FreeRTOS\include\projdefs.h
+.\03_freertos_binarysemaphore\heap_4.o: ..\FreeRTOS\include\portable.h
+.\03_freertos_binarysemaphore\heap_4.o: ..\FreeRTOS\include\deprecated_definitions.h
+.\03_freertos_binarysemaphore\heap_4.o: ..\FreeRTOS\portable\RVDS\ARM_CM4F\portmacro.h
+.\03_freertos_binarysemaphore\heap_4.o: ..\FreeRTOS\include\mpu_wrappers.h
+.\03_freertos_binarysemaphore\heap_4.o: ..\FreeRTOS\include\task.h
+.\03_freertos_binarysemaphore\heap_4.o: ..\FreeRTOS\include\list.h

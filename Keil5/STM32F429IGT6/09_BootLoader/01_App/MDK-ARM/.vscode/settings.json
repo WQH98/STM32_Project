@@ -1,0 +1,15 @@
+{
+    "files.associations": {
+        "*.s": "c",
+        "led.h": "c",
+        "uart.h": "c",
+        "iic.h": "c",
+        "pcf8574.h": "c",
+        "key.h": "c",
+        "exti.h": "c",
+        "task.h": "c",
+        "iwdg.h": "c",
+        "wwdg.h": "c",
+        "dma.h": "c"
+    }
+}

@@ -1,0 +1,12 @@
+.\13_freertos_memorymanagement\port.o: ..\FreeRTOS\portable\RVDS\ARM_CM4F\port.c
+.\13_freertos_memorymanagement\port.o: ..\FreeRTOS\include\FreeRTOS.h
+.\13_freertos_memorymanagement\port.o: D:\keil5\ARM\ARMCC\Bin\..\include\stddef.h
+.\13_freertos_memorymanagement\port.o: D:\keil5\ARM\ARMCC\Bin\..\include\stdint.h
+.\13_freertos_memorymanagement\port.o: ..\FreeRTOS\include\FreeRTOSConfig.h
+.\13_freertos_memorymanagement\port.o: ..\FreeRTOS\include\projdefs.h
+.\13_freertos_memorymanagement\port.o: ..\FreeRTOS\include\portable.h
+.\13_freertos_memorymanagement\port.o: ..\FreeRTOS\include\deprecated_definitions.h
+.\13_freertos_memorymanagement\port.o: ..\FreeRTOS\portable\RVDS\ARM_CM4F\portmacro.h
+.\13_freertos_memorymanagement\port.o: ..\FreeRTOS\include\mpu_wrappers.h
+.\13_freertos_memorymanagement\port.o: ..\FreeRTOS\include\task.h
+.\13_freertos_memorymanagement\port.o: ..\FreeRTOS\include\list.h

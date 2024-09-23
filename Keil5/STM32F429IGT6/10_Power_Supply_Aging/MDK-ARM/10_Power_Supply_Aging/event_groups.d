@@ -1,0 +1,15 @@
+.\10_power_supply_aging\event_groups.o: ..\FreeRTOS\event_groups.c
+.\10_power_supply_aging\event_groups.o: D:\keil5\ARM\ARMCC\Bin\..\include\stdlib.h
+.\10_power_supply_aging\event_groups.o: ..\FreeRTOS\include\FreeRTOS.h
+.\10_power_supply_aging\event_groups.o: D:\keil5\ARM\ARMCC\Bin\..\include\stddef.h
+.\10_power_supply_aging\event_groups.o: D:\keil5\ARM\ARMCC\Bin\..\include\stdint.h
+.\10_power_supply_aging\event_groups.o: ..\FreeRTOS\include\FreeRTOSConfig.h
+.\10_power_supply_aging\event_groups.o: ..\FreeRTOS\include\projdefs.h
+.\10_power_supply_aging\event_groups.o: ..\FreeRTOS\include\portable.h
+.\10_power_supply_aging\event_groups.o: ..\FreeRTOS\include\deprecated_definitions.h
+.\10_power_supply_aging\event_groups.o: ..\FreeRTOS\portable\RVDS\ARM_CM4F\portmacro.h
+.\10_power_supply_aging\event_groups.o: ..\FreeRTOS\include\mpu_wrappers.h
+.\10_power_supply_aging\event_groups.o: ..\FreeRTOS\include\task.h
+.\10_power_supply_aging\event_groups.o: ..\FreeRTOS\include\list.h
+.\10_power_supply_aging\event_groups.o: ..\FreeRTOS\include\timers.h
+.\10_power_supply_aging\event_groups.o: ..\FreeRTOS\include\event_groups.h

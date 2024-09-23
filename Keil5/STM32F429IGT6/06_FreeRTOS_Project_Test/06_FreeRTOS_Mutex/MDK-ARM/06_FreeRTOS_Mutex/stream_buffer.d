@@ -1,0 +1,14 @@
+.\06_freertos_mutex\stream_buffer.o: ..\FreeRTOS\stream_buffer.c
+.\06_freertos_mutex\stream_buffer.o: D:\keil5\ARM\ARMCC\Bin\..\include\stdint.h
+.\06_freertos_mutex\stream_buffer.o: D:\keil5\ARM\ARMCC\Bin\..\include\string.h
+.\06_freertos_mutex\stream_buffer.o: ..\FreeRTOS\include\FreeRTOS.h
+.\06_freertos_mutex\stream_buffer.o: D:\keil5\ARM\ARMCC\Bin\..\include\stddef.h
+.\06_freertos_mutex\stream_buffer.o: ..\FreeRTOS\include\FreeRTOSConfig.h
+.\06_freertos_mutex\stream_buffer.o: ..\FreeRTOS\include\projdefs.h
+.\06_freertos_mutex\stream_buffer.o: ..\FreeRTOS\include\portable.h
+.\06_freertos_mutex\stream_buffer.o: ..\FreeRTOS\include\deprecated_definitions.h
+.\06_freertos_mutex\stream_buffer.o: ..\FreeRTOS\portable\RVDS\ARM_CM4F\portmacro.h
+.\06_freertos_mutex\stream_buffer.o: ..\FreeRTOS\include\mpu_wrappers.h
+.\06_freertos_mutex\stream_buffer.o: ..\FreeRTOS\include\task.h
+.\06_freertos_mutex\stream_buffer.o: ..\FreeRTOS\include\list.h
+.\06_freertos_mutex\stream_buffer.o: ..\FreeRTOS\include\stream_buffer.h

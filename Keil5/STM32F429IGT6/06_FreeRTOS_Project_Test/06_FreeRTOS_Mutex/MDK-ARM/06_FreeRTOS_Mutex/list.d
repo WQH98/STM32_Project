@@ -1,0 +1,12 @@
+.\06_freertos_mutex\list.o: ..\FreeRTOS\list.c
+.\06_freertos_mutex\list.o: D:\keil5\ARM\ARMCC\Bin\..\include\stdlib.h
+.\06_freertos_mutex\list.o: ..\FreeRTOS\include\FreeRTOS.h
+.\06_freertos_mutex\list.o: D:\keil5\ARM\ARMCC\Bin\..\include\stddef.h
+.\06_freertos_mutex\list.o: D:\keil5\ARM\ARMCC\Bin\..\include\stdint.h
+.\06_freertos_mutex\list.o: ..\FreeRTOS\include\FreeRTOSConfig.h
+.\06_freertos_mutex\list.o: ..\FreeRTOS\include\projdefs.h
+.\06_freertos_mutex\list.o: ..\FreeRTOS\include\portable.h
+.\06_freertos_mutex\list.o: ..\FreeRTOS\include\deprecated_definitions.h
+.\06_freertos_mutex\list.o: ..\FreeRTOS\portable\RVDS\ARM_CM4F\portmacro.h
+.\06_freertos_mutex\list.o: ..\FreeRTOS\include\mpu_wrappers.h
+.\06_freertos_mutex\list.o: ..\FreeRTOS\include\list.h

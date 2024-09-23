@@ -1,0 +1,16 @@
+.\13_freertos_memorymanagement\tasks.o: ..\FreeRTOS\tasks.c
+.\13_freertos_memorymanagement\tasks.o: D:\keil5\ARM\ARMCC\Bin\..\include\stdlib.h
+.\13_freertos_memorymanagement\tasks.o: D:\keil5\ARM\ARMCC\Bin\..\include\string.h
+.\13_freertos_memorymanagement\tasks.o: ..\FreeRTOS\include\FreeRTOS.h
+.\13_freertos_memorymanagement\tasks.o: D:\keil5\ARM\ARMCC\Bin\..\include\stddef.h
+.\13_freertos_memorymanagement\tasks.o: D:\keil5\ARM\ARMCC\Bin\..\include\stdint.h
+.\13_freertos_memorymanagement\tasks.o: ..\FreeRTOS\include\FreeRTOSConfig.h
+.\13_freertos_memorymanagement\tasks.o: ..\FreeRTOS\include\projdefs.h
+.\13_freertos_memorymanagement\tasks.o: ..\FreeRTOS\include\portable.h
+.\13_freertos_memorymanagement\tasks.o: ..\FreeRTOS\include\deprecated_definitions.h
+.\13_freertos_memorymanagement\tasks.o: ..\FreeRTOS\portable\RVDS\ARM_CM4F\portmacro.h
+.\13_freertos_memorymanagement\tasks.o: ..\FreeRTOS\include\mpu_wrappers.h
+.\13_freertos_memorymanagement\tasks.o: ..\FreeRTOS\include\task.h
+.\13_freertos_memorymanagement\tasks.o: ..\FreeRTOS\include\list.h
+.\13_freertos_memorymanagement\tasks.o: ..\FreeRTOS\include\timers.h
+.\13_freertos_memorymanagement\tasks.o: ..\FreeRTOS\include\stack_macros.h

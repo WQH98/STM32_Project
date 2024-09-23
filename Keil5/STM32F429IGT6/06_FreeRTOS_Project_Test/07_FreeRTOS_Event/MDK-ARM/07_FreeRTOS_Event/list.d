@@ -1,0 +1,12 @@
+.\07_freertos_event\list.o: ..\FreeRTOS\list.c
+.\07_freertos_event\list.o: D:\keil5\ARM\ARMCC\Bin\..\include\stdlib.h
+.\07_freertos_event\list.o: ..\FreeRTOS\include\FreeRTOS.h
+.\07_freertos_event\list.o: D:\keil5\ARM\ARMCC\Bin\..\include\stddef.h
+.\07_freertos_event\list.o: D:\keil5\ARM\ARMCC\Bin\..\include\stdint.h
+.\07_freertos_event\list.o: ..\FreeRTOS\include\FreeRTOSConfig.h
+.\07_freertos_event\list.o: ..\FreeRTOS\include\projdefs.h
+.\07_freertos_event\list.o: ..\FreeRTOS\include\portable.h
+.\07_freertos_event\list.o: ..\FreeRTOS\include\deprecated_definitions.h
+.\07_freertos_event\list.o: ..\FreeRTOS\portable\RVDS\ARM_CM4F\portmacro.h
+.\07_freertos_event\list.o: ..\FreeRTOS\include\mpu_wrappers.h
+.\07_freertos_event\list.o: ..\FreeRTOS\include\list.h

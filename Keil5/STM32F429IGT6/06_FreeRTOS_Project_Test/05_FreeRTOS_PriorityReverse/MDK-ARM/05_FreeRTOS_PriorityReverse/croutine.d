@@ -1,0 +1,13 @@
+.\05_freertos_priorityreverse\croutine.o: ..\FreeRTOS\croutine.c
+.\05_freertos_priorityreverse\croutine.o: ..\FreeRTOS\include\FreeRTOS.h
+.\05_freertos_priorityreverse\croutine.o: D:\keil5\ARM\ARMCC\Bin\..\include\stddef.h
+.\05_freertos_priorityreverse\croutine.o: D:\keil5\ARM\ARMCC\Bin\..\include\stdint.h
+.\05_freertos_priorityreverse\croutine.o: ..\FreeRTOS\include\FreeRTOSConfig.h
+.\05_freertos_priorityreverse\croutine.o: ..\FreeRTOS\include\projdefs.h
+.\05_freertos_priorityreverse\croutine.o: ..\FreeRTOS\include\portable.h
+.\05_freertos_priorityreverse\croutine.o: ..\FreeRTOS\include\deprecated_definitions.h
+.\05_freertos_priorityreverse\croutine.o: ..\FreeRTOS\portable\RVDS\ARM_CM4F\portmacro.h
+.\05_freertos_priorityreverse\croutine.o: ..\FreeRTOS\include\mpu_wrappers.h
+.\05_freertos_priorityreverse\croutine.o: ..\FreeRTOS\include\task.h
+.\05_freertos_priorityreverse\croutine.o: ..\FreeRTOS\include\list.h
+.\05_freertos_priorityreverse\croutine.o: ..\FreeRTOS\include\croutine.h

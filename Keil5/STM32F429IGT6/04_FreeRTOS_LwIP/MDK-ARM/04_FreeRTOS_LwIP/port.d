@@ -1,0 +1,12 @@
+.\04_freertos_lwip\port.o: ..\FreeRTOS\portable\RVDS\ARM_CM4F\port.c
+.\04_freertos_lwip\port.o: ..\FreeRTOS\include\FreeRTOS.h
+.\04_freertos_lwip\port.o: D:\keil5\ARM\ARMCC\Bin\..\include\stddef.h
+.\04_freertos_lwip\port.o: D:\keil5\ARM\ARMCC\Bin\..\include\stdint.h
+.\04_freertos_lwip\port.o: ..\FreeRTOS\include\FreeRTOSConfig.h
+.\04_freertos_lwip\port.o: ..\FreeRTOS\include\projdefs.h
+.\04_freertos_lwip\port.o: ..\FreeRTOS\include\portable.h
+.\04_freertos_lwip\port.o: ..\FreeRTOS\include\deprecated_definitions.h
+.\04_freertos_lwip\port.o: ..\FreeRTOS\portable\RVDS\ARM_CM4F\portmacro.h
+.\04_freertos_lwip\port.o: ..\FreeRTOS\include\mpu_wrappers.h
+.\04_freertos_lwip\port.o: ..\FreeRTOS\include\task.h
+.\04_freertos_lwip\port.o: ..\FreeRTOS\include\list.h

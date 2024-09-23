@@ -1,0 +1,13 @@
+.\00_freertos_createtask\croutine.o: ..\FreeRTOS\croutine.c
+.\00_freertos_createtask\croutine.o: ..\FreeRTOS\include\FreeRTOS.h
+.\00_freertos_createtask\croutine.o: D:\keil5\ARM\ARMCC\Bin\..\include\stddef.h
+.\00_freertos_createtask\croutine.o: D:\keil5\ARM\ARMCC\Bin\..\include\stdint.h
+.\00_freertos_createtask\croutine.o: ..\FreeRTOS\include\FreeRTOSConfig.h
+.\00_freertos_createtask\croutine.o: ..\FreeRTOS\include\projdefs.h
+.\00_freertos_createtask\croutine.o: ..\FreeRTOS\include\portable.h
+.\00_freertos_createtask\croutine.o: ..\FreeRTOS\include\deprecated_definitions.h
+.\00_freertos_createtask\croutine.o: ..\FreeRTOS\portable\RVDS\ARM_CM4F\portmacro.h
+.\00_freertos_createtask\croutine.o: ..\FreeRTOS\include\mpu_wrappers.h
+.\00_freertos_createtask\croutine.o: ..\FreeRTOS\include\task.h
+.\00_freertos_createtask\croutine.o: ..\FreeRTOS\include\list.h
+.\00_freertos_createtask\croutine.o: ..\FreeRTOS\include\croutine.h

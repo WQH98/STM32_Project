@@ -1,0 +1,12 @@
+.\09_freertos_tasknotificationsreplacemessagequeues\port.o: ..\FreeRTOS\portable\RVDS\ARM_CM4F\port.c
+.\09_freertos_tasknotificationsreplacemessagequeues\port.o: ..\FreeRTOS\include\FreeRTOS.h
+.\09_freertos_tasknotificationsreplacemessagequeues\port.o: D:\keil5\ARM\ARMCC\Bin\..\include\stddef.h
+.\09_freertos_tasknotificationsreplacemessagequeues\port.o: D:\keil5\ARM\ARMCC\Bin\..\include\stdint.h
+.\09_freertos_tasknotificationsreplacemessagequeues\port.o: ..\FreeRTOS\include\FreeRTOSConfig.h
+.\09_freertos_tasknotificationsreplacemessagequeues\port.o: ..\FreeRTOS\include\projdefs.h
+.\09_freertos_tasknotificationsreplacemessagequeues\port.o: ..\FreeRTOS\include\portable.h
+.\09_freertos_tasknotificationsreplacemessagequeues\port.o: ..\FreeRTOS\include\deprecated_definitions.h
+.\09_freertos_tasknotificationsreplacemessagequeues\port.o: ..\FreeRTOS\portable\RVDS\ARM_CM4F\portmacro.h
+.\09_freertos_tasknotificationsreplacemessagequeues\port.o: ..\FreeRTOS\include\mpu_wrappers.h
+.\09_freertos_tasknotificationsreplacemessagequeues\port.o: ..\FreeRTOS\include\task.h
+.\09_freertos_tasknotificationsreplacemessagequeues\port.o: ..\FreeRTOS\include\list.h

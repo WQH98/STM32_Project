@@ -1,0 +1,13 @@
+.\12_freertos_tasknotificationsreplaceeventgroups\croutine.o: ..\FreeRTOS\croutine.c
+.\12_freertos_tasknotificationsreplaceeventgroups\croutine.o: ..\FreeRTOS\include\FreeRTOS.h
+.\12_freertos_tasknotificationsreplaceeventgroups\croutine.o: D:\keil5\ARM\ARMCC\Bin\..\include\stddef.h
+.\12_freertos_tasknotificationsreplaceeventgroups\croutine.o: D:\keil5\ARM\ARMCC\Bin\..\include\stdint.h
+.\12_freertos_tasknotificationsreplaceeventgroups\croutine.o: ..\FreeRTOS\include\FreeRTOSConfig.h
+.\12_freertos_tasknotificationsreplaceeventgroups\croutine.o: ..\FreeRTOS\include\projdefs.h
+.\12_freertos_tasknotificationsreplaceeventgroups\croutine.o: ..\FreeRTOS\include\portable.h
+.\12_freertos_tasknotificationsreplaceeventgroups\croutine.o: ..\FreeRTOS\include\deprecated_definitions.h
+.\12_freertos_tasknotificationsreplaceeventgroups\croutine.o: ..\FreeRTOS\portable\RVDS\ARM_CM4F\portmacro.h
+.\12_freertos_tasknotificationsreplaceeventgroups\croutine.o: ..\FreeRTOS\include\mpu_wrappers.h
+.\12_freertos_tasknotificationsreplaceeventgroups\croutine.o: ..\FreeRTOS\include\task.h
+.\12_freertos_tasknotificationsreplaceeventgroups\croutine.o: ..\FreeRTOS\include\list.h
+.\12_freertos_tasknotificationsreplaceeventgroups\croutine.o: ..\FreeRTOS\include\croutine.h

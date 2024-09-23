@@ -1,0 +1,23 @@
+{
+    "files.associations": {
+        "*.s": "c",
+        "clock.h": "c",
+        "led.h": "c",
+        "stm32f4xx_hal.h": "c",
+        "led_cfg.h": "c",
+        "uart_cfg.h": "c",
+        "uart.h": "c",
+        "dma_cfg.h": "c",
+        "dma.h": "c",
+        "key_cfg.h": "c",
+        "key.h": "c",
+        "tim_cfg.h": "c",
+        "tim.h": "c",
+        "tim_interrupt.h": "c",
+        "tim_interrupt_cfg.h": "c",
+        "tim_pwm_cfg.h": "c",
+        "tim_pwm.h": "c",
+        "tim_capture_cfg.h": "c",
+        "tim_capture.h": "c"
+    }
+}

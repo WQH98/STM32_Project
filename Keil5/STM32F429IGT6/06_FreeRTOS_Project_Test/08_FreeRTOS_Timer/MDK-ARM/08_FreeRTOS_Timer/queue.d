@@ -1,0 +1,15 @@
+.\08_freertos_timer\queue.o: ..\FreeRTOS\queue.c
+.\08_freertos_timer\queue.o: D:\keil5\ARM\ARMCC\Bin\..\include\stdlib.h
+.\08_freertos_timer\queue.o: D:\keil5\ARM\ARMCC\Bin\..\include\string.h
+.\08_freertos_timer\queue.o: ..\FreeRTOS\include\FreeRTOS.h
+.\08_freertos_timer\queue.o: D:\keil5\ARM\ARMCC\Bin\..\include\stddef.h
+.\08_freertos_timer\queue.o: D:\keil5\ARM\ARMCC\Bin\..\include\stdint.h
+.\08_freertos_timer\queue.o: ..\FreeRTOS\include\FreeRTOSConfig.h
+.\08_freertos_timer\queue.o: ..\FreeRTOS\include\projdefs.h
+.\08_freertos_timer\queue.o: ..\FreeRTOS\include\portable.h
+.\08_freertos_timer\queue.o: ..\FreeRTOS\include\deprecated_definitions.h
+.\08_freertos_timer\queue.o: ..\FreeRTOS\portable\RVDS\ARM_CM4F\portmacro.h
+.\08_freertos_timer\queue.o: ..\FreeRTOS\include\mpu_wrappers.h
+.\08_freertos_timer\queue.o: ..\FreeRTOS\include\task.h
+.\08_freertos_timer\queue.o: ..\FreeRTOS\include\list.h
+.\08_freertos_timer\queue.o: ..\FreeRTOS\include\queue.h

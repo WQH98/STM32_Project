@@ -1,0 +1,15 @@
+.\04_freertos_lwip\queue.o: ..\FreeRTOS\queue.c
+.\04_freertos_lwip\queue.o: D:\keil5\ARM\ARMCC\Bin\..\include\stdlib.h
+.\04_freertos_lwip\queue.o: D:\keil5\ARM\ARMCC\Bin\..\include\string.h
+.\04_freertos_lwip\queue.o: ..\FreeRTOS\include\FreeRTOS.h
+.\04_freertos_lwip\queue.o: D:\keil5\ARM\ARMCC\Bin\..\include\stddef.h
+.\04_freertos_lwip\queue.o: D:\keil5\ARM\ARMCC\Bin\..\include\stdint.h
+.\04_freertos_lwip\queue.o: ..\FreeRTOS\include\FreeRTOSConfig.h
+.\04_freertos_lwip\queue.o: ..\FreeRTOS\include\projdefs.h
+.\04_freertos_lwip\queue.o: ..\FreeRTOS\include\portable.h
+.\04_freertos_lwip\queue.o: ..\FreeRTOS\include\deprecated_definitions.h
+.\04_freertos_lwip\queue.o: ..\FreeRTOS\portable\RVDS\ARM_CM4F\portmacro.h
+.\04_freertos_lwip\queue.o: ..\FreeRTOS\include\mpu_wrappers.h
+.\04_freertos_lwip\queue.o: ..\FreeRTOS\include\task.h
+.\04_freertos_lwip\queue.o: ..\FreeRTOS\include\list.h
+.\04_freertos_lwip\queue.o: ..\FreeRTOS\include\queue.h

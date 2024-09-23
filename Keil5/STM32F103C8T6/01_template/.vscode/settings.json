@@ -1,0 +1,6 @@
+{
+    "files.associations": {
+        "*.s": "arm",
+        "w25q64.h": "c"
+    }
+}

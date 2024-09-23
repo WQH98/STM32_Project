@@ -1,0 +1,14 @@
+.\10_power_supply_aging\stream_buffer.o: ..\FreeRTOS\stream_buffer.c
+.\10_power_supply_aging\stream_buffer.o: D:\keil5\ARM\ARMCC\Bin\..\include\stdint.h
+.\10_power_supply_aging\stream_buffer.o: D:\keil5\ARM\ARMCC\Bin\..\include\string.h
+.\10_power_supply_aging\stream_buffer.o: ..\FreeRTOS\include\FreeRTOS.h
+.\10_power_supply_aging\stream_buffer.o: D:\keil5\ARM\ARMCC\Bin\..\include\stddef.h
+.\10_power_supply_aging\stream_buffer.o: ..\FreeRTOS\include\FreeRTOSConfig.h
+.\10_power_supply_aging\stream_buffer.o: ..\FreeRTOS\include\projdefs.h
+.\10_power_supply_aging\stream_buffer.o: ..\FreeRTOS\include\portable.h
+.\10_power_supply_aging\stream_buffer.o: ..\FreeRTOS\include\deprecated_definitions.h
+.\10_power_supply_aging\stream_buffer.o: ..\FreeRTOS\portable\RVDS\ARM_CM4F\portmacro.h
+.\10_power_supply_aging\stream_buffer.o: ..\FreeRTOS\include\mpu_wrappers.h
+.\10_power_supply_aging\stream_buffer.o: ..\FreeRTOS\include\task.h
+.\10_power_supply_aging\stream_buffer.o: ..\FreeRTOS\include\list.h
+.\10_power_supply_aging\stream_buffer.o: ..\FreeRTOS\include\stream_buffer.h

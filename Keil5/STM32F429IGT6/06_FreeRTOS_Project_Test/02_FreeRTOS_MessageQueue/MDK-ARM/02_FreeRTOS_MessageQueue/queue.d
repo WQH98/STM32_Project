@@ -1,0 +1,15 @@
+.\02_freertos_messagequeue\queue.o: ..\FreeRTOS\queue.c
+.\02_freertos_messagequeue\queue.o: D:\keil5\ARM\ARMCC\Bin\..\include\stdlib.h
+.\02_freertos_messagequeue\queue.o: D:\keil5\ARM\ARMCC\Bin\..\include\string.h
+.\02_freertos_messagequeue\queue.o: ..\FreeRTOS\include\FreeRTOS.h
+.\02_freertos_messagequeue\queue.o: D:\keil5\ARM\ARMCC\Bin\..\include\stddef.h
+.\02_freertos_messagequeue\queue.o: D:\keil5\ARM\ARMCC\Bin\..\include\stdint.h
+.\02_freertos_messagequeue\queue.o: ..\FreeRTOS\include\FreeRTOSConfig.h
+.\02_freertos_messagequeue\queue.o: ..\FreeRTOS\include\projdefs.h
+.\02_freertos_messagequeue\queue.o: ..\FreeRTOS\include\portable.h
+.\02_freertos_messagequeue\queue.o: ..\FreeRTOS\include\deprecated_definitions.h
+.\02_freertos_messagequeue\queue.o: ..\FreeRTOS\portable\RVDS\ARM_CM4F\portmacro.h
+.\02_freertos_messagequeue\queue.o: ..\FreeRTOS\include\mpu_wrappers.h
+.\02_freertos_messagequeue\queue.o: ..\FreeRTOS\include\task.h
+.\02_freertos_messagequeue\queue.o: ..\FreeRTOS\include\list.h
+.\02_freertos_messagequeue\queue.o: ..\FreeRTOS\include\queue.h

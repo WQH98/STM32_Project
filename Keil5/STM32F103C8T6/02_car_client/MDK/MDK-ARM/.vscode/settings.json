@@ -1,0 +1,23 @@
+{
+    "files.associations": {
+        "*.s": "c",
+        "led.h": "c",
+        "stm32f1xx_hal.h": "c",
+        "beep.h": "c",
+        "uart.h": "c",
+        "main.h": "c",
+        "freertos.h": "c",
+        "freertosconfig.h": "c",
+        "esp8266.h": "c",
+        "iic.h": "c",
+        "mpu6050.h": "c",
+        "inv_mpu.h": "c",
+        "oled.h": "c",
+        "spi.h": "c",
+        "w25q64.h": "c",
+        "oledfont.h": "c",
+        "stdlib.h": "c",
+        "tim.h": "c"
+    },
+    "C_Cpp.default.compilerPath": "G:\\MinGW\\bin\\gcc.exe"
+}

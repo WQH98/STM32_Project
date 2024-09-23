@@ -1,0 +1,13 @@
+.\11_freertos_tasknotificationreplacescountingsemaphore\croutine.o: ..\FreeRTOS\croutine.c
+.\11_freertos_tasknotificationreplacescountingsemaphore\croutine.o: ..\FreeRTOS\include\FreeRTOS.h
+.\11_freertos_tasknotificationreplacescountingsemaphore\croutine.o: D:\keil5\ARM\ARMCC\Bin\..\include\stddef.h
+.\11_freertos_tasknotificationreplacescountingsemaphore\croutine.o: D:\keil5\ARM\ARMCC\Bin\..\include\stdint.h
+.\11_freertos_tasknotificationreplacescountingsemaphore\croutine.o: ..\FreeRTOS\include\FreeRTOSConfig.h
+.\11_freertos_tasknotificationreplacescountingsemaphore\croutine.o: ..\FreeRTOS\include\projdefs.h
+.\11_freertos_tasknotificationreplacescountingsemaphore\croutine.o: ..\FreeRTOS\include\portable.h
+.\11_freertos_tasknotificationreplacescountingsemaphore\croutine.o: ..\FreeRTOS\include\deprecated_definitions.h
+.\11_freertos_tasknotificationreplacescountingsemaphore\croutine.o: ..\FreeRTOS\portable\RVDS\ARM_CM4F\portmacro.h
+.\11_freertos_tasknotificationreplacescountingsemaphore\croutine.o: ..\FreeRTOS\include\mpu_wrappers.h
+.\11_freertos_tasknotificationreplacescountingsemaphore\croutine.o: ..\FreeRTOS\include\task.h
+.\11_freertos_tasknotificationreplacescountingsemaphore\croutine.o: ..\FreeRTOS\include\list.h
+.\11_freertos_tasknotificationreplacescountingsemaphore\croutine.o: ..\FreeRTOS\include\croutine.h

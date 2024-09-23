@@ -1,0 +1,9 @@
+{
+    "files.associations": {
+        "*.s": "c",
+        "led.h": "c",
+        "gpio.h": "c",
+        "main.h": "c",
+        "stm32f1xx_hal.h": "c"
+    }
+}

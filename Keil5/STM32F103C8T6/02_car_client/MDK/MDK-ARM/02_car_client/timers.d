@@ -1,0 +1,15 @@
+.\02_car_client\timers.o: ..\FreeRTOS\timers.c
+.\02_car_client\timers.o: D:\keil5\ARM\ARMCC\Bin\..\include\stdlib.h
+.\02_car_client\timers.o: ..\FreeRTOS\include\FreeRTOS.h
+.\02_car_client\timers.o: D:\keil5\ARM\ARMCC\Bin\..\include\stddef.h
+.\02_car_client\timers.o: D:\keil5\ARM\ARMCC\Bin\..\include\stdint.h
+.\02_car_client\timers.o: ..\FreeRTOS\include\FreeRTOSConfig.h
+.\02_car_client\timers.o: ..\FreeRTOS\include\projdefs.h
+.\02_car_client\timers.o: ..\FreeRTOS\include\portable.h
+.\02_car_client\timers.o: ..\FreeRTOS\include\deprecated_definitions.h
+.\02_car_client\timers.o: ..\FreeRTOS\portable\RVDS\ARM_CM3\portmacro.h
+.\02_car_client\timers.o: ..\FreeRTOS\include\mpu_wrappers.h
+.\02_car_client\timers.o: ..\FreeRTOS\include\task.h
+.\02_car_client\timers.o: ..\FreeRTOS\include\list.h
+.\02_car_client\timers.o: ..\FreeRTOS\include\queue.h
+.\02_car_client\timers.o: ..\FreeRTOS\include\timers.h

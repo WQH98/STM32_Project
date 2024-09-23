@@ -1,0 +1,15 @@
+.\05_freertos_priorityreverse\queue.o: ..\FreeRTOS\queue.c
+.\05_freertos_priorityreverse\queue.o: D:\keil5\ARM\ARMCC\Bin\..\include\stdlib.h
+.\05_freertos_priorityreverse\queue.o: D:\keil5\ARM\ARMCC\Bin\..\include\string.h
+.\05_freertos_priorityreverse\queue.o: ..\FreeRTOS\include\FreeRTOS.h
+.\05_freertos_priorityreverse\queue.o: D:\keil5\ARM\ARMCC\Bin\..\include\stddef.h
+.\05_freertos_priorityreverse\queue.o: D:\keil5\ARM\ARMCC\Bin\..\include\stdint.h
+.\05_freertos_priorityreverse\queue.o: ..\FreeRTOS\include\FreeRTOSConfig.h
+.\05_freertos_priorityreverse\queue.o: ..\FreeRTOS\include\projdefs.h
+.\05_freertos_priorityreverse\queue.o: ..\FreeRTOS\include\portable.h
+.\05_freertos_priorityreverse\queue.o: ..\FreeRTOS\include\deprecated_definitions.h
+.\05_freertos_priorityreverse\queue.o: ..\FreeRTOS\portable\RVDS\ARM_CM4F\portmacro.h
+.\05_freertos_priorityreverse\queue.o: ..\FreeRTOS\include\mpu_wrappers.h
+.\05_freertos_priorityreverse\queue.o: ..\FreeRTOS\include\task.h
+.\05_freertos_priorityreverse\queue.o: ..\FreeRTOS\include\list.h
+.\05_freertos_priorityreverse\queue.o: ..\FreeRTOS\include\queue.h

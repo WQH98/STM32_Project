@@ -1,0 +1,1 @@
+.\02_car_client\startup_stm32f103xb.o: startup_stm32f103xb.s

@@ -1,0 +1,12 @@
+.\08_freertos_lwip_test\port.o: ..\FreeRTOS\portable\RVDS\ARM_CM4F\port.c
+.\08_freertos_lwip_test\port.o: ..\FreeRTOS\include\FreeRTOS.h
+.\08_freertos_lwip_test\port.o: D:\keil5\ARM\ARMCC\Bin\..\include\stddef.h
+.\08_freertos_lwip_test\port.o: D:\keil5\ARM\ARMCC\Bin\..\include\stdint.h
+.\08_freertos_lwip_test\port.o: ..\FreeRTOS\include\FreeRTOSConfig.h
+.\08_freertos_lwip_test\port.o: ..\FreeRTOS\include\projdefs.h
+.\08_freertos_lwip_test\port.o: ..\FreeRTOS\include\portable.h
+.\08_freertos_lwip_test\port.o: ..\FreeRTOS\include\deprecated_definitions.h
+.\08_freertos_lwip_test\port.o: ..\FreeRTOS\portable\RVDS\ARM_CM4F\portmacro.h
+.\08_freertos_lwip_test\port.o: ..\FreeRTOS\include\mpu_wrappers.h
+.\08_freertos_lwip_test\port.o: ..\FreeRTOS\include\task.h
+.\08_freertos_lwip_test\port.o: ..\FreeRTOS\include\list.h

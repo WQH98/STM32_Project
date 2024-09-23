@@ -1,0 +1,16 @@
+.\07_freertos_event\tasks.o: ..\FreeRTOS\tasks.c
+.\07_freertos_event\tasks.o: D:\keil5\ARM\ARMCC\Bin\..\include\stdlib.h
+.\07_freertos_event\tasks.o: D:\keil5\ARM\ARMCC\Bin\..\include\string.h
+.\07_freertos_event\tasks.o: ..\FreeRTOS\include\FreeRTOS.h
+.\07_freertos_event\tasks.o: D:\keil5\ARM\ARMCC\Bin\..\include\stddef.h
+.\07_freertos_event\tasks.o: D:\keil5\ARM\ARMCC\Bin\..\include\stdint.h
+.\07_freertos_event\tasks.o: ..\FreeRTOS\include\FreeRTOSConfig.h
+.\07_freertos_event\tasks.o: ..\FreeRTOS\include\projdefs.h
+.\07_freertos_event\tasks.o: ..\FreeRTOS\include\portable.h
+.\07_freertos_event\tasks.o: ..\FreeRTOS\include\deprecated_definitions.h
+.\07_freertos_event\tasks.o: ..\FreeRTOS\portable\RVDS\ARM_CM4F\portmacro.h
+.\07_freertos_event\tasks.o: ..\FreeRTOS\include\mpu_wrappers.h
+.\07_freertos_event\tasks.o: ..\FreeRTOS\include\task.h
+.\07_freertos_event\tasks.o: ..\FreeRTOS\include\list.h
+.\07_freertos_event\tasks.o: ..\FreeRTOS\include\timers.h
+.\07_freertos_event\tasks.o: ..\FreeRTOS\include\stack_macros.h

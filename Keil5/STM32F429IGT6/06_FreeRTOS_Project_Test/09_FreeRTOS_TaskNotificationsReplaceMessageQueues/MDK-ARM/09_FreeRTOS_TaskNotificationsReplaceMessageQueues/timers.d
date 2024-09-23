@@ -1,0 +1,15 @@
+.\09_freertos_tasknotificationsreplacemessagequeues\timers.o: ..\FreeRTOS\timers.c
+.\09_freertos_tasknotificationsreplacemessagequeues\timers.o: D:\keil5\ARM\ARMCC\Bin\..\include\stdlib.h
+.\09_freertos_tasknotificationsreplacemessagequeues\timers.o: ..\FreeRTOS\include\FreeRTOS.h
+.\09_freertos_tasknotificationsreplacemessagequeues\timers.o: D:\keil5\ARM\ARMCC\Bin\..\include\stddef.h
+.\09_freertos_tasknotificationsreplacemessagequeues\timers.o: D:\keil5\ARM\ARMCC\Bin\..\include\stdint.h
+.\09_freertos_tasknotificationsreplacemessagequeues\timers.o: ..\FreeRTOS\include\FreeRTOSConfig.h
+.\09_freertos_tasknotificationsreplacemessagequeues\timers.o: ..\FreeRTOS\include\projdefs.h
+.\09_freertos_tasknotificationsreplacemessagequeues\timers.o: ..\FreeRTOS\include\portable.h
+.\09_freertos_tasknotificationsreplacemessagequeues\timers.o: ..\FreeRTOS\include\deprecated_definitions.h
+.\09_freertos_tasknotificationsreplacemessagequeues\timers.o: ..\FreeRTOS\portable\RVDS\ARM_CM4F\portmacro.h
+.\09_freertos_tasknotificationsreplacemessagequeues\timers.o: ..\FreeRTOS\include\mpu_wrappers.h
+.\09_freertos_tasknotificationsreplacemessagequeues\timers.o: ..\FreeRTOS\include\task.h
+.\09_freertos_tasknotificationsreplacemessagequeues\timers.o: ..\FreeRTOS\include\list.h
+.\09_freertos_tasknotificationsreplacemessagequeues\timers.o: ..\FreeRTOS\include\queue.h
+.\09_freertos_tasknotificationsreplacemessagequeues\timers.o: ..\FreeRTOS\include\timers.h

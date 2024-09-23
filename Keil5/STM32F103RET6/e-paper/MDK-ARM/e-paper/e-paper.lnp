@@ -1,0 +1,25 @@
+--cpu Cortex-M3
+"e-paper\startup_stm32f103xe.o"
+"e-paper\main.o"
+"e-paper\gpio.o"
+"e-paper\stm32f1xx_it.o"
+"e-paper\stm32f1xx_hal_msp.o"
+"e-paper\stm32f1xx_hal_gpio_ex.o"
+"e-paper\stm32f1xx_hal_tim.o"
+"e-paper\stm32f1xx_hal_tim_ex.o"
+"e-paper\stm32f1xx_hal.o"
+"e-paper\stm32f1xx_hal_rcc.o"
+"e-paper\stm32f1xx_hal_rcc_ex.o"
+"e-paper\stm32f1xx_hal_gpio.o"
+"e-paper\stm32f1xx_hal_dma.o"
+"e-paper\stm32f1xx_hal_cortex.o"
+"e-paper\stm32f1xx_hal_pwr.o"
+"e-paper\stm32f1xx_hal_flash.o"
+"e-paper\stm32f1xx_hal_flash_ex.o"
+"e-paper\stm32f1xx_hal_exti.o"
+"e-paper\system_stm32f1xx.o"
+"e-paper\led.o"
+--strict --scatter "e-paper\e-paper.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "e-paper.map" -o e-paper\e-paper.axf
