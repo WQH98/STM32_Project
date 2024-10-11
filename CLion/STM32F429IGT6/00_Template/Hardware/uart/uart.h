@@ -3,6 +3,10 @@
 
 #include "stm32f4xx_hal.h"
 #include "stdbool.h"
+#include "gpio.h"
+#include "stdio.h"
+#include "string.h"
+#include "stdarg.h"
 
 #define UART1_TX_PORT GPIOA
 #define UART1_TX_PIN  GPIO_PIN_9
@@ -20,5 +24,7 @@ typedef struct RX_DATA_Type {
 extern RX_DATA_Type uart1_data;
 
 void uart1_init(uint32_t baud);
-
+void my_printf_d(UART_HandleTypeDef *huart, char *msg, uint16_t num);
+void my_printf_f(UART_HandleTypeDef *huart, char *msg, float num);
+void my_printf(UART_HandleTypeDef *huart, const char* format, ...);
 #endif

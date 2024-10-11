@@ -14,6 +14,6 @@ D:\CLion\bin\cmake\win\x64\bin\cmake.exe -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_P
 -- Detecting CXX compile features
 -- Detecting CXX compile features - done
 -- Minimal optimization, debug info included
--- Configuring done (3.6s)
+-- Configuring done (6.9s)
 -- Generating done (0.0s)
 -- Build files have been written to: E:/code/STM32/CLion/STM32F429IGT6/00_Template/cmake-build-debug

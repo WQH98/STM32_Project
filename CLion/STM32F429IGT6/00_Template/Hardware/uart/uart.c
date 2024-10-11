@@ -55,3 +55,33 @@ void USART1_IRQHandler() {
         __HAL_UART_CLEAR_IDLEFLAG(&uart1_handler);
     }
 }
+
+// 打印整型函数
+// huart: 串口句柄 msg: 打印的信息
+void my_printf_d(UART_HandleTypeDef *huart, char *msg, uint16_t num) {
+    char log_msg[100];
+    sprintf(log_msg, msg, num);
+    HAL_UART_Transmit(huart, (uint8_t*)log_msg, strlen(log_msg), 1000);
+}
+
+// 打印浮点型函数
+// huart: 串口句柄 msg: 打印的信息
+void my_printf_f(UART_HandleTypeDef *huart, char *msg, float num) {
+    char log_msg[100];
+    sprintf(log_msg, msg, num);
+    HAL_UART_Transmit(huart, (uint8_t*)log_msg, strlen(log_msg), 1000);
+}
+
+void my_printf(UART_HandleTypeDef *huart, const char* format, ...) {
+    uint16_t len;
+    va_list ap;
+    va_start(ap, format);
+    uint8_t buf[200];
+    vsprintf((char*)buf, format, ap);
+    va_end(ap);
+    len = strlen((char*)buf);
+    HAL_UART_Transmit(huart, buf, len, 1000);
+}
+
+
+

@@ -50,7 +50,7 @@ else ()
 endif ()
 
 include_directories(Core/Inc Drivers/STM32F4xx_HAL_Driver/Inc Drivers/STM32F4xx_HAL_Driver/Inc/Legacy Drivers/CMSIS/Device/ST/STM32F4xx/Include Drivers/CMSIS/Include
-        Hardware/led Hardware/uart)
+        Hardware/led Hardware/uart Hardware/adc Hardware/inner_temperature Hardware/tim)
 
 add_definitions(-DDEBUG -DUSE_HAL_DRIVER -DSTM32F429xx)
 

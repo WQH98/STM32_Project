@@ -13,6 +13,9 @@ void led_init(void) {
 
     gpio_handler.Pin = LED1_PIN;
     HAL_GPIO_Init(LED1_PORT, &gpio_handler);
+
+    led0_off();
+    led1_off();
 }
 
 void led0_on(void) {

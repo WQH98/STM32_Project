@@ -19,11 +19,14 @@
 /* Includes ------------------------------------------------------------------*/
 #include "main.h"
 #include "gpio.h"
-
+#include "stdio.h"
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
 #include "led.h"
 #include "uart.h"
+#include "adc.h"
+#include "inner_temperature.h"
+#include "tim.h"
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
@@ -87,8 +90,9 @@ int main(void) {
     MX_GPIO_Init();
     led_init();
     uart1_init(115200);
+    adc1_init();
+    tim3_init(4999, 8999);
     /* USER CODE BEGIN 2 */
-
     /* USER CODE END 2 */
 
     /* Infinite loop */
@@ -99,12 +103,9 @@ int main(void) {
         /* USER CODE BEGIN 3 */
 
         led1_reversal();
-        HAL_UART_Transmit(&uart1_handler, "Hello World\r\n", 13, 1000);
-        if(uart1_data.finish == true) {
-            led0_reversal();
-            uart1_data.len = 0;
-            uart1_data.finish = false;
-        }
+        my_printf(&uart1_handler, "hello world\t");
+        my_printf(&uart1_handler, "temp: %.2f\r\n", get_inner_temperature());
+        // my_printf_f(&uart1_handler, "temp: %.2f\r\n", get_inner_temperature());
         HAL_Delay(500);
     }
     /* USER CODE END 3 */
