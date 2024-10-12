@@ -35,7 +35,7 @@ rule C_COMPILER__00_Template.2eelf_unscanned_Debug
 # Rule for linking C executable.
 
 rule C_EXECUTABLE_LINKER__00_Template.2eelf_Debug
-  command = C:\Windows\system32\cmd.exe /C "$PRE_LINK && "G:\GNU_Tools_ARM_Embedded\10 2020-q4-major\bin\arm-none-eabi-gcc.exe" $FLAGS $LINK_FLAGS $in -o $TARGET_FILE $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
+  command = C:\WINDOWS\system32\cmd.exe /C "$PRE_LINK && "G:\GNU_Tools_ARM_Embedded\10 2020-q4-major\bin\arm-none-eabi-gcc.exe" $FLAGS $LINK_FLAGS $in -o $TARGET_FILE $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
   description = Linking C executable $TARGET_FILE
   restat = $RESTAT
 

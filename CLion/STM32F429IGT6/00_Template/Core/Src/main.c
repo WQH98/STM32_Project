@@ -27,6 +27,7 @@
 #include "adc.h"
 #include "inner_temperature.h"
 #include "tim.h"
+#include "key.h"
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
@@ -90,8 +91,9 @@ int main(void) {
     MX_GPIO_Init();
     led_init();
     uart1_init(115200);
-    adc1_init();
-    tim3_init(4999, 8999);
+    // adc1_init();
+    // tim3_init(4999, 8999);
+    key_init();
     /* USER CODE BEGIN 2 */
     /* USER CODE END 2 */
 
@@ -101,12 +103,13 @@ int main(void) {
         /* USER CODE END WHILE */
 
         /* USER CODE BEGIN 3 */
-
-        led1_reversal();
-        my_printf(&uart1_handler, "hello world\t");
-        my_printf(&uart1_handler, "temp: %.2f\r\n", get_inner_temperature());
-        // my_printf_f(&uart1_handler, "temp: %.2f\r\n", get_inner_temperature());
-        HAL_Delay(500);
+        if(HAL_GPIO_ReadPin(WK_UP_PORT, WK_UP_PIN) == SET) {
+            HAL_Delay(49);
+            if(HAL_GPIO_ReadPin(WK_UP_PORT, WK_UP_PIN) == SET) {
+                led0_reversal();
+            }
+            while(HAL_GPIO_ReadPin(WK_UP_PORT, WK_UP_PIN));
+        }
     }
     /* USER CODE END 3 */
 }
