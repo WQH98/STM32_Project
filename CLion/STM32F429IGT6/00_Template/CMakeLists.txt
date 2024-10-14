@@ -46,11 +46,12 @@ elseif ("${CMAKE_BUILD_TYPE}" STREQUAL "MinSizeRel")
     add_compile_options(-Os)
 else ()
     message(STATUS "Minimal optimization, debug info included")
-    add_compile_options(-Og -g)
+    add_compile_options(-O0 -g)
 endif ()
 
 include_directories(Core/Inc Drivers/STM32F4xx_HAL_Driver/Inc Drivers/STM32F4xx_HAL_Driver/Inc/Legacy Drivers/CMSIS/Device/ST/STM32F4xx/Include Drivers/CMSIS/Include
-        Hardware/led Hardware/uart Hardware/adc Hardware/inner_temperature Hardware/tim Hardware/key)
+        Hardware/led Hardware/uart Hardware/adc Hardware/inner_temperature Hardware/tim Hardware/key Hardware/iic
+        Hardware/at24cxx)
 
 add_definitions(-DDEBUG -DUSE_HAL_DRIVER -DSTM32F429xx)
 

@@ -28,6 +28,7 @@
 #include "inner_temperature.h"
 #include "tim.h"
 #include "key.h"
+#include "at24cxx.h"
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
@@ -59,7 +60,9 @@ void SystemClock_Config(void);
 
 /* Private user code ---------------------------------------------------------*/
 /* USER CODE BEGIN 0 */
-
+const uint8_t text_buff[] = {"Apollo STM32F4 IIC TEST"};
+#define SIZE sizeof(text_buff)
+uint8_t datatemp[SIZE];
 /* USER CODE END 0 */
 
 /**
@@ -94,6 +97,14 @@ int main(void) {
     // adc1_init();
     // tim3_init(4999, 8999);
     key_init();
+    iic_init();
+    HAL_Delay(10);
+    if(at24cxx_check() == 0) {
+        my_printf(&uart1_handler, "at24cxx check ok\r\n");
+    }
+    else {
+        my_printf(&uart1_handler, "at24cxx check failed\r\n");
+    }
     /* USER CODE BEGIN 2 */
     /* USER CODE END 2 */
 
@@ -103,12 +114,21 @@ int main(void) {
         /* USER CODE END WHILE */
 
         /* USER CODE BEGIN 3 */
-        if(HAL_GPIO_ReadPin(WK_UP_PORT, WK_UP_PIN) == SET) {
+        if(HAL_GPIO_ReadPin(KEY0_PORT, KEY0_PIN) == RESET) {
             HAL_Delay(49);
-            if(HAL_GPIO_ReadPin(WK_UP_PORT, WK_UP_PIN) == SET) {
-                led0_reversal();
+            if(HAL_GPIO_ReadPin(KEY0_PORT, KEY0_PIN) == RESET) {
+                at24cxx_write(0, (uint8_t*)text_buff, SIZE);
             }
-            while(HAL_GPIO_ReadPin(WK_UP_PORT, WK_UP_PIN));
+            while(!HAL_GPIO_ReadPin(KEY0_PORT, KEY0_PIN));
+        }
+
+        if(HAL_GPIO_ReadPin(KEY1_PORT, KEY1_PIN) == RESET) {
+            HAL_Delay(49);
+            if(HAL_GPIO_ReadPin(KEY1_PORT, KEY1_PIN) == RESET) {
+                at24cxx_read(0, datatemp, SIZE);
+                my_printf(&uart1_handler, "read data: %s\r\n", datatemp);
+            }
+            while(!HAL_GPIO_ReadPin(KEY1_PORT, KEY1_PIN));
         }
     }
     /* USER CODE END 3 */
