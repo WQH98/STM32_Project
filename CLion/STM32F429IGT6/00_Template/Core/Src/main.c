@@ -29,6 +29,8 @@
 #include "tim.h"
 #include "key.h"
 #include "at24cxx.h"
+#include "pcf8574t.h"
+#include "w25qxx.h"
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
@@ -60,9 +62,12 @@ void SystemClock_Config(void);
 
 /* Private user code ---------------------------------------------------------*/
 /* USER CODE BEGIN 0 */
-const uint8_t text_buff[] = {"Apollo STM32F4 IIC TEST"};
-#define SIZE sizeof(text_buff)
-uint8_t datatemp[SIZE];
+uint8_t iic_text_buff[] = {"Apollo STM32F4 IIC TEST"};
+uint8_t spi_text_buff[] = {"Apollo STM32F4 SPI TEST"};
+#define IIC_SIZE sizeof(iic_text_buff)
+#define SPI_SIZE sizeof(spi_text_buff)
+uint8_t iic_datatemp[IIC_SIZE];
+uint8_t spi_datatemp[SPI_SIZE];
 /* USER CODE END 0 */
 
 /**
@@ -71,7 +76,9 @@ uint8_t datatemp[SIZE];
   */
 int main(void) {
     /* USER CODE BEGIN 1 */
-
+    uint8_t count = 0;
+    uint8_t beep_status = 0;
+    uint32_t FLASH_SIZE = 32*1024*1024;
     /* USER CODE END 1 */
 
     /* MCU Configuration--------------------------------------------------------*/
@@ -97,14 +104,28 @@ int main(void) {
     // adc1_init();
     // tim3_init(4999, 8999);
     key_init();
-    iic_init();
-    HAL_Delay(10);
+    if(pcf8574_init() == 0) {
+        my_printf(&uart1_handler, "pcf8574 check ok\r\n");
+    }
+    else {
+        my_printf(&uart1_handler, "pcf8574 check failed\r\n");
+    }
+    // iic_init();
+    // HAL_Delay(10);
     if(at24cxx_check() == 0) {
         my_printf(&uart1_handler, "at24cxx check ok\r\n");
     }
     else {
         my_printf(&uart1_handler, "at24cxx check failed\r\n");
     }
+    w25qxx_init();
+    while(w25qxx_read_id() != W25Q256) {
+        my_printf(&uart1_handler, "w25q256 check failed %d\r\n", w25qxx_read_id());
+        HAL_Delay(500);
+    }
+    my_printf(&uart1_handler, "w25q256 check ok\r\n");
+
+
     /* USER CODE BEGIN 2 */
     /* USER CODE END 2 */
 
@@ -117,7 +138,8 @@ int main(void) {
         if(HAL_GPIO_ReadPin(KEY0_PORT, KEY0_PIN) == RESET) {
             HAL_Delay(49);
             if(HAL_GPIO_ReadPin(KEY0_PORT, KEY0_PIN) == RESET) {
-                at24cxx_write(0, (uint8_t*)text_buff, SIZE);
+                at24cxx_write(0, (uint8_t*)iic_text_buff, IIC_SIZE);
+                w25qxx_write((uint8_t*)spi_text_buff, FLASH_SIZE-100, SPI_SIZE);
             }
             while(!HAL_GPIO_ReadPin(KEY0_PORT, KEY0_PIN));
         }
@@ -125,10 +147,31 @@ int main(void) {
         if(HAL_GPIO_ReadPin(KEY1_PORT, KEY1_PIN) == RESET) {
             HAL_Delay(49);
             if(HAL_GPIO_ReadPin(KEY1_PORT, KEY1_PIN) == RESET) {
-                at24cxx_read(0, datatemp, SIZE);
-                my_printf(&uart1_handler, "read data: %s\r\n", datatemp);
+                at24cxx_read(0, iic_datatemp, IIC_SIZE);
+                my_printf(&uart1_handler, "at24cxx read data: %s\t", iic_datatemp);
+                w25qxx_read(spi_datatemp, FLASH_SIZE-100, SPI_SIZE);
+                my_printf(&uart1_handler, "w25qxx read data: %s\r\n", spi_datatemp);
+                memset(iic_datatemp, '0', IIC_SIZE);
+                memset(spi_datatemp, '0', SPI_SIZE);
             }
             while(!HAL_GPIO_ReadPin(KEY1_PORT, KEY1_PIN));
+        }
+
+        if(HAL_GPIO_ReadPin(KEY2_PORT, KEY2_PIN) == RESET) {
+            HAL_Delay(49);
+            if(HAL_GPIO_ReadPin(KEY2_PORT, KEY2_PIN) == RESET) {
+                beep_status = !beep_status;
+                pcf8574_write_bit(BEEP_IO, beep_status);
+            }
+            while(!HAL_GPIO_ReadPin(KEY2_PORT, KEY2_PIN));
+        }
+
+        if(HAL_GPIO_ReadPin(IIC_INT_PORT, IIC_INT_PIN) == 0) {
+            my_printf(&uart1_handler, "1 press\r\n");
+            if(pcf8574_read_bit(EX_IO) == 0) {
+                led1_reversal();
+                my_printf(&uart1_handler, "key2 press\r\n");
+            }
         }
     }
     /* USER CODE END 3 */

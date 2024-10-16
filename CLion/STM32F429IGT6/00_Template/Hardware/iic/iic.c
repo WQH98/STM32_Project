@@ -64,7 +64,7 @@ void iic_stop(void) {
 
 // 等待应答信号到来
 // 返回值： 1，接收应答失败
-//         2，接收应答成功
+//         0，接收应答成功
 uint8_t iic_wait_ack(void) {
     uint8_t count = 0;
     iic_sda_out_init();

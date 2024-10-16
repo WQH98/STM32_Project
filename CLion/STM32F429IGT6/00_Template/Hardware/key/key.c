@@ -4,6 +4,10 @@
 void key_init(void) {
     GPIO_InitTypeDef gpio_handler;
 
+    __HAL_RCC_GPIOA_CLK_ENABLE();
+    __HAL_RCC_GPIOC_CLK_ENABLE();
+    __HAL_RCC_GPIOH_CLK_ENABLE();
+
     gpio_handler.Mode = GPIO_MODE_INPUT;
     gpio_handler.Pin = WK_UP_PIN;
     gpio_handler.Pull = GPIO_PULLDOWN;
