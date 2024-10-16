@@ -1,0 +1,327 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="CMakePresetLoader">{
+  &quot;useNewFormat&quot;: true
+}</component>
+  <component name="CMakeProjectFlavorService">
+    <option name="flavorId" value="CMakePlainProjectFlavor" />
+  </component>
+  <component name="CMakeReloadState">
+    <option name="reloaded" value="true" />
+  </component>
+  <component name="CMakeRunConfigurationManager">
+    <generated>
+      <config projectName="01_FreeRTOS_Template" targetName="01_FreeRTOS_Template.elf" />
+    </generated>
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" ENABLED="true" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="da78cc21-e242-4cd1-b42c-b49f64e5a434" name="更改" comment="">
+      <change beforePath="$PROJECT_DIR$/../00_Template/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../00_Template/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Keil5/STM32F429IGT6/03_FreeRTOS_Template/MDK-ARM/03_FreeRTOS_Template.uvguix.WQH" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Keil5/STM32F429IGT6/03_FreeRTOS_Template/MDK-ARM/03_FreeRTOS_Template.uvguix.WQH" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Keil5/STM32F429IGT6/03_FreeRTOS_Template/MDK-ARM/03_FreeRTOS_Template.uvprojx" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Keil5/STM32F429IGT6/03_FreeRTOS_Template/MDK-ARM/03_FreeRTOS_Template.uvprojx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Keil5/STM32F429IGT6/03_FreeRTOS_Template/MDK-ARM/03_FreeRTOS_Template/00_test.o" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Keil5/STM32F429IGT6/03_FreeRTOS_Template/MDK-ARM/03_FreeRTOS_Template/00_test.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Keil5/STM32F429IGT6/03_FreeRTOS_Template/MDK-ARM/03_FreeRTOS_Template/01_exti.crf" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Keil5/STM32F429IGT6/03_FreeRTOS_Template/MDK-ARM/03_FreeRTOS_Template/01_exti.crf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Keil5/STM32F429IGT6/03_FreeRTOS_Template/MDK-ARM/03_FreeRTOS_Template/01_exti.d" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Keil5/STM32F429IGT6/03_FreeRTOS_Template/MDK-ARM/03_FreeRTOS_Template/01_exti.d" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Keil5/STM32F429IGT6/03_FreeRTOS_Template/MDK-ARM/03_FreeRTOS_Template/01_exti.o" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Keil5/STM32F429IGT6/03_FreeRTOS_Template/MDK-ARM/03_FreeRTOS_Template/01_exti.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Keil5/STM32F429IGT6/03_FreeRTOS_Template/MDK-ARM/03_FreeRTOS_Template/02_led.crf" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Keil5/STM32F429IGT6/03_FreeRTOS_Template/MDK-ARM/03_FreeRTOS_Template/02_led.crf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Keil5/STM32F429IGT6/03_FreeRTOS_Template/MDK-ARM/03_FreeRTOS_Template/02_led.d" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Keil5/STM32F429IGT6/03_FreeRTOS_Template/MDK-ARM/03_FreeRTOS_Template/02_led.d" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Keil5/STM32F429IGT6/03_FreeRTOS_Template/MDK-ARM/03_FreeRTOS_Template/02_led.o" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Keil5/STM32F429IGT6/03_FreeRTOS_Template/MDK-ARM/03_FreeRTOS_Template/02_led.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Keil5/STM32F429IGT6/03_FreeRTOS_Template/MDK-ARM/03_FreeRTOS_Template/03_FreeRTOS_Template.axf" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Keil5/STM32F429IGT6/03_FreeRTOS_Template/MDK-ARM/03_FreeRTOS_Template/03_FreeRTOS_Template.axf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Keil5/STM32F429IGT6/03_FreeRTOS_Template/MDK-ARM/03_FreeRTOS_Template/03_FreeRTOS_Template.build_log.htm" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Keil5/STM32F429IGT6/03_FreeRTOS_Template/MDK-ARM/03_FreeRTOS_Template/03_FreeRTOS_Template.build_log.htm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Keil5/STM32F429IGT6/03_FreeRTOS_Template/MDK-ARM/03_FreeRTOS_Template/03_FreeRTOS_Template.htm" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Keil5/STM32F429IGT6/03_FreeRTOS_Template/MDK-ARM/03_FreeRTOS_Template/03_FreeRTOS_Template.htm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Keil5/STM32F429IGT6/03_FreeRTOS_Template/MDK-ARM/03_FreeRTOS_Template/03_FreeRTOS_Template.map" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Keil5/STM32F429IGT6/03_FreeRTOS_Template/MDK-ARM/03_FreeRTOS_Template/03_FreeRTOS_Template.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Keil5/STM32F429IGT6/03_FreeRTOS_Template/MDK-ARM/03_FreeRTOS_Template/03_FreeRTOS_Template_03_FreeRTOS_Template.dep" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Keil5/STM32F429IGT6/03_FreeRTOS_Template/MDK-ARM/03_FreeRTOS_Template/03_FreeRTOS_Template_03_FreeRTOS_Template.dep" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Keil5/STM32F429IGT6/03_FreeRTOS_Template/MDK-ARM/03_FreeRTOS_Template/03_iwdg.crf" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Keil5/STM32F429IGT6/03_FreeRTOS_Template/MDK-ARM/03_FreeRTOS_Template/03_iwdg.crf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Keil5/STM32F429IGT6/03_FreeRTOS_Template/MDK-ARM/03_FreeRTOS_Template/03_iwdg.d" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Keil5/STM32F429IGT6/03_FreeRTOS_Template/MDK-ARM/03_FreeRTOS_Template/03_iwdg.d" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Keil5/STM32F429IGT6/03_FreeRTOS_Template/MDK-ARM/03_FreeRTOS_Template/03_iwdg.o" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Keil5/STM32F429IGT6/03_FreeRTOS_Template/MDK-ARM/03_FreeRTOS_Template/03_iwdg.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Keil5/STM32F429IGT6/03_FreeRTOS_Template/MDK-ARM/03_FreeRTOS_Template/04_wwdg.crf" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Keil5/STM32F429IGT6/03_FreeRTOS_Template/MDK-ARM/03_FreeRTOS_Template/04_wwdg.crf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Keil5/STM32F429IGT6/03_FreeRTOS_Template/MDK-ARM/03_FreeRTOS_Template/04_wwdg.d" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Keil5/STM32F429IGT6/03_FreeRTOS_Template/MDK-ARM/03_FreeRTOS_Template/04_wwdg.d" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Keil5/STM32F429IGT6/03_FreeRTOS_Template/MDK-ARM/03_FreeRTOS_Template/04_wwdg.o" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Keil5/STM32F429IGT6/03_FreeRTOS_Template/MDK-ARM/03_FreeRTOS_Template/04_wwdg.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Keil5/STM32F429IGT6/03_FreeRTOS_Template/MDK-ARM/03_FreeRTOS_Template/05_dma.crf" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Keil5/STM32F429IGT6/03_FreeRTOS_Template/MDK-ARM/03_FreeRTOS_Template/05_dma.crf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Keil5/STM32F429IGT6/03_FreeRTOS_Template/MDK-ARM/03_FreeRTOS_Template/05_dma.d" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Keil5/STM32F429IGT6/03_FreeRTOS_Template/MDK-ARM/03_FreeRTOS_Template/05_dma.d" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Keil5/STM32F429IGT6/03_FreeRTOS_Template/MDK-ARM/03_FreeRTOS_Template/05_dma.o" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Keil5/STM32F429IGT6/03_FreeRTOS_Template/MDK-ARM/03_FreeRTOS_Template/05_dma.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Keil5/STM32F429IGT6/03_FreeRTOS_Template/MDK-ARM/03_FreeRTOS_Template/clock.crf" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Keil5/STM32F429IGT6/03_FreeRTOS_Template/MDK-ARM/03_FreeRTOS_Template/clock.crf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Keil5/STM32F429IGT6/03_FreeRTOS_Template/MDK-ARM/03_FreeRTOS_Template/clock.d" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Keil5/STM32F429IGT6/03_FreeRTOS_Template/MDK-ARM/03_FreeRTOS_Template/clock.d" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Keil5/STM32F429IGT6/03_FreeRTOS_Template/MDK-ARM/03_FreeRTOS_Template/clock.o" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Keil5/STM32F429IGT6/03_FreeRTOS_Template/MDK-ARM/03_FreeRTOS_Template/clock.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Keil5/STM32F429IGT6/03_FreeRTOS_Template/MDK-ARM/03_FreeRTOS_Template/croutine.crf" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Keil5/STM32F429IGT6/03_FreeRTOS_Template/MDK-ARM/03_FreeRTOS_Template/croutine.crf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Keil5/STM32F429IGT6/03_FreeRTOS_Template/MDK-ARM/03_FreeRTOS_Template/croutine.d" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Keil5/STM32F429IGT6/03_FreeRTOS_Template/MDK-ARM/03_FreeRTOS_Template/croutine.d" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Keil5/STM32F429IGT6/03_FreeRTOS_Template/MDK-ARM/03_FreeRTOS_Template/croutine.o" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Keil5/STM32F429IGT6/03_FreeRTOS_Template/MDK-ARM/03_FreeRTOS_Template/croutine.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Keil5/STM32F429IGT6/03_FreeRTOS_Template/MDK-ARM/03_FreeRTOS_Template/dma.crf" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Keil5/STM32F429IGT6/03_FreeRTOS_Template/MDK-ARM/03_FreeRTOS_Template/dma.crf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Keil5/STM32F429IGT6/03_FreeRTOS_Template/MDK-ARM/03_FreeRTOS_Template/dma.d" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Keil5/STM32F429IGT6/03_FreeRTOS_Template/MDK-ARM/03_FreeRTOS_Template/dma.d" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Keil5/STM32F429IGT6/03_FreeRTOS_Template/MDK-ARM/03_FreeRTOS_Template/dma.o" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Keil5/STM32F429IGT6/03_FreeRTOS_Template/MDK-ARM/03_FreeRTOS_Template/dma.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Keil5/STM32F429IGT6/03_FreeRTOS_Template/MDK-ARM/03_FreeRTOS_Template/event_groups.crf" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Keil5/STM32F429IGT6/03_FreeRTOS_Template/MDK-ARM/03_FreeRTOS_Template/event_groups.crf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Keil5/STM32F429IGT6/03_FreeRTOS_Template/MDK-ARM/03_FreeRTOS_Template/event_groups.d" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Keil5/STM32F429IGT6/03_FreeRTOS_Template/MDK-ARM/03_FreeRTOS_Template/event_groups.d" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Keil5/STM32F429IGT6/03_FreeRTOS_Template/MDK-ARM/03_FreeRTOS_Template/event_groups.o" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Keil5/STM32F429IGT6/03_FreeRTOS_Template/MDK-ARM/03_FreeRTOS_Template/event_groups.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Keil5/STM32F429IGT6/03_FreeRTOS_Template/MDK-ARM/03_FreeRTOS_Template/exti.crf" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Keil5/STM32F429IGT6/03_FreeRTOS_Template/MDK-ARM/03_FreeRTOS_Template/exti.crf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Keil5/STM32F429IGT6/03_FreeRTOS_Template/MDK-ARM/03_FreeRTOS_Template/exti.d" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Keil5/STM32F429IGT6/03_FreeRTOS_Template/MDK-ARM/03_FreeRTOS_Template/exti.d" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Keil5/STM32F429IGT6/03_FreeRTOS_Template/MDK-ARM/03_FreeRTOS_Template/exti.o" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Keil5/STM32F429IGT6/03_FreeRTOS_Template/MDK-ARM/03_FreeRTOS_Template/exti.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Keil5/STM32F429IGT6/03_FreeRTOS_Template/MDK-ARM/03_FreeRTOS_Template/gpio.crf" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Keil5/STM32F429IGT6/03_FreeRTOS_Template/MDK-ARM/03_FreeRTOS_Template/gpio.crf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Keil5/STM32F429IGT6/03_FreeRTOS_Template/MDK-ARM/03_FreeRTOS_Template/gpio.d" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Keil5/STM32F429IGT6/03_FreeRTOS_Template/MDK-ARM/03_FreeRTOS_Template/gpio.d" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Keil5/STM32F429IGT6/03_FreeRTOS_Template/MDK-ARM/03_FreeRTOS_Template/gpio.o" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Keil5/STM32F429IGT6/03_FreeRTOS_Template/MDK-ARM/03_FreeRTOS_Template/gpio.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Keil5/STM32F429IGT6/03_FreeRTOS_Template/MDK-ARM/03_FreeRTOS_Template/heap_4.crf" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Keil5/STM32F429IGT6/03_FreeRTOS_Template/MDK-ARM/03_FreeRTOS_Template/heap_4.crf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Keil5/STM32F429IGT6/03_FreeRTOS_Template/MDK-ARM/03_FreeRTOS_Template/heap_4.d" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Keil5/STM32F429IGT6/03_FreeRTOS_Template/MDK-ARM/03_FreeRTOS_Template/heap_4.d" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Keil5/STM32F429IGT6/03_FreeRTOS_Template/MDK-ARM/03_FreeRTOS_Template/heap_4.o" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Keil5/STM32F429IGT6/03_FreeRTOS_Template/MDK-ARM/03_FreeRTOS_Template/heap_4.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Keil5/STM32F429IGT6/03_FreeRTOS_Template/MDK-ARM/03_FreeRTOS_Template/iic.crf" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Keil5/STM32F429IGT6/03_FreeRTOS_Template/MDK-ARM/03_FreeRTOS_Template/iic.crf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Keil5/STM32F429IGT6/03_FreeRTOS_Template/MDK-ARM/03_FreeRTOS_Template/iic.d" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Keil5/STM32F429IGT6/03_FreeRTOS_Template/MDK-ARM/03_FreeRTOS_Template/iic.d" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Keil5/STM32F429IGT6/03_FreeRTOS_Template/MDK-ARM/03_FreeRTOS_Template/iic.o" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Keil5/STM32F429IGT6/03_FreeRTOS_Template/MDK-ARM/03_FreeRTOS_Template/iic.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Keil5/STM32F429IGT6/03_FreeRTOS_Template/MDK-ARM/03_FreeRTOS_Template/iwdg.crf" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Keil5/STM32F429IGT6/03_FreeRTOS_Template/MDK-ARM/03_FreeRTOS_Template/iwdg.crf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Keil5/STM32F429IGT6/03_FreeRTOS_Template/MDK-ARM/03_FreeRTOS_Template/iwdg.d" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Keil5/STM32F429IGT6/03_FreeRTOS_Template/MDK-ARM/03_FreeRTOS_Template/iwdg.d" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Keil5/STM32F429IGT6/03_FreeRTOS_Template/MDK-ARM/03_FreeRTOS_Template/iwdg.o" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Keil5/STM32F429IGT6/03_FreeRTOS_Template/MDK-ARM/03_FreeRTOS_Template/iwdg.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Keil5/STM32F429IGT6/03_FreeRTOS_Template/MDK-ARM/03_FreeRTOS_Template/key.crf" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Keil5/STM32F429IGT6/03_FreeRTOS_Template/MDK-ARM/03_FreeRTOS_Template/key.crf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Keil5/STM32F429IGT6/03_FreeRTOS_Template/MDK-ARM/03_FreeRTOS_Template/key.d" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Keil5/STM32F429IGT6/03_FreeRTOS_Template/MDK-ARM/03_FreeRTOS_Template/key.d" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Keil5/STM32F429IGT6/03_FreeRTOS_Template/MDK-ARM/03_FreeRTOS_Template/key.o" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Keil5/STM32F429IGT6/03_FreeRTOS_Template/MDK-ARM/03_FreeRTOS_Template/key.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Keil5/STM32F429IGT6/03_FreeRTOS_Template/MDK-ARM/03_FreeRTOS_Template/led.crf" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Keil5/STM32F429IGT6/03_FreeRTOS_Template/MDK-ARM/03_FreeRTOS_Template/led.crf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Keil5/STM32F429IGT6/03_FreeRTOS_Template/MDK-ARM/03_FreeRTOS_Template/led.d" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Keil5/STM32F429IGT6/03_FreeRTOS_Template/MDK-ARM/03_FreeRTOS_Template/led.d" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Keil5/STM32F429IGT6/03_FreeRTOS_Template/MDK-ARM/03_FreeRTOS_Template/led.o" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Keil5/STM32F429IGT6/03_FreeRTOS_Template/MDK-ARM/03_FreeRTOS_Template/led.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Keil5/STM32F429IGT6/03_FreeRTOS_Template/MDK-ARM/03_FreeRTOS_Template/list.crf" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Keil5/STM32F429IGT6/03_FreeRTOS_Template/MDK-ARM/03_FreeRTOS_Template/list.crf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Keil5/STM32F429IGT6/03_FreeRTOS_Template/MDK-ARM/03_FreeRTOS_Template/list.d" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Keil5/STM32F429IGT6/03_FreeRTOS_Template/MDK-ARM/03_FreeRTOS_Template/list.d" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Keil5/STM32F429IGT6/03_FreeRTOS_Template/MDK-ARM/03_FreeRTOS_Template/list.o" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Keil5/STM32F429IGT6/03_FreeRTOS_Template/MDK-ARM/03_FreeRTOS_Template/list.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Keil5/STM32F429IGT6/03_FreeRTOS_Template/MDK-ARM/03_FreeRTOS_Template/main.crf" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Keil5/STM32F429IGT6/03_FreeRTOS_Template/MDK-ARM/03_FreeRTOS_Template/main.crf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Keil5/STM32F429IGT6/03_FreeRTOS_Template/MDK-ARM/03_FreeRTOS_Template/main.d" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Keil5/STM32F429IGT6/03_FreeRTOS_Template/MDK-ARM/03_FreeRTOS_Template/main.d" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Keil5/STM32F429IGT6/03_FreeRTOS_Template/MDK-ARM/03_FreeRTOS_Template/main.o" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Keil5/STM32F429IGT6/03_FreeRTOS_Template/MDK-ARM/03_FreeRTOS_Template/main.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Keil5/STM32F429IGT6/03_FreeRTOS_Template/MDK-ARM/03_FreeRTOS_Template/pcf8574.crf" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Keil5/STM32F429IGT6/03_FreeRTOS_Template/MDK-ARM/03_FreeRTOS_Template/pcf8574.crf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Keil5/STM32F429IGT6/03_FreeRTOS_Template/MDK-ARM/03_FreeRTOS_Template/pcf8574.d" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Keil5/STM32F429IGT6/03_FreeRTOS_Template/MDK-ARM/03_FreeRTOS_Template/pcf8574.d" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Keil5/STM32F429IGT6/03_FreeRTOS_Template/MDK-ARM/03_FreeRTOS_Template/pcf8574.o" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Keil5/STM32F429IGT6/03_FreeRTOS_Template/MDK-ARM/03_FreeRTOS_Template/pcf8574.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Keil5/STM32F429IGT6/03_FreeRTOS_Template/MDK-ARM/03_FreeRTOS_Template/port.crf" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Keil5/STM32F429IGT6/03_FreeRTOS_Template/MDK-ARM/03_FreeRTOS_Template/port.crf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Keil5/STM32F429IGT6/03_FreeRTOS_Template/MDK-ARM/03_FreeRTOS_Template/port.d" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Keil5/STM32F429IGT6/03_FreeRTOS_Template/MDK-ARM/03_FreeRTOS_Template/port.d" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Keil5/STM32F429IGT6/03_FreeRTOS_Template/MDK-ARM/03_FreeRTOS_Template/port.o" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Keil5/STM32F429IGT6/03_FreeRTOS_Template/MDK-ARM/03_FreeRTOS_Template/port.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Keil5/STM32F429IGT6/03_FreeRTOS_Template/MDK-ARM/03_FreeRTOS_Template/queue.crf" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Keil5/STM32F429IGT6/03_FreeRTOS_Template/MDK-ARM/03_FreeRTOS_Template/queue.crf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Keil5/STM32F429IGT6/03_FreeRTOS_Template/MDK-ARM/03_FreeRTOS_Template/queue.d" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Keil5/STM32F429IGT6/03_FreeRTOS_Template/MDK-ARM/03_FreeRTOS_Template/queue.d" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Keil5/STM32F429IGT6/03_FreeRTOS_Template/MDK-ARM/03_FreeRTOS_Template/queue.o" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Keil5/STM32F429IGT6/03_FreeRTOS_Template/MDK-ARM/03_FreeRTOS_Template/queue.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Keil5/STM32F429IGT6/03_FreeRTOS_Template/MDK-ARM/03_FreeRTOS_Template/startup_stm32f429xx.o" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Keil5/STM32F429IGT6/03_FreeRTOS_Template/MDK-ARM/03_FreeRTOS_Template/startup_stm32f429xx.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Keil5/STM32F429IGT6/03_FreeRTOS_Template/MDK-ARM/03_FreeRTOS_Template/stm32f4xx_hal.crf" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Keil5/STM32F429IGT6/03_FreeRTOS_Template/MDK-ARM/03_FreeRTOS_Template/stm32f4xx_hal.crf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Keil5/STM32F429IGT6/03_FreeRTOS_Template/MDK-ARM/03_FreeRTOS_Template/stm32f4xx_hal.d" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Keil5/STM32F429IGT6/03_FreeRTOS_Template/MDK-ARM/03_FreeRTOS_Template/stm32f4xx_hal.d" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Keil5/STM32F429IGT6/03_FreeRTOS_Template/MDK-ARM/03_FreeRTOS_Template/stm32f4xx_hal.o" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Keil5/STM32F429IGT6/03_FreeRTOS_Template/MDK-ARM/03_FreeRTOS_Template/stm32f4xx_hal.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Keil5/STM32F429IGT6/03_FreeRTOS_Template/MDK-ARM/03_FreeRTOS_Template/stm32f4xx_hal_cortex.crf" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Keil5/STM32F429IGT6/03_FreeRTOS_Template/MDK-ARM/03_FreeRTOS_Template/stm32f4xx_hal_cortex.crf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Keil5/STM32F429IGT6/03_FreeRTOS_Template/MDK-ARM/03_FreeRTOS_Template/stm32f4xx_hal_cortex.d" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Keil5/STM32F429IGT6/03_FreeRTOS_Template/MDK-ARM/03_FreeRTOS_Template/stm32f4xx_hal_cortex.d" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Keil5/STM32F429IGT6/03_FreeRTOS_Template/MDK-ARM/03_FreeRTOS_Template/stm32f4xx_hal_cortex.o" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Keil5/STM32F429IGT6/03_FreeRTOS_Template/MDK-ARM/03_FreeRTOS_Template/stm32f4xx_hal_cortex.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Keil5/STM32F429IGT6/03_FreeRTOS_Template/MDK-ARM/03_FreeRTOS_Template/stm32f4xx_hal_dma.crf" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Keil5/STM32F429IGT6/03_FreeRTOS_Template/MDK-ARM/03_FreeRTOS_Template/stm32f4xx_hal_dma.crf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Keil5/STM32F429IGT6/03_FreeRTOS_Template/MDK-ARM/03_FreeRTOS_Template/stm32f4xx_hal_dma.d" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Keil5/STM32F429IGT6/03_FreeRTOS_Template/MDK-ARM/03_FreeRTOS_Template/stm32f4xx_hal_dma.d" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Keil5/STM32F429IGT6/03_FreeRTOS_Template/MDK-ARM/03_FreeRTOS_Template/stm32f4xx_hal_dma.o" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Keil5/STM32F429IGT6/03_FreeRTOS_Template/MDK-ARM/03_FreeRTOS_Template/stm32f4xx_hal_dma.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Keil5/STM32F429IGT6/03_FreeRTOS_Template/MDK-ARM/03_FreeRTOS_Template/stm32f4xx_hal_dma_ex.crf" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Keil5/STM32F429IGT6/03_FreeRTOS_Template/MDK-ARM/03_FreeRTOS_Template/stm32f4xx_hal_dma_ex.crf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Keil5/STM32F429IGT6/03_FreeRTOS_Template/MDK-ARM/03_FreeRTOS_Template/stm32f4xx_hal_dma_ex.d" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Keil5/STM32F429IGT6/03_FreeRTOS_Template/MDK-ARM/03_FreeRTOS_Template/stm32f4xx_hal_dma_ex.d" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Keil5/STM32F429IGT6/03_FreeRTOS_Template/MDK-ARM/03_FreeRTOS_Template/stm32f4xx_hal_dma_ex.o" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Keil5/STM32F429IGT6/03_FreeRTOS_Template/MDK-ARM/03_FreeRTOS_Template/stm32f4xx_hal_dma_ex.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Keil5/STM32F429IGT6/03_FreeRTOS_Template/MDK-ARM/03_FreeRTOS_Template/stm32f4xx_hal_flash.crf" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Keil5/STM32F429IGT6/03_FreeRTOS_Template/MDK-ARM/03_FreeRTOS_Template/stm32f4xx_hal_flash.crf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Keil5/STM32F429IGT6/03_FreeRTOS_Template/MDK-ARM/03_FreeRTOS_Template/stm32f4xx_hal_flash.d" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Keil5/STM32F429IGT6/03_FreeRTOS_Template/MDK-ARM/03_FreeRTOS_Template/stm32f4xx_hal_flash.d" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Keil5/STM32F429IGT6/03_FreeRTOS_Template/MDK-ARM/03_FreeRTOS_Template/stm32f4xx_hal_flash.o" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Keil5/STM32F429IGT6/03_FreeRTOS_Template/MDK-ARM/03_FreeRTOS_Template/stm32f4xx_hal_flash.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Keil5/STM32F429IGT6/03_FreeRTOS_Template/MDK-ARM/03_FreeRTOS_Template/stm32f4xx_hal_flash_ex.crf" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Keil5/STM32F429IGT6/03_FreeRTOS_Template/MDK-ARM/03_FreeRTOS_Template/stm32f4xx_hal_flash_ex.crf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Keil5/STM32F429IGT6/03_FreeRTOS_Template/MDK-ARM/03_FreeRTOS_Template/stm32f4xx_hal_flash_ex.d" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Keil5/STM32F429IGT6/03_FreeRTOS_Template/MDK-ARM/03_FreeRTOS_Template/stm32f4xx_hal_flash_ex.d" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Keil5/STM32F429IGT6/03_FreeRTOS_Template/MDK-ARM/03_FreeRTOS_Template/stm32f4xx_hal_flash_ex.o" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Keil5/STM32F429IGT6/03_FreeRTOS_Template/MDK-ARM/03_FreeRTOS_Template/stm32f4xx_hal_flash_ex.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Keil5/STM32F429IGT6/03_FreeRTOS_Template/MDK-ARM/03_FreeRTOS_Template/stm32f4xx_hal_flash_ramfunc.crf" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Keil5/STM32F429IGT6/03_FreeRTOS_Template/MDK-ARM/03_FreeRTOS_Template/stm32f4xx_hal_flash_ramfunc.crf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Keil5/STM32F429IGT6/03_FreeRTOS_Template/MDK-ARM/03_FreeRTOS_Template/stm32f4xx_hal_flash_ramfunc.d" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Keil5/STM32F429IGT6/03_FreeRTOS_Template/MDK-ARM/03_FreeRTOS_Template/stm32f4xx_hal_flash_ramfunc.d" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Keil5/STM32F429IGT6/03_FreeRTOS_Template/MDK-ARM/03_FreeRTOS_Template/stm32f4xx_hal_flash_ramfunc.o" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Keil5/STM32F429IGT6/03_FreeRTOS_Template/MDK-ARM/03_FreeRTOS_Template/stm32f4xx_hal_flash_ramfunc.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Keil5/STM32F429IGT6/03_FreeRTOS_Template/MDK-ARM/03_FreeRTOS_Template/stm32f4xx_hal_gpio.crf" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Keil5/STM32F429IGT6/03_FreeRTOS_Template/MDK-ARM/03_FreeRTOS_Template/stm32f4xx_hal_gpio.crf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Keil5/STM32F429IGT6/03_FreeRTOS_Template/MDK-ARM/03_FreeRTOS_Template/stm32f4xx_hal_gpio.d" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Keil5/STM32F429IGT6/03_FreeRTOS_Template/MDK-ARM/03_FreeRTOS_Template/stm32f4xx_hal_gpio.d" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Keil5/STM32F429IGT6/03_FreeRTOS_Template/MDK-ARM/03_FreeRTOS_Template/stm32f4xx_hal_gpio.o" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Keil5/STM32F429IGT6/03_FreeRTOS_Template/MDK-ARM/03_FreeRTOS_Template/stm32f4xx_hal_gpio.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Keil5/STM32F429IGT6/03_FreeRTOS_Template/MDK-ARM/03_FreeRTOS_Template/stm32f4xx_hal_i2c.crf" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Keil5/STM32F429IGT6/03_FreeRTOS_Template/MDK-ARM/03_FreeRTOS_Template/stm32f4xx_hal_i2c.crf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Keil5/STM32F429IGT6/03_FreeRTOS_Template/MDK-ARM/03_FreeRTOS_Template/stm32f4xx_hal_i2c.d" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Keil5/STM32F429IGT6/03_FreeRTOS_Template/MDK-ARM/03_FreeRTOS_Template/stm32f4xx_hal_i2c.d" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Keil5/STM32F429IGT6/03_FreeRTOS_Template/MDK-ARM/03_FreeRTOS_Template/stm32f4xx_hal_i2c.o" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Keil5/STM32F429IGT6/03_FreeRTOS_Template/MDK-ARM/03_FreeRTOS_Template/stm32f4xx_hal_i2c.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Keil5/STM32F429IGT6/03_FreeRTOS_Template/MDK-ARM/03_FreeRTOS_Template/stm32f4xx_hal_i2c_ex.crf" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Keil5/STM32F429IGT6/03_FreeRTOS_Template/MDK-ARM/03_FreeRTOS_Template/stm32f4xx_hal_i2c_ex.crf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Keil5/STM32F429IGT6/03_FreeRTOS_Template/MDK-ARM/03_FreeRTOS_Template/stm32f4xx_hal_i2c_ex.d" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Keil5/STM32F429IGT6/03_FreeRTOS_Template/MDK-ARM/03_FreeRTOS_Template/stm32f4xx_hal_i2c_ex.d" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Keil5/STM32F429IGT6/03_FreeRTOS_Template/MDK-ARM/03_FreeRTOS_Template/stm32f4xx_hal_i2c_ex.o" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Keil5/STM32F429IGT6/03_FreeRTOS_Template/MDK-ARM/03_FreeRTOS_Template/stm32f4xx_hal_i2c_ex.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Keil5/STM32F429IGT6/03_FreeRTOS_Template/MDK-ARM/03_FreeRTOS_Template/stm32f4xx_hal_iwdg.crf" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Keil5/STM32F429IGT6/03_FreeRTOS_Template/MDK-ARM/03_FreeRTOS_Template/stm32f4xx_hal_iwdg.crf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Keil5/STM32F429IGT6/03_FreeRTOS_Template/MDK-ARM/03_FreeRTOS_Template/stm32f4xx_hal_iwdg.d" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Keil5/STM32F429IGT6/03_FreeRTOS_Template/MDK-ARM/03_FreeRTOS_Template/stm32f4xx_hal_iwdg.d" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Keil5/STM32F429IGT6/03_FreeRTOS_Template/MDK-ARM/03_FreeRTOS_Template/stm32f4xx_hal_iwdg.o" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Keil5/STM32F429IGT6/03_FreeRTOS_Template/MDK-ARM/03_FreeRTOS_Template/stm32f4xx_hal_iwdg.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Keil5/STM32F429IGT6/03_FreeRTOS_Template/MDK-ARM/03_FreeRTOS_Template/stm32f4xx_hal_msp.crf" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Keil5/STM32F429IGT6/03_FreeRTOS_Template/MDK-ARM/03_FreeRTOS_Template/stm32f4xx_hal_msp.crf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Keil5/STM32F429IGT6/03_FreeRTOS_Template/MDK-ARM/03_FreeRTOS_Template/stm32f4xx_hal_msp.d" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Keil5/STM32F429IGT6/03_FreeRTOS_Template/MDK-ARM/03_FreeRTOS_Template/stm32f4xx_hal_msp.d" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Keil5/STM32F429IGT6/03_FreeRTOS_Template/MDK-ARM/03_FreeRTOS_Template/stm32f4xx_hal_msp.o" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Keil5/STM32F429IGT6/03_FreeRTOS_Template/MDK-ARM/03_FreeRTOS_Template/stm32f4xx_hal_msp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Keil5/STM32F429IGT6/03_FreeRTOS_Template/MDK-ARM/03_FreeRTOS_Template/stm32f4xx_hal_pwr.crf" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Keil5/STM32F429IGT6/03_FreeRTOS_Template/MDK-ARM/03_FreeRTOS_Template/stm32f4xx_hal_pwr.crf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Keil5/STM32F429IGT6/03_FreeRTOS_Template/MDK-ARM/03_FreeRTOS_Template/stm32f4xx_hal_pwr.d" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Keil5/STM32F429IGT6/03_FreeRTOS_Template/MDK-ARM/03_FreeRTOS_Template/stm32f4xx_hal_pwr.d" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Keil5/STM32F429IGT6/03_FreeRTOS_Template/MDK-ARM/03_FreeRTOS_Template/stm32f4xx_hal_pwr.o" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Keil5/STM32F429IGT6/03_FreeRTOS_Template/MDK-ARM/03_FreeRTOS_Template/stm32f4xx_hal_pwr.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Keil5/STM32F429IGT6/03_FreeRTOS_Template/MDK-ARM/03_FreeRTOS_Template/stm32f4xx_hal_pwr_ex.crf" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Keil5/STM32F429IGT6/03_FreeRTOS_Template/MDK-ARM/03_FreeRTOS_Template/stm32f4xx_hal_pwr_ex.crf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Keil5/STM32F429IGT6/03_FreeRTOS_Template/MDK-ARM/03_FreeRTOS_Template/stm32f4xx_hal_pwr_ex.d" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Keil5/STM32F429IGT6/03_FreeRTOS_Template/MDK-ARM/03_FreeRTOS_Template/stm32f4xx_hal_pwr_ex.d" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Keil5/STM32F429IGT6/03_FreeRTOS_Template/MDK-ARM/03_FreeRTOS_Template/stm32f4xx_hal_pwr_ex.o" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Keil5/STM32F429IGT6/03_FreeRTOS_Template/MDK-ARM/03_FreeRTOS_Template/stm32f4xx_hal_pwr_ex.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Keil5/STM32F429IGT6/03_FreeRTOS_Template/MDK-ARM/03_FreeRTOS_Template/stm32f4xx_hal_rcc.crf" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Keil5/STM32F429IGT6/03_FreeRTOS_Template/MDK-ARM/03_FreeRTOS_Template/stm32f4xx_hal_rcc.crf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Keil5/STM32F429IGT6/03_FreeRTOS_Template/MDK-ARM/03_FreeRTOS_Template/stm32f4xx_hal_rcc.d" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Keil5/STM32F429IGT6/03_FreeRTOS_Template/MDK-ARM/03_FreeRTOS_Template/stm32f4xx_hal_rcc.d" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Keil5/STM32F429IGT6/03_FreeRTOS_Template/MDK-ARM/03_FreeRTOS_Template/stm32f4xx_hal_rcc.o" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Keil5/STM32F429IGT6/03_FreeRTOS_Template/MDK-ARM/03_FreeRTOS_Template/stm32f4xx_hal_rcc.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Keil5/STM32F429IGT6/03_FreeRTOS_Template/MDK-ARM/03_FreeRTOS_Template/stm32f4xx_hal_rcc_ex.crf" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Keil5/STM32F429IGT6/03_FreeRTOS_Template/MDK-ARM/03_FreeRTOS_Template/stm32f4xx_hal_rcc_ex.crf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Keil5/STM32F429IGT6/03_FreeRTOS_Template/MDK-ARM/03_FreeRTOS_Template/stm32f4xx_hal_rcc_ex.d" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Keil5/STM32F429IGT6/03_FreeRTOS_Template/MDK-ARM/03_FreeRTOS_Template/stm32f4xx_hal_rcc_ex.d" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Keil5/STM32F429IGT6/03_FreeRTOS_Template/MDK-ARM/03_FreeRTOS_Template/stm32f4xx_hal_rcc_ex.o" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Keil5/STM32F429IGT6/03_FreeRTOS_Template/MDK-ARM/03_FreeRTOS_Template/stm32f4xx_hal_rcc_ex.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Keil5/STM32F429IGT6/03_FreeRTOS_Template/MDK-ARM/03_FreeRTOS_Template/stm32f4xx_hal_tim.crf" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Keil5/STM32F429IGT6/03_FreeRTOS_Template/MDK-ARM/03_FreeRTOS_Template/stm32f4xx_hal_tim.crf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Keil5/STM32F429IGT6/03_FreeRTOS_Template/MDK-ARM/03_FreeRTOS_Template/stm32f4xx_hal_tim.d" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Keil5/STM32F429IGT6/03_FreeRTOS_Template/MDK-ARM/03_FreeRTOS_Template/stm32f4xx_hal_tim.d" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Keil5/STM32F429IGT6/03_FreeRTOS_Template/MDK-ARM/03_FreeRTOS_Template/stm32f4xx_hal_tim.o" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Keil5/STM32F429IGT6/03_FreeRTOS_Template/MDK-ARM/03_FreeRTOS_Template/stm32f4xx_hal_tim.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Keil5/STM32F429IGT6/03_FreeRTOS_Template/MDK-ARM/03_FreeRTOS_Template/stm32f4xx_hal_tim_ex.crf" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Keil5/STM32F429IGT6/03_FreeRTOS_Template/MDK-ARM/03_FreeRTOS_Template/stm32f4xx_hal_tim_ex.crf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Keil5/STM32F429IGT6/03_FreeRTOS_Template/MDK-ARM/03_FreeRTOS_Template/stm32f4xx_hal_tim_ex.d" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Keil5/STM32F429IGT6/03_FreeRTOS_Template/MDK-ARM/03_FreeRTOS_Template/stm32f4xx_hal_tim_ex.d" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Keil5/STM32F429IGT6/03_FreeRTOS_Template/MDK-ARM/03_FreeRTOS_Template/stm32f4xx_hal_tim_ex.o" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Keil5/STM32F429IGT6/03_FreeRTOS_Template/MDK-ARM/03_FreeRTOS_Template/stm32f4xx_hal_tim_ex.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Keil5/STM32F429IGT6/03_FreeRTOS_Template/MDK-ARM/03_FreeRTOS_Template/stm32f4xx_hal_uart.crf" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Keil5/STM32F429IGT6/03_FreeRTOS_Template/MDK-ARM/03_FreeRTOS_Template/stm32f4xx_hal_uart.crf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Keil5/STM32F429IGT6/03_FreeRTOS_Template/MDK-ARM/03_FreeRTOS_Template/stm32f4xx_hal_uart.d" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Keil5/STM32F429IGT6/03_FreeRTOS_Template/MDK-ARM/03_FreeRTOS_Template/stm32f4xx_hal_uart.d" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Keil5/STM32F429IGT6/03_FreeRTOS_Template/MDK-ARM/03_FreeRTOS_Template/stm32f4xx_hal_uart.o" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Keil5/STM32F429IGT6/03_FreeRTOS_Template/MDK-ARM/03_FreeRTOS_Template/stm32f4xx_hal_uart.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Keil5/STM32F429IGT6/03_FreeRTOS_Template/MDK-ARM/03_FreeRTOS_Template/stm32f4xx_hal_wwdg.crf" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Keil5/STM32F429IGT6/03_FreeRTOS_Template/MDK-ARM/03_FreeRTOS_Template/stm32f4xx_hal_wwdg.crf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Keil5/STM32F429IGT6/03_FreeRTOS_Template/MDK-ARM/03_FreeRTOS_Template/stm32f4xx_hal_wwdg.d" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Keil5/STM32F429IGT6/03_FreeRTOS_Template/MDK-ARM/03_FreeRTOS_Template/stm32f4xx_hal_wwdg.d" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Keil5/STM32F429IGT6/03_FreeRTOS_Template/MDK-ARM/03_FreeRTOS_Template/stm32f4xx_hal_wwdg.o" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Keil5/STM32F429IGT6/03_FreeRTOS_Template/MDK-ARM/03_FreeRTOS_Template/stm32f4xx_hal_wwdg.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Keil5/STM32F429IGT6/03_FreeRTOS_Template/MDK-ARM/03_FreeRTOS_Template/stm32f4xx_it.crf" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Keil5/STM32F429IGT6/03_FreeRTOS_Template/MDK-ARM/03_FreeRTOS_Template/stm32f4xx_it.crf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Keil5/STM32F429IGT6/03_FreeRTOS_Template/MDK-ARM/03_FreeRTOS_Template/stm32f4xx_it.d" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Keil5/STM32F429IGT6/03_FreeRTOS_Template/MDK-ARM/03_FreeRTOS_Template/stm32f4xx_it.d" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Keil5/STM32F429IGT6/03_FreeRTOS_Template/MDK-ARM/03_FreeRTOS_Template/stm32f4xx_it.o" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Keil5/STM32F429IGT6/03_FreeRTOS_Template/MDK-ARM/03_FreeRTOS_Template/stm32f4xx_it.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Keil5/STM32F429IGT6/03_FreeRTOS_Template/MDK-ARM/03_FreeRTOS_Template/stream_buffer.crf" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Keil5/STM32F429IGT6/03_FreeRTOS_Template/MDK-ARM/03_FreeRTOS_Template/stream_buffer.crf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Keil5/STM32F429IGT6/03_FreeRTOS_Template/MDK-ARM/03_FreeRTOS_Template/stream_buffer.d" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Keil5/STM32F429IGT6/03_FreeRTOS_Template/MDK-ARM/03_FreeRTOS_Template/stream_buffer.d" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Keil5/STM32F429IGT6/03_FreeRTOS_Template/MDK-ARM/03_FreeRTOS_Template/stream_buffer.o" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Keil5/STM32F429IGT6/03_FreeRTOS_Template/MDK-ARM/03_FreeRTOS_Template/stream_buffer.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Keil5/STM32F429IGT6/03_FreeRTOS_Template/MDK-ARM/03_FreeRTOS_Template/system_stm32f4xx.crf" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Keil5/STM32F429IGT6/03_FreeRTOS_Template/MDK-ARM/03_FreeRTOS_Template/system_stm32f4xx.crf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Keil5/STM32F429IGT6/03_FreeRTOS_Template/MDK-ARM/03_FreeRTOS_Template/system_stm32f4xx.d" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Keil5/STM32F429IGT6/03_FreeRTOS_Template/MDK-ARM/03_FreeRTOS_Template/system_stm32f4xx.d" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Keil5/STM32F429IGT6/03_FreeRTOS_Template/MDK-ARM/03_FreeRTOS_Template/system_stm32f4xx.o" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Keil5/STM32F429IGT6/03_FreeRTOS_Template/MDK-ARM/03_FreeRTOS_Template/system_stm32f4xx.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Keil5/STM32F429IGT6/03_FreeRTOS_Template/MDK-ARM/03_FreeRTOS_Template/tasks.crf" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Keil5/STM32F429IGT6/03_FreeRTOS_Template/MDK-ARM/03_FreeRTOS_Template/tasks.crf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Keil5/STM32F429IGT6/03_FreeRTOS_Template/MDK-ARM/03_FreeRTOS_Template/tasks.d" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Keil5/STM32F429IGT6/03_FreeRTOS_Template/MDK-ARM/03_FreeRTOS_Template/tasks.d" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Keil5/STM32F429IGT6/03_FreeRTOS_Template/MDK-ARM/03_FreeRTOS_Template/tasks.o" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Keil5/STM32F429IGT6/03_FreeRTOS_Template/MDK-ARM/03_FreeRTOS_Template/tasks.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Keil5/STM32F429IGT6/03_FreeRTOS_Template/MDK-ARM/03_FreeRTOS_Template/timers.crf" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Keil5/STM32F429IGT6/03_FreeRTOS_Template/MDK-ARM/03_FreeRTOS_Template/timers.crf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Keil5/STM32F429IGT6/03_FreeRTOS_Template/MDK-ARM/03_FreeRTOS_Template/timers.d" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Keil5/STM32F429IGT6/03_FreeRTOS_Template/MDK-ARM/03_FreeRTOS_Template/timers.d" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Keil5/STM32F429IGT6/03_FreeRTOS_Template/MDK-ARM/03_FreeRTOS_Template/timers.o" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Keil5/STM32F429IGT6/03_FreeRTOS_Template/MDK-ARM/03_FreeRTOS_Template/timers.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Keil5/STM32F429IGT6/03_FreeRTOS_Template/MDK-ARM/03_FreeRTOS_Template/uart.crf" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Keil5/STM32F429IGT6/03_FreeRTOS_Template/MDK-ARM/03_FreeRTOS_Template/uart.crf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Keil5/STM32F429IGT6/03_FreeRTOS_Template/MDK-ARM/03_FreeRTOS_Template/uart.d" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Keil5/STM32F429IGT6/03_FreeRTOS_Template/MDK-ARM/03_FreeRTOS_Template/uart.d" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Keil5/STM32F429IGT6/03_FreeRTOS_Template/MDK-ARM/03_FreeRTOS_Template/uart.o" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Keil5/STM32F429IGT6/03_FreeRTOS_Template/MDK-ARM/03_FreeRTOS_Template/uart.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Keil5/STM32F429IGT6/03_FreeRTOS_Template/MDK-ARM/03_FreeRTOS_Template/wwdg.crf" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Keil5/STM32F429IGT6/03_FreeRTOS_Template/MDK-ARM/03_FreeRTOS_Template/wwdg.crf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Keil5/STM32F429IGT6/03_FreeRTOS_Template/MDK-ARM/03_FreeRTOS_Template/wwdg.d" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Keil5/STM32F429IGT6/03_FreeRTOS_Template/MDK-ARM/03_FreeRTOS_Template/wwdg.d" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Keil5/STM32F429IGT6/03_FreeRTOS_Template/MDK-ARM/03_FreeRTOS_Template/wwdg.o" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Keil5/STM32F429IGT6/03_FreeRTOS_Template/MDK-ARM/03_FreeRTOS_Template/wwdg.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Keil5/STM32F429IGT6/03_FreeRTOS_Template/MDK-ARM/RTE/_03_FreeRTOS_Template/RTE_Components.h" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Keil5/STM32F429IGT6/03_FreeRTOS_Template/MDK-ARM/RTE/_03_FreeRTOS_Template/RTE_Components.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Keil5/STM32F429IGT6/03_FreeRTOS_Template/MDK-ARM/startup_stm32f429xx.lst" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Keil5/STM32F429IGT6/03_FreeRTOS_Template/MDK-ARM/startup_stm32f429xx.lst" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Core/Inc/stm32f4xx_hal_conf.h" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Hardware/spi/spi.c" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Hardware/spi/spi.h" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Hardware/w25qxx/w25qxx.c" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Hardware/w25qxx/w25qxx.h" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="ProjectApplicationVersion">
+    <option name="ide" value="CLion" />
+    <option name="majorVersion" value="2024" />
+    <option name="minorVersion" value="2.2" />
+    <option name="productBranch" value="Classic" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
+  <component name="ProjectId" id="2mNOZzVKxqafs6rPGAhPBKOLxdy" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;CMake 调试.00_Template.executor&quot;: &quot;Debug&quot;,
+    &quot;OpenOCD 下载并运行.OCD 00_Template.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.RadMigrateCodeStyle&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.readMode.enableVisualFormatting&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;cf.first.check.clang-format&quot;: &quot;false&quot;,
+    &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;E:/code/STM32/CLion/STM32F429IGT6/00_Template&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
+    &quot;structure.view.defaults.are.configured&quot;: &quot;true&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RunManager" selected="OpenOCD 下载并运行.OCD 00_Template">
+    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="00_Template" type="CMakeListConfigurationType" factoryName="CMakeListConfigurationFactory" temporary="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="01_FreeRTOS_Template.elf" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="01_FreeRTOS_Template" TARGET_NAME="01_FreeRTOS_Template.elf" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="01_FreeRTOS_Template" RUN_TARGET_NAME="01_FreeRTOS_Template.elf">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="CMake 应用程序.01_FreeRTOS_Template.elf" />
+      <item itemvalue="CMake 调试.00_Template" />
+      <item itemvalue="OpenOCD 下载并运行.OCD 00_Template" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="CMake 调试.00_Template" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="默认任务">
+      <changelist id="da78cc21-e242-4cd1-b42c-b49f64e5a434" name="更改" comment="" />
+      <created>1726913627089</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1726913627089</updated>
+      <workItem from="1726913629206" duration="12291000" />
+      <workItem from="1727060529730" duration="84000" />
+      <workItem from="1727092659280" duration="178000" />
+      <workItem from="1728283524974" duration="59000" />
+      <workItem from="1728636244369" duration="155000" />
+      <workItem from="1728636432073" duration="18200000" />
+      <workItem from="1728697834962" duration="1759000" />
+      <workItem from="1728737769704" duration="511000" />
+      <workItem from="1728738324438" duration="3576000" />
+      <workItem from="1728892979109" duration="19109000" />
+      <workItem from="1728958203432" duration="23160000" />
+      <workItem from="1729040665344" duration="4282000" />
+      <workItem from="1729047090856" duration="300000" />
+      <workItem from="1729047743782" duration="340000" />
+      <workItem from="1729048696938" duration="2593000" />
+      <workItem from="1729060149151" duration="7936000" />
+      <workItem from="1729079832345" duration="3206000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VCPKGProject">
+    <isAutomaticCheckingOnLaunch value="false" />
+    <isAutomaticFoundErrors value="true" />
+    <isAutomaticReloadCMake value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/Hardware/w25qxx/w25qxx.c</url>
+          <line>29</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="com.jetbrains.cidr.embedded.openocd.conf.type">
+        <watch expression="uart1_data" language="ObjectiveC" />
+        <watch expression="rec" language="ObjectiveC" />
+        <watch expression="W25QXX_TYPE" language="C++" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>

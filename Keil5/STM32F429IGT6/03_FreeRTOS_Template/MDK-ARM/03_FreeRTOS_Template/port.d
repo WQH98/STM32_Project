@@ -1,7 +1,7 @@
 .\03_freertos_template\port.o: ..\FreeRTOS\portable\RVDS\ARM_CM4F\port.c
 .\03_freertos_template\port.o: ..\FreeRTOS\include\FreeRTOS.h
-.\03_freertos_template\port.o: D:\keil5\ARM\ARMCC\Bin\..\include\stddef.h
-.\03_freertos_template\port.o: D:\keil5\ARM\ARMCC\Bin\..\include\stdint.h
+.\03_freertos_template\port.o: D:\MDK5\ARM\ARMCC\Bin\..\include\stddef.h
+.\03_freertos_template\port.o: D:\MDK5\ARM\ARMCC\Bin\..\include\stdint.h
 .\03_freertos_template\port.o: ..\FreeRTOS\include\FreeRTOSConfig.h
 .\03_freertos_template\port.o: ..\FreeRTOS\include\projdefs.h
 .\03_freertos_template\port.o: ..\FreeRTOS\include\portable.h

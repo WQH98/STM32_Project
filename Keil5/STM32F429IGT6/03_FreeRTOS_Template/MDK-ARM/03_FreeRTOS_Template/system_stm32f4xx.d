@@ -2,7 +2,7 @@
 .\03_freertos_template\system_stm32f4xx.o: ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h
 .\03_freertos_template\system_stm32f4xx.o: ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f429xx.h
 .\03_freertos_template\system_stm32f4xx.o: ../Drivers/CMSIS/Include/core_cm4.h
-.\03_freertos_template\system_stm32f4xx.o: D:\keil5\ARM\ARMCC\Bin\..\include\stdint.h
+.\03_freertos_template\system_stm32f4xx.o: D:\MDK5\ARM\ARMCC\Bin\..\include\stdint.h
 .\03_freertos_template\system_stm32f4xx.o: ../Drivers/CMSIS/Include/core_cmInstr.h
 .\03_freertos_template\system_stm32f4xx.o: ../Drivers/CMSIS/Include/core_cmFunc.h
 .\03_freertos_template\system_stm32f4xx.o: ../Drivers/CMSIS/Include/core_cmSimd.h
@@ -13,7 +13,7 @@
 .\03_freertos_template\system_stm32f4xx.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h
 .\03_freertos_template\system_stm32f4xx.o: ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h
 .\03_freertos_template\system_stm32f4xx.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h
-.\03_freertos_template\system_stm32f4xx.o: D:\keil5\ARM\ARMCC\Bin\..\include\stdio.h
+.\03_freertos_template\system_stm32f4xx.o: D:\MDK5\ARM\ARMCC\Bin\..\include\stdio.h
 .\03_freertos_template\system_stm32f4xx.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h
 .\03_freertos_template\system_stm32f4xx.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h
 .\03_freertos_template\system_stm32f4xx.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h
