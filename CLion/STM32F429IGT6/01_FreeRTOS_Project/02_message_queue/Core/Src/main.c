@@ -33,6 +33,7 @@
 #include "w25qxx.h"
 #include "FreeRTOS.h"
 #include "task.h"
+#include "queue.h"
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
@@ -40,6 +41,9 @@
 //任务句柄
 TaskHandle_t start_task_handler;
 TaskHandle_t led_task_handler;
+TaskHandle_t send_task_handler;
+TaskHandle_t receive_task_handler;
+QueueHandle_t queue_handler;
 /* USER CODE END PTD */
 
 /* Private define ------------------------------------------------------------*/
@@ -59,11 +63,55 @@ void led_task(void *pvParameters) {
     }
 }
 
+void send_task(void *pvParameters) {
+    uint32_t send_data1 = 1;
+    uint32_t send_data2 = 2;
+    BaseType_t x_return = pdPASS;
+    while(1) {
+        if(HAL_GPIO_ReadPin(KEY0_PORT, KEY0_PIN) == GPIO_PIN_RESET) {
+            x_return = xQueueSend(queue_handler, &send_data1, 0);
+            // my_printf(&uart1_handler, "send data1 %s\r\n", (x_return == pdPASS)?"success":"failed");
+        }
+        if(HAL_GPIO_ReadPin(KEY1_PORT, KEY1_PIN) == GPIO_PIN_RESET) {
+            x_return = xQueueSend(queue_handler, &send_data2, 0);
+            // my_printf(&uart1_handler, "send data2 %s\r\n", (x_return == pdPASS)?"success":"failed");
+        }
+        vTaskDelay(50);
+    }
+}
+
+void receive_task(void *pvParameters) {
+    uint32_t receive_data;
+    BaseType_t x_return = pdPASS;
+    while(1) {
+        x_return = xQueueReceive(queue_handler, &receive_data, portMAX_DELAY);
+        if(x_return == pdPASS) {
+            // vTaskDelay(500);
+            my_printf(&uart1_handler, "receive data: %d\r\n", receive_data);
+        }
+        else {
+            // vTaskDelay(500);
+            my_printf(&uart1_handler, "receive data failed because %d\r\n", x_return);
+        }
+        vTaskDelay(1);
+    }
+}
+
 
 void start_task(void *pvParameters)
 {
+    BaseType_t x_return = pdPASS;
     taskENTER_CRITICAL();
-    xTaskCreate(led_task, "led_task", 256, NULL, 2, &led_task_handler);
+    x_return = xTaskCreate(led_task, "led_task", 256, NULL, 2, &led_task_handler);
+    my_printf(&uart1_handler, "create %s %s\r\n", "led_task", (x_return == pdPASS)?"success":"failed");
+    x_return = xTaskCreate(send_task, "send_task", 256, NULL, 2, &send_task_handler);
+    my_printf(&uart1_handler, "create %s %s\r\n", "send_task", (x_return == pdPASS)?"success":"failed");
+    x_return = xTaskCreate(receive_task, "receive_task", 256, NULL, 2, &receive_task_handler);
+    my_printf(&uart1_handler, "create %s %s\r\n", "receive_task", (x_return == pdPASS)?"success":"failed");
+
+    queue_handler = xQueueCreate(4, 4);
+    my_printf(&uart1_handler, "create %s %s\r\n", "queue", (queue_handler != 0)?"success":"failed");
+
     vTaskDelete(NULL);
     taskEXIT_CRITICAL();
 }
@@ -116,6 +164,8 @@ int main(void) {
     /* Initialize all configured peripherals */
     MX_GPIO_Init();
     led_init();
+    key_init();
+    uart1_init(115200);
     xTaskCreate(start_task, "start_task", 128, NULL, 1, &start_task_handler);
     vTaskStartScheduler();          //开启任务调度
     /* USER CODE BEGIN 2 */

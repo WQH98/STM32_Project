@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="CMakePresetLoader">{
+  &quot;useNewFormat&quot;: true
+}</component>
+  <component name="CMakeProjectFlavorService">
+    <option name="flavorId" value="CMakePlainProjectFlavor" />
+  </component>
+  <component name="CMakeReloadState">
+    <option name="reloaded" value="true" />
+  </component>
+  <component name="CMakeRunConfigurationManager">
+    <generated>
+      <config projectName="04_mutex" targetName="04_mutex.elf" />
+    </generated>
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" ENABLED="true" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="da78cc21-e242-4cd1-b42c-b49f64e5a434" name="更改" comment="">
+      <change beforePath="$PROJECT_DIR$/../02_message_queue/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../02_message_queue/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../02_message_queue/Core/Src/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/../02_message_queue/Core/Src/main.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../02_message_queue/cmake-build-debug/.ninja_deps" beforeDir="false" afterPath="$PROJECT_DIR$/../02_message_queue/cmake-build-debug/.ninja_deps" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../02_message_queue/cmake-build-debug/.ninja_log" beforeDir="false" afterPath="$PROJECT_DIR$/../02_message_queue/cmake-build-debug/.ninja_log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../02_message_queue/cmake-build-debug/02_message_queue.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../02_message_queue/cmake-build-debug/02_message_queue.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../02_message_queue/cmake-build-debug/02_message_queue.elf" beforeDir="false" afterPath="$PROJECT_DIR$/../02_message_queue/cmake-build-debug/02_message_queue.elf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../02_message_queue/cmake-build-debug/02_message_queue.hex" beforeDir="false" afterPath="$PROJECT_DIR$/../02_message_queue/cmake-build-debug/02_message_queue.hex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../02_message_queue/cmake-build-debug/02_message_queue.map" beforeDir="false" afterPath="$PROJECT_DIR$/../02_message_queue/cmake-build-debug/02_message_queue.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../02_message_queue/cmake-build-debug/CMakeFiles/02_message_queue.elf.dir/Core/Src/main.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/../02_message_queue/cmake-build-debug/CMakeFiles/02_message_queue.elf.dir/Core/Src/main.c.obj" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../.." />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Core/Src/main.c" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/FreeRTOS/include/queue.h" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/FreeRTOS/include/semphr.h" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/FreeRTOS/portable/GCC/ARM_CM4F/portmacro.h" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/FreeRTOS/tasks.c" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Hardware/key/key.c" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="ProjectApplicationVersion">
+    <option name="ide" value="CLion" />
+    <option name="majorVersion" value="2024" />
+    <option name="minorVersion" value="2.2" />
+    <option name="productBranch" value="Classic" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
+  <component name="ProjectId" id="2mNOZzVKxqafs6rPGAhPBKOLxdy" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "CMake 调试.00_Template.executor": "Debug",
+    "OpenOCD 下载并运行.OCD 00_Template.executor": "Run",
+    "RunOnceActivity.RadMigrateCodeStyle": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.cidr.known.project.marker": "true",
+    "RunOnceActivity.readMode.enableVisualFormatting": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "cf.first.check.clang-format": "false",
+    "cidr.known.project.marker": "true",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "E:/code/STM32/CLion/STM32F429IGT6/01_FreeRTOS_Project/04_mutex",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings",
+    "structure.view.defaults.are.configured": "true",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RunManager" selected="OpenOCD 下载并运行.OCD 00_Template">
+    <configuration name="00_Template" type="CMakeListConfigurationType" factoryName="CMakeListConfigurationFactory" temporary="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="04_mutex.elf" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="04_mutex" TARGET_NAME="04_mutex.elf" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="04_mutex" RUN_TARGET_NAME="04_mutex.elf">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="CMake 应用程序.04_mutex.elf" />
+      <item itemvalue="CMake 调试.00_Template" />
+      <item itemvalue="OpenOCD 下载并运行.OCD 00_Template" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="CMake 调试.00_Template" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="默认任务">
+      <changelist id="da78cc21-e242-4cd1-b42c-b49f64e5a434" name="更改" comment="" />
+      <created>1726913627089</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1726913627089</updated>
+      <workItem from="1726913629206" duration="12291000" />
+      <workItem from="1727060529730" duration="84000" />
+      <workItem from="1727092659280" duration="178000" />
+      <workItem from="1728283524974" duration="59000" />
+      <workItem from="1728636244369" duration="155000" />
+      <workItem from="1728636432073" duration="18200000" />
+      <workItem from="1728697834962" duration="1759000" />
+      <workItem from="1728737769704" duration="511000" />
+      <workItem from="1728738324438" duration="3576000" />
+      <workItem from="1728892979109" duration="19109000" />
+      <workItem from="1728958203432" duration="23160000" />
+      <workItem from="1729040665344" duration="4282000" />
+      <workItem from="1729047090856" duration="300000" />
+      <workItem from="1729047743782" duration="340000" />
+      <workItem from="1729048696938" duration="2593000" />
+      <workItem from="1729060149151" duration="7936000" />
+      <workItem from="1729079832345" duration="6273000" />
+      <workItem from="1729127178991" duration="182000" />
+      <workItem from="1729150156647" duration="2179000" />
+      <workItem from="1729152406496" duration="63000" />
+      <workItem from="1729153009467" duration="335000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VCPKGProject">
+    <isAutomaticCheckingOnLaunch value="false" />
+    <isAutomaticFoundErrors value="true" />
+    <isAutomaticReloadCMake value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/../../.." />
+    </ignored-roots>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/Hardware/w25qxx/w25qxx.c</url>
+          <line>29</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="com.jetbrains.cidr.embedded.openocd.conf.type">
+        <watch expression="uart1_data" language="ObjectiveC" />
+        <watch expression="rec" language="ObjectiveC" />
+        <watch expression="W25QXX_TYPE" language="C++" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>
