@@ -1,0 +1,407 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="CMakePresetLoader">{
+  &quot;useNewFormat&quot;: true
+}</component>
+  <component name="CMakeProjectFlavorService">
+    <option name="flavorId" value="CMakePlainProjectFlavor" />
+  </component>
+  <component name="CMakeReloadState">
+    <option name="reloaded" value="true" />
+  </component>
+  <component name="CMakeRunConfigurationManager">
+    <generated>
+      <config projectName="00_FreeRTOS_Template" targetName="00_FreeRTOS_Template.elf" />
+    </generated>
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" ENABLED="true" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="da78cc21-e242-4cd1-b42c-b49f64e5a434" name="更改" comment="">
+      <change beforePath="$PROJECT_DIR$/../../01_FreeRTOS_Template/.cproject" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../01_FreeRTOS_Template/.idea/00_Template.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../01_FreeRTOS_Template/.idea/editor.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../01_FreeRTOS_Template/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../01_FreeRTOS_Template/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../01_FreeRTOS_Template/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../01_FreeRTOS_Template/.idea/runConfigurations/OCD_00_Template.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../01_FreeRTOS_Template/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../01_FreeRTOS_Template/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../01_FreeRTOS_Template/.mxproject" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../01_FreeRTOS_Template/.project" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../01_FreeRTOS_Template/01_FreeRTOS_Template.ioc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../01_FreeRTOS_Template/CMakeLists.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../01_FreeRTOS_Template/CMakeLists_template.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../01_FreeRTOS_Template/Core/Inc/gpio.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../01_FreeRTOS_Template/Core/Inc/main.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../01_FreeRTOS_Template/Core/Inc/stm32f4xx_hal_conf.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../01_FreeRTOS_Template/Core/Inc/stm32f4xx_it.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../01_FreeRTOS_Template/Core/Src/gpio.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../01_FreeRTOS_Template/Core/Src/main.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../01_FreeRTOS_Template/Core/Src/stm32f4xx_hal_msp.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../01_FreeRTOS_Template/Core/Src/stm32f4xx_it.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../01_FreeRTOS_Template/Core/Src/syscalls.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../01_FreeRTOS_Template/Core/Src/sysmem.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../01_FreeRTOS_Template/Core/Src/system_stm32f4xx.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../01_FreeRTOS_Template/Core/Startup/startup_stm32f429igtx.s" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../01_FreeRTOS_Template/Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f429xx.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../01_FreeRTOS_Template/Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../01_FreeRTOS_Template/Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../01_FreeRTOS_Template/Drivers/CMSIS/Include/arm_common_tables.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../01_FreeRTOS_Template/Drivers/CMSIS/Include/arm_const_structs.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../01_FreeRTOS_Template/Drivers/CMSIS/Include/arm_math.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../01_FreeRTOS_Template/Drivers/CMSIS/Include/core_cm0.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../01_FreeRTOS_Template/Drivers/CMSIS/Include/core_cm0plus.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../01_FreeRTOS_Template/Drivers/CMSIS/Include/core_cm3.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../01_FreeRTOS_Template/Drivers/CMSIS/Include/core_cm4.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../01_FreeRTOS_Template/Drivers/CMSIS/Include/core_cm7.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../01_FreeRTOS_Template/Drivers/CMSIS/Include/core_cmFunc.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../01_FreeRTOS_Template/Drivers/CMSIS/Include/core_cmInstr.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../01_FreeRTOS_Template/Drivers/CMSIS/Include/core_cmSimd.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../01_FreeRTOS_Template/Drivers/CMSIS/Include/core_sc000.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../01_FreeRTOS_Template/Drivers/CMSIS/Include/core_sc300.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../01_FreeRTOS_Template/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../01_FreeRTOS_Template/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../01_FreeRTOS_Template/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_adc.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../01_FreeRTOS_Template/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_adc_ex.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../01_FreeRTOS_Template/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../01_FreeRTOS_Template/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../01_FreeRTOS_Template/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../01_FreeRTOS_Template/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../01_FreeRTOS_Template/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../01_FreeRTOS_Template/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../01_FreeRTOS_Template/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../01_FreeRTOS_Template/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../01_FreeRTOS_Template/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../01_FreeRTOS_Template/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../01_FreeRTOS_Template/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../01_FreeRTOS_Template/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../01_FreeRTOS_Template/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../01_FreeRTOS_Template/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_spi.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../01_FreeRTOS_Template/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../01_FreeRTOS_Template/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../01_FreeRTOS_Template/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../01_FreeRTOS_Template/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_usart.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../01_FreeRTOS_Template/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../01_FreeRTOS_Template/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../01_FreeRTOS_Template/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../01_FreeRTOS_Template/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../01_FreeRTOS_Template/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../01_FreeRTOS_Template/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../01_FreeRTOS_Template/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../01_FreeRTOS_Template/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../01_FreeRTOS_Template/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../01_FreeRTOS_Template/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../01_FreeRTOS_Template/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../01_FreeRTOS_Template/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../01_FreeRTOS_Template/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../01_FreeRTOS_Template/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../01_FreeRTOS_Template/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../01_FreeRTOS_Template/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../01_FreeRTOS_Template/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../01_FreeRTOS_Template/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../01_FreeRTOS_Template/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_usart.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../01_FreeRTOS_Template/FreeRTOS/croutine.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../01_FreeRTOS_Template/FreeRTOS/event_groups.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../01_FreeRTOS_Template/FreeRTOS/include/FreeRTOS.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../01_FreeRTOS_Template/FreeRTOS/include/FreeRTOSConfig.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../01_FreeRTOS_Template/FreeRTOS/include/StackMacros.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../01_FreeRTOS_Template/FreeRTOS/include/atomic.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../01_FreeRTOS_Template/FreeRTOS/include/croutine.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../01_FreeRTOS_Template/FreeRTOS/include/deprecated_definitions.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../01_FreeRTOS_Template/FreeRTOS/include/event_groups.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../01_FreeRTOS_Template/FreeRTOS/include/list.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../01_FreeRTOS_Template/FreeRTOS/include/message_buffer.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../01_FreeRTOS_Template/FreeRTOS/include/mpu_prototypes.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../01_FreeRTOS_Template/FreeRTOS/include/mpu_wrappers.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../01_FreeRTOS_Template/FreeRTOS/include/portable.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../01_FreeRTOS_Template/FreeRTOS/include/projdefs.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../01_FreeRTOS_Template/FreeRTOS/include/queue.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../01_FreeRTOS_Template/FreeRTOS/include/semphr.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../01_FreeRTOS_Template/FreeRTOS/include/stack_macros.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../01_FreeRTOS_Template/FreeRTOS/include/stdint.readme" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../01_FreeRTOS_Template/FreeRTOS/include/stream_buffer.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../01_FreeRTOS_Template/FreeRTOS/include/task.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../01_FreeRTOS_Template/FreeRTOS/include/timers.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../01_FreeRTOS_Template/FreeRTOS/list.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../01_FreeRTOS_Template/FreeRTOS/manifest.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../01_FreeRTOS_Template/FreeRTOS/portable/GCC/ARM_CM4F/port.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../01_FreeRTOS_Template/FreeRTOS/portable/GCC/ARM_CM4F/portmacro.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../01_FreeRTOS_Template/FreeRTOS/portable/MemMang/heap_4.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../01_FreeRTOS_Template/FreeRTOS/queue.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../01_FreeRTOS_Template/FreeRTOS/sbom.spdx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../01_FreeRTOS_Template/FreeRTOS/stream_buffer.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../01_FreeRTOS_Template/FreeRTOS/tasks.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../01_FreeRTOS_Template/FreeRTOS/timers.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../01_FreeRTOS_Template/Hardware/adc/adc.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../01_FreeRTOS_Template/Hardware/adc/adc.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../01_FreeRTOS_Template/Hardware/at24cxx/at24cxx.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../01_FreeRTOS_Template/Hardware/at24cxx/at24cxx.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../01_FreeRTOS_Template/Hardware/iic/iic.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../01_FreeRTOS_Template/Hardware/iic/iic.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../01_FreeRTOS_Template/Hardware/inner_temperature/inner_temperature.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../01_FreeRTOS_Template/Hardware/inner_temperature/inner_temperature.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../01_FreeRTOS_Template/Hardware/key/key.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../01_FreeRTOS_Template/Hardware/key/key.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../01_FreeRTOS_Template/Hardware/led/led.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../01_FreeRTOS_Template/Hardware/led/led.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../01_FreeRTOS_Template/Hardware/pcf8574t/pcf8574t.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../01_FreeRTOS_Template/Hardware/pcf8574t/pcf8574t.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../01_FreeRTOS_Template/Hardware/spi/spi.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../01_FreeRTOS_Template/Hardware/spi/spi.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../01_FreeRTOS_Template/Hardware/tim/tim.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../01_FreeRTOS_Template/Hardware/tim/tim.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../01_FreeRTOS_Template/Hardware/uart/uart.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../01_FreeRTOS_Template/Hardware/uart/uart.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../01_FreeRTOS_Template/Hardware/w25qxx/w25qxx.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../01_FreeRTOS_Template/Hardware/w25qxx/w25qxx.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../01_FreeRTOS_Template/STM32F429IGTX_FLASH.ld" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../01_FreeRTOS_Template/STM32F429IGTX_RAM.ld" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../01_FreeRTOS_Template/cmake-build-debug/.cmake/api/v1/query/cache-v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../01_FreeRTOS_Template/cmake-build-debug/.cmake/api/v1/query/cmakeFiles-v1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../01_FreeRTOS_Template/cmake-build-debug/.cmake/api/v1/query/codemodel-v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../01_FreeRTOS_Template/cmake-build-debug/.cmake/api/v1/query/toolchains-v1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../01_FreeRTOS_Template/cmake-build-debug/.cmake/api/v1/reply/cache-v2-5f29300b23084fcee167.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../01_FreeRTOS_Template/cmake-build-debug/.cmake/api/v1/reply/cmakeFiles-v1-6031c4eacd1b5a3b6dcf.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../01_FreeRTOS_Template/cmake-build-debug/.cmake/api/v1/reply/codemodel-v2-66efaaed98b5e2bb6033.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../01_FreeRTOS_Template/cmake-build-debug/.cmake/api/v1/reply/directory-.-Debug-d0094a50bb2071803777.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../01_FreeRTOS_Template/cmake-build-debug/.cmake/api/v1/reply/index-2024-10-16T12-18-35-0143.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../01_FreeRTOS_Template/cmake-build-debug/.cmake/api/v1/reply/target-01_FreeRTOS_Template.elf-Debug-ef24f230b47331d0e96a.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../01_FreeRTOS_Template/cmake-build-debug/.cmake/api/v1/reply/toolchains-v1-2e077c17f0d4050b2661.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../01_FreeRTOS_Template/cmake-build-debug/.ninja_deps" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../01_FreeRTOS_Template/cmake-build-debug/.ninja_log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../01_FreeRTOS_Template/cmake-build-debug/00_Template.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../01_FreeRTOS_Template/cmake-build-debug/00_Template.elf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../01_FreeRTOS_Template/cmake-build-debug/00_Template.hex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../01_FreeRTOS_Template/cmake-build-debug/00_Template.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../01_FreeRTOS_Template/cmake-build-debug/01_FreeRTOS_Template.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../01_FreeRTOS_Template/cmake-build-debug/01_FreeRTOS_Template.elf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../01_FreeRTOS_Template/cmake-build-debug/01_FreeRTOS_Template.hex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../01_FreeRTOS_Template/cmake-build-debug/01_FreeRTOS_Template.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../01_FreeRTOS_Template/cmake-build-debug/CMakeCache.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../01_FreeRTOS_Template/cmake-build-debug/CMakeFiles/01_FreeRTOS_Template.elf.dir/Core/Src/gpio.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../01_FreeRTOS_Template/cmake-build-debug/CMakeFiles/01_FreeRTOS_Template.elf.dir/Core/Src/main.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../01_FreeRTOS_Template/cmake-build-debug/CMakeFiles/01_FreeRTOS_Template.elf.dir/Core/Src/stm32f4xx_hal_msp.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../01_FreeRTOS_Template/cmake-build-debug/CMakeFiles/01_FreeRTOS_Template.elf.dir/Core/Src/stm32f4xx_it.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../01_FreeRTOS_Template/cmake-build-debug/CMakeFiles/01_FreeRTOS_Template.elf.dir/Core/Src/syscalls.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../01_FreeRTOS_Template/cmake-build-debug/CMakeFiles/01_FreeRTOS_Template.elf.dir/Core/Src/sysmem.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../01_FreeRTOS_Template/cmake-build-debug/CMakeFiles/01_FreeRTOS_Template.elf.dir/Core/Src/system_stm32f4xx.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../01_FreeRTOS_Template/cmake-build-debug/CMakeFiles/01_FreeRTOS_Template.elf.dir/Core/Startup/startup_stm32f429igtx.s.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../01_FreeRTOS_Template/cmake-build-debug/CMakeFiles/01_FreeRTOS_Template.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../01_FreeRTOS_Template/cmake-build-debug/CMakeFiles/01_FreeRTOS_Template.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../01_FreeRTOS_Template/cmake-build-debug/CMakeFiles/01_FreeRTOS_Template.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../01_FreeRTOS_Template/cmake-build-debug/CMakeFiles/01_FreeRTOS_Template.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../01_FreeRTOS_Template/cmake-build-debug/CMakeFiles/01_FreeRTOS_Template.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../01_FreeRTOS_Template/cmake-build-debug/CMakeFiles/01_FreeRTOS_Template.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../01_FreeRTOS_Template/cmake-build-debug/CMakeFiles/01_FreeRTOS_Template.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../01_FreeRTOS_Template/cmake-build-debug/CMakeFiles/01_FreeRTOS_Template.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../01_FreeRTOS_Template/cmake-build-debug/CMakeFiles/01_FreeRTOS_Template.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../01_FreeRTOS_Template/cmake-build-debug/CMakeFiles/01_FreeRTOS_Template.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../01_FreeRTOS_Template/cmake-build-debug/CMakeFiles/01_FreeRTOS_Template.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../01_FreeRTOS_Template/cmake-build-debug/CMakeFiles/01_FreeRTOS_Template.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../01_FreeRTOS_Template/cmake-build-debug/CMakeFiles/01_FreeRTOS_Template.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../01_FreeRTOS_Template/cmake-build-debug/CMakeFiles/01_FreeRTOS_Template.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../01_FreeRTOS_Template/cmake-build-debug/CMakeFiles/01_FreeRTOS_Template.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../01_FreeRTOS_Template/cmake-build-debug/CMakeFiles/01_FreeRTOS_Template.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../01_FreeRTOS_Template/cmake-build-debug/CMakeFiles/01_FreeRTOS_Template.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../01_FreeRTOS_Template/cmake-build-debug/CMakeFiles/01_FreeRTOS_Template.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../01_FreeRTOS_Template/cmake-build-debug/CMakeFiles/01_FreeRTOS_Template.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_usart.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../01_FreeRTOS_Template/cmake-build-debug/CMakeFiles/01_FreeRTOS_Template.elf.dir/FreeRTOS/croutine.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../01_FreeRTOS_Template/cmake-build-debug/CMakeFiles/01_FreeRTOS_Template.elf.dir/FreeRTOS/event_groups.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../01_FreeRTOS_Template/cmake-build-debug/CMakeFiles/01_FreeRTOS_Template.elf.dir/FreeRTOS/list.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../01_FreeRTOS_Template/cmake-build-debug/CMakeFiles/01_FreeRTOS_Template.elf.dir/FreeRTOS/portable/GCC/ARM_CM4F/port.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../01_FreeRTOS_Template/cmake-build-debug/CMakeFiles/01_FreeRTOS_Template.elf.dir/FreeRTOS/portable/MemMang/heap_4.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../01_FreeRTOS_Template/cmake-build-debug/CMakeFiles/01_FreeRTOS_Template.elf.dir/FreeRTOS/queue.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../01_FreeRTOS_Template/cmake-build-debug/CMakeFiles/01_FreeRTOS_Template.elf.dir/FreeRTOS/stream_buffer.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../01_FreeRTOS_Template/cmake-build-debug/CMakeFiles/01_FreeRTOS_Template.elf.dir/FreeRTOS/tasks.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../01_FreeRTOS_Template/cmake-build-debug/CMakeFiles/01_FreeRTOS_Template.elf.dir/FreeRTOS/timers.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../01_FreeRTOS_Template/cmake-build-debug/CMakeFiles/01_FreeRTOS_Template.elf.dir/Hardware/adc/adc.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../01_FreeRTOS_Template/cmake-build-debug/CMakeFiles/01_FreeRTOS_Template.elf.dir/Hardware/at24cxx/at24cxx.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../01_FreeRTOS_Template/cmake-build-debug/CMakeFiles/01_FreeRTOS_Template.elf.dir/Hardware/iic/iic.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../01_FreeRTOS_Template/cmake-build-debug/CMakeFiles/01_FreeRTOS_Template.elf.dir/Hardware/inner_temperature/inner_temperature.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../01_FreeRTOS_Template/cmake-build-debug/CMakeFiles/01_FreeRTOS_Template.elf.dir/Hardware/key/key.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../01_FreeRTOS_Template/cmake-build-debug/CMakeFiles/01_FreeRTOS_Template.elf.dir/Hardware/led/led.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../01_FreeRTOS_Template/cmake-build-debug/CMakeFiles/01_FreeRTOS_Template.elf.dir/Hardware/pcf8574t/pcf8574t.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../01_FreeRTOS_Template/cmake-build-debug/CMakeFiles/01_FreeRTOS_Template.elf.dir/Hardware/spi/spi.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../01_FreeRTOS_Template/cmake-build-debug/CMakeFiles/01_FreeRTOS_Template.elf.dir/Hardware/tim/tim.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../01_FreeRTOS_Template/cmake-build-debug/CMakeFiles/01_FreeRTOS_Template.elf.dir/Hardware/uart/uart.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../01_FreeRTOS_Template/cmake-build-debug/CMakeFiles/01_FreeRTOS_Template.elf.dir/Hardware/w25qxx/w25qxx.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../01_FreeRTOS_Template/cmake-build-debug/CMakeFiles/3.29.6/CMakeASMCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../01_FreeRTOS_Template/cmake-build-debug/CMakeFiles/3.29.6/CMakeCCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../01_FreeRTOS_Template/cmake-build-debug/CMakeFiles/3.29.6/CMakeCXXCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../01_FreeRTOS_Template/cmake-build-debug/CMakeFiles/3.29.6/CMakeDetermineCompilerABI_C.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../01_FreeRTOS_Template/cmake-build-debug/CMakeFiles/3.29.6/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../01_FreeRTOS_Template/cmake-build-debug/CMakeFiles/3.29.6/CMakeSystem.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../01_FreeRTOS_Template/cmake-build-debug/CMakeFiles/3.29.6/CompilerIdC/CMakeCCompilerId.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../01_FreeRTOS_Template/cmake-build-debug/CMakeFiles/3.29.6/CompilerIdC/CMakeCCompilerId.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../01_FreeRTOS_Template/cmake-build-debug/CMakeFiles/3.29.6/CompilerIdCXX/CMakeCXXCompilerId.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../01_FreeRTOS_Template/cmake-build-debug/CMakeFiles/3.29.6/CompilerIdCXX/CMakeCXXCompilerId.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../01_FreeRTOS_Template/cmake-build-debug/CMakeFiles/CMakeConfigureLog.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../01_FreeRTOS_Template/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../01_FreeRTOS_Template/cmake-build-debug/CMakeFiles/clion-Debug-log.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../01_FreeRTOS_Template/cmake-build-debug/CMakeFiles/clion-environment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../01_FreeRTOS_Template/cmake-build-debug/CMakeFiles/cmake.check_cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../01_FreeRTOS_Template/cmake-build-debug/CMakeFiles/rules.ninja" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../01_FreeRTOS_Template/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../01_FreeRTOS_Template/cmake-build-debug/build.ninja" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../01_FreeRTOS_Template/cmake-build-debug/cmake_install.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../01_FreeRTOS_Template/stm32f429discovery.cfg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Keil5/STM32F429IGT6/03_FreeRTOS_Template/MDK-ARM/03_FreeRTOS_Template.uvguix.WQH" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../Keil5/STM32F429IGT6/03_FreeRTOS_Template/MDK-ARM/03_FreeRTOS_Template.uvguix.WQH" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Keil5/STM32F429IGT6/03_FreeRTOS_Template/MDK-ARM/03_FreeRTOS_Template.uvoptx" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../Keil5/STM32F429IGT6/03_FreeRTOS_Template/MDK-ARM/03_FreeRTOS_Template.uvoptx" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../.." />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Core/Inc/stm32f4xx_hal_conf.h" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Hardware/spi/spi.c" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Hardware/spi/spi.h" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Hardware/w25qxx/w25qxx.c" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Hardware/w25qxx/w25qxx.h" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="ProjectApplicationVersion">
+    <option name="ide" value="CLion" />
+    <option name="majorVersion" value="2024" />
+    <option name="minorVersion" value="2.2" />
+    <option name="productBranch" value="Classic" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
+  <component name="ProjectId" id="2mNOZzVKxqafs6rPGAhPBKOLxdy" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "CMake 调试.00_Template.executor": "Debug",
+    "OpenOCD 下载并运行.OCD 00_Template.executor": "Run",
+    "RunOnceActivity.RadMigrateCodeStyle": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.cidr.known.project.marker": "true",
+    "RunOnceActivity.readMode.enableVisualFormatting": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "cf.first.check.clang-format": "false",
+    "cidr.known.project.marker": "true",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "E:/code/STM32/CLion/STM32F429IGT6/00_Template",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings",
+    "structure.view.defaults.are.configured": "true",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RunManager" selected="OpenOCD 下载并运行.OCD 00_Template">
+    <configuration name="00_Template" type="CMakeListConfigurationType" factoryName="CMakeListConfigurationFactory" temporary="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="00_FreeRTOS_Template.elf" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="00_FreeRTOS_Template" TARGET_NAME="00_FreeRTOS_Template.elf" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="00_FreeRTOS_Template" RUN_TARGET_NAME="00_FreeRTOS_Template.elf">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="CMake 应用程序.00_FreeRTOS_Template.elf" />
+      <item itemvalue="CMake 调试.00_Template" />
+      <item itemvalue="OpenOCD 下载并运行.OCD 00_Template" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="CMake 调试.00_Template" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="默认任务">
+      <changelist id="da78cc21-e242-4cd1-b42c-b49f64e5a434" name="更改" comment="" />
+      <created>1726913627089</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1726913627089</updated>
+      <workItem from="1726913629206" duration="12291000" />
+      <workItem from="1727060529730" duration="84000" />
+      <workItem from="1727092659280" duration="178000" />
+      <workItem from="1728283524974" duration="59000" />
+      <workItem from="1728636244369" duration="155000" />
+      <workItem from="1728636432073" duration="18200000" />
+      <workItem from="1728697834962" duration="1759000" />
+      <workItem from="1728737769704" duration="511000" />
+      <workItem from="1728738324438" duration="3576000" />
+      <workItem from="1728892979109" duration="19109000" />
+      <workItem from="1728958203432" duration="23160000" />
+      <workItem from="1729040665344" duration="4282000" />
+      <workItem from="1729047090856" duration="300000" />
+      <workItem from="1729047743782" duration="340000" />
+      <workItem from="1729048696938" duration="2593000" />
+      <workItem from="1729060149151" duration="7936000" />
+      <workItem from="1729079832345" duration="6273000" />
+      <workItem from="1729127178991" duration="182000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VCPKGProject">
+    <isAutomaticCheckingOnLaunch value="false" />
+    <isAutomaticFoundErrors value="true" />
+    <isAutomaticReloadCMake value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/../../.." />
+    </ignored-roots>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/Hardware/w25qxx/w25qxx.c</url>
+          <line>29</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="com.jetbrains.cidr.embedded.openocd.conf.type">
+        <watch expression="uart1_data" language="ObjectiveC" />
+        <watch expression="rec" language="ObjectiveC" />
+        <watch expression="W25QXX_TYPE" language="C++" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>
