@@ -1,4 +1,4 @@
-set(CMAKE_CXX_COMPILER "G:/GNU_Tools_ARM_Embedded/10 2020-q4-major/bin/arm-none-eabi-g++.exe")
+set(CMAKE_CXX_COMPILER "E:/GNU_Tools_ARM_Embedded/10 2020-q4-major/bin/arm-none-eabi-g++.exe")
 set(CMAKE_CXX_COMPILER_ARG1 "")
 set(CMAKE_CXX_COMPILER_ID "GNU")
 set(CMAKE_CXX_COMPILER_VERSION "10.2.1")
@@ -23,10 +23,10 @@ set(CMAKE_CXX_SIMULATE_VERSION "")
 
 
 set(CMAKE_AR "arm-none-eabi-ar")
-set(CMAKE_CXX_COMPILER_AR "G:/GNU_Tools_ARM_Embedded/10 2020-q4-major/bin/arm-none-eabi-gcc-ar.exe")
-set(CMAKE_RANLIB "G:/GNU_Tools_ARM_Embedded/10 2020-q4-major/bin/arm-none-eabi-ranlib.exe")
-set(CMAKE_CXX_COMPILER_RANLIB "G:/GNU_Tools_ARM_Embedded/10 2020-q4-major/bin/arm-none-eabi-gcc-ranlib.exe")
-set(CMAKE_LINKER "G:/GNU_Tools_ARM_Embedded/10 2020-q4-major/bin/arm-none-eabi-ld.exe")
+set(CMAKE_CXX_COMPILER_AR "E:/GNU_Tools_ARM_Embedded/10 2020-q4-major/bin/arm-none-eabi-gcc-ar.exe")
+set(CMAKE_RANLIB "E:/GNU_Tools_ARM_Embedded/10 2020-q4-major/bin/arm-none-eabi-ranlib.exe")
+set(CMAKE_CXX_COMPILER_RANLIB "E:/GNU_Tools_ARM_Embedded/10 2020-q4-major/bin/arm-none-eabi-gcc-ranlib.exe")
+set(CMAKE_LINKER "E:/GNU_Tools_ARM_Embedded/10 2020-q4-major/bin/arm-none-eabi-ld.exe")
 set(CMAKE_LINKER_LINK "")
 set(CMAKE_LINKER_LLD "")
 set(CMAKE_CXX_COMPILER_LINKER "NOTFOUND")
@@ -85,7 +85,7 @@ endif()
 
 
 
-set(CMAKE_CXX_IMPLICIT_INCLUDE_DIRECTORIES "G:/GNU_Tools_ARM_Embedded/10 2020-q4-major/arm-none-eabi/include/c++/10.2.1;G:/GNU_Tools_ARM_Embedded/10 2020-q4-major/arm-none-eabi/include/c++/10.2.1/arm-none-eabi;G:/GNU_Tools_ARM_Embedded/10 2020-q4-major/arm-none-eabi/include/c++/10.2.1/backward;G:/GNU_Tools_ARM_Embedded/10 2020-q4-major/lib/gcc/arm-none-eabi/10.2.1/include;G:/GNU_Tools_ARM_Embedded/10 2020-q4-major/lib/gcc/arm-none-eabi/10.2.1/include-fixed;G:/GNU_Tools_ARM_Embedded/10 2020-q4-major/arm-none-eabi/include")
+set(CMAKE_CXX_IMPLICIT_INCLUDE_DIRECTORIES "E:/GNU_Tools_ARM_Embedded/10 2020-q4-major/arm-none-eabi/include/c++/10.2.1;E:/GNU_Tools_ARM_Embedded/10 2020-q4-major/arm-none-eabi/include/c++/10.2.1/arm-none-eabi;E:/GNU_Tools_ARM_Embedded/10 2020-q4-major/arm-none-eabi/include/c++/10.2.1/backward;E:/GNU_Tools_ARM_Embedded/10 2020-q4-major/lib/gcc/arm-none-eabi/10.2.1/include;E:/GNU_Tools_ARM_Embedded/10 2020-q4-major/lib/gcc/arm-none-eabi/10.2.1/include-fixed;E:/GNU_Tools_ARM_Embedded/10 2020-q4-major/arm-none-eabi/include")
 set(CMAKE_CXX_IMPLICIT_LINK_LIBRARIES "")
 set(CMAKE_CXX_IMPLICIT_LINK_DIRECTORIES "")
 set(CMAKE_CXX_IMPLICIT_LINK_FRAMEWORK_DIRECTORIES "")

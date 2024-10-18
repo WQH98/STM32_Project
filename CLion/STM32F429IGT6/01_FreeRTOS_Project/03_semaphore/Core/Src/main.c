@@ -71,7 +71,7 @@ void take_task(void *pvParameters) {
         if(HAL_GPIO_ReadPin(KEY0_PORT, KEY0_PIN) == GPIO_PIN_RESET) {
             xSemaphoreGive(queue_handler);
         }
-        vTaskDelay(500);
+        vTaskDelay(250);
     }
 }
 

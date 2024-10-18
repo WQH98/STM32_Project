@@ -1,6 +1,6 @@
 <component name="ProjectRunConfigurationManager">
   <configuration default="false" name="OCD 00_Template" type="com.jetbrains.cidr.embedded.openocd.conf.type" factoryName="com.jetbrains.cidr.embedded.openocd.conf.factory" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="03_semaphore" TARGET_NAME="03_semaphore.elf" CONFIG_NAME="Debug" version="1" RUN_TARGET_PROJECT_NAME="03_semaphore" RUN_TARGET_NAME="03_semaphore.elf">
-    <openocd version="1" gdb-port="3333" telnet-port="4444" board-config="E:\code\STM32\CLion\STM32F429IGT6\00_Template\stm32f429discovery.cfg" reset-type="INIT" download-type="UPDATED_ONLY">
+    <openocd version="1" gdb-port="3333" telnet-port="4444" board-config="D:\code\STM32\CLion\STM32F429IGT6\01_FreeRTOS_Project\03_semaphore\stm32f429discovery.cfg" reset-type="INIT" download-type="UPDATED_ONLY">
       <debugger kind="GDB" isBundled="true" />
     </openocd>
     <method v="2">

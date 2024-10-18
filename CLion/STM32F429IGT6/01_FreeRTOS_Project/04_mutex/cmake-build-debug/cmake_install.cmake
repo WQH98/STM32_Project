@@ -1,4 +1,4 @@
-# Install script for directory: E:/code/STM32/CLion/STM32F429IGT6/01_FreeRTOS_Project/04_mutex
+# Install script for directory: D:/code/STM32/CLion/STM32F429IGT6/01_FreeRTOS_Project/04_mutex
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "E:/code/STM32/CLion/STM32F429IGT6/01_FreeRTOS_Project/04_mutex/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "D:/code/STM32/CLion/STM32F429IGT6/01_FreeRTOS_Project/04_mutex/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
