@@ -1,0 +1,671 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="CMakePresetLoader">{
+  &quot;useNewFormat&quot;: true
+}</component>
+  <component name="CMakeProjectFlavorService">
+    <option name="flavorId" value="CMakePlainProjectFlavor" />
+  </component>
+  <component name="CMakeReloadState">
+    <option name="reloaded" value="true" />
+  </component>
+  <component name="CMakeRunConfigurationManager">
+    <generated>
+      <config projectName="09_task_notification_counting_semaphores" targetName="09_task_notification_counting_semaphores.elf" />
+    </generated>
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" ENABLED="true" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="da78cc21-e242-4cd1-b42c-b49f64e5a434" name="更改" comment="">
+      <change afterPath="$PROJECT_DIR$/../07_task_notification_message_queue/.cproject" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../07_task_notification_message_queue/.idea/00_Template.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../07_task_notification_message_queue/.idea/editor.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../07_task_notification_message_queue/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../07_task_notification_message_queue/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../07_task_notification_message_queue/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../07_task_notification_message_queue/.idea/runConfigurations/OCD_00_Template.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../07_task_notification_message_queue/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../07_task_notification_message_queue/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../07_task_notification_message_queue/.mxproject" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../07_task_notification_message_queue/.project" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../07_task_notification_message_queue/07_task_notification_message_queue.ioc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../07_task_notification_message_queue/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../07_task_notification_message_queue/CMakeLists_template.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../07_task_notification_message_queue/Core/Inc/gpio.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../07_task_notification_message_queue/Core/Inc/main.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../07_task_notification_message_queue/Core/Inc/stm32f4xx_hal_conf.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../07_task_notification_message_queue/Core/Inc/stm32f4xx_it.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../07_task_notification_message_queue/Core/Src/gpio.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../07_task_notification_message_queue/Core/Src/main.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../07_task_notification_message_queue/Core/Src/stm32f4xx_hal_msp.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../07_task_notification_message_queue/Core/Src/stm32f4xx_it.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../07_task_notification_message_queue/Core/Src/syscalls.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../07_task_notification_message_queue/Core/Src/sysmem.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../07_task_notification_message_queue/Core/Src/system_stm32f4xx.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../07_task_notification_message_queue/Core/Startup/startup_stm32f429igtx.s" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../07_task_notification_message_queue/Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f429xx.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../07_task_notification_message_queue/Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../07_task_notification_message_queue/Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../07_task_notification_message_queue/Drivers/CMSIS/Include/arm_common_tables.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../07_task_notification_message_queue/Drivers/CMSIS/Include/arm_const_structs.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../07_task_notification_message_queue/Drivers/CMSIS/Include/arm_math.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../07_task_notification_message_queue/Drivers/CMSIS/Include/core_cm0.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../07_task_notification_message_queue/Drivers/CMSIS/Include/core_cm0plus.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../07_task_notification_message_queue/Drivers/CMSIS/Include/core_cm3.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../07_task_notification_message_queue/Drivers/CMSIS/Include/core_cm4.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../07_task_notification_message_queue/Drivers/CMSIS/Include/core_cm7.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../07_task_notification_message_queue/Drivers/CMSIS/Include/core_cmFunc.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../07_task_notification_message_queue/Drivers/CMSIS/Include/core_cmInstr.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../07_task_notification_message_queue/Drivers/CMSIS/Include/core_cmSimd.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../07_task_notification_message_queue/Drivers/CMSIS/Include/core_sc000.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../07_task_notification_message_queue/Drivers/CMSIS/Include/core_sc300.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../07_task_notification_message_queue/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../07_task_notification_message_queue/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../07_task_notification_message_queue/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_adc.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../07_task_notification_message_queue/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_adc_ex.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../07_task_notification_message_queue/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../07_task_notification_message_queue/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../07_task_notification_message_queue/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../07_task_notification_message_queue/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../07_task_notification_message_queue/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../07_task_notification_message_queue/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../07_task_notification_message_queue/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../07_task_notification_message_queue/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../07_task_notification_message_queue/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../07_task_notification_message_queue/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../07_task_notification_message_queue/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../07_task_notification_message_queue/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../07_task_notification_message_queue/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../07_task_notification_message_queue/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_spi.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../07_task_notification_message_queue/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../07_task_notification_message_queue/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../07_task_notification_message_queue/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../07_task_notification_message_queue/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_usart.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../07_task_notification_message_queue/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../07_task_notification_message_queue/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../07_task_notification_message_queue/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../07_task_notification_message_queue/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../07_task_notification_message_queue/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../07_task_notification_message_queue/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../07_task_notification_message_queue/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../07_task_notification_message_queue/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../07_task_notification_message_queue/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../07_task_notification_message_queue/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../07_task_notification_message_queue/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../07_task_notification_message_queue/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../07_task_notification_message_queue/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../07_task_notification_message_queue/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../07_task_notification_message_queue/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../07_task_notification_message_queue/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../07_task_notification_message_queue/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../07_task_notification_message_queue/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../07_task_notification_message_queue/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_usart.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../07_task_notification_message_queue/FreeRTOS/croutine.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../07_task_notification_message_queue/FreeRTOS/event_groups.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../07_task_notification_message_queue/FreeRTOS/include/FreeRTOS.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../07_task_notification_message_queue/FreeRTOS/include/FreeRTOSConfig.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../07_task_notification_message_queue/FreeRTOS/include/StackMacros.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../07_task_notification_message_queue/FreeRTOS/include/atomic.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../07_task_notification_message_queue/FreeRTOS/include/croutine.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../07_task_notification_message_queue/FreeRTOS/include/deprecated_definitions.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../07_task_notification_message_queue/FreeRTOS/include/event_groups.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../07_task_notification_message_queue/FreeRTOS/include/list.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../07_task_notification_message_queue/FreeRTOS/include/message_buffer.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../07_task_notification_message_queue/FreeRTOS/include/mpu_prototypes.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../07_task_notification_message_queue/FreeRTOS/include/mpu_wrappers.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../07_task_notification_message_queue/FreeRTOS/include/portable.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../07_task_notification_message_queue/FreeRTOS/include/projdefs.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../07_task_notification_message_queue/FreeRTOS/include/queue.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../07_task_notification_message_queue/FreeRTOS/include/semphr.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../07_task_notification_message_queue/FreeRTOS/include/stack_macros.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../07_task_notification_message_queue/FreeRTOS/include/stdint.readme" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../07_task_notification_message_queue/FreeRTOS/include/stream_buffer.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../07_task_notification_message_queue/FreeRTOS/include/task.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../07_task_notification_message_queue/FreeRTOS/include/timers.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../07_task_notification_message_queue/FreeRTOS/list.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../07_task_notification_message_queue/FreeRTOS/manifest.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../07_task_notification_message_queue/FreeRTOS/portable/GCC/ARM_CM4F/port.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../07_task_notification_message_queue/FreeRTOS/portable/GCC/ARM_CM4F/portmacro.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../07_task_notification_message_queue/FreeRTOS/portable/MemMang/heap_4.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../07_task_notification_message_queue/FreeRTOS/queue.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../07_task_notification_message_queue/FreeRTOS/sbom.spdx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../07_task_notification_message_queue/FreeRTOS/stream_buffer.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../07_task_notification_message_queue/FreeRTOS/tasks.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../07_task_notification_message_queue/FreeRTOS/timers.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../07_task_notification_message_queue/Hardware/adc/adc.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../07_task_notification_message_queue/Hardware/adc/adc.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../07_task_notification_message_queue/Hardware/at24cxx/at24cxx.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../07_task_notification_message_queue/Hardware/at24cxx/at24cxx.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../07_task_notification_message_queue/Hardware/iic/iic.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../07_task_notification_message_queue/Hardware/iic/iic.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../07_task_notification_message_queue/Hardware/inner_temperature/inner_temperature.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../07_task_notification_message_queue/Hardware/inner_temperature/inner_temperature.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../07_task_notification_message_queue/Hardware/key/key.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../07_task_notification_message_queue/Hardware/key/key.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../07_task_notification_message_queue/Hardware/led/led.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../07_task_notification_message_queue/Hardware/led/led.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../07_task_notification_message_queue/Hardware/pcf8574t/pcf8574t.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../07_task_notification_message_queue/Hardware/pcf8574t/pcf8574t.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../07_task_notification_message_queue/Hardware/spi/spi.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../07_task_notification_message_queue/Hardware/spi/spi.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../07_task_notification_message_queue/Hardware/tim/tim.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../07_task_notification_message_queue/Hardware/tim/tim.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../07_task_notification_message_queue/Hardware/uart/uart.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../07_task_notification_message_queue/Hardware/uart/uart.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../07_task_notification_message_queue/Hardware/w25qxx/w25qxx.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../07_task_notification_message_queue/Hardware/w25qxx/w25qxx.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../07_task_notification_message_queue/STM32F429IGTX_FLASH.ld" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../07_task_notification_message_queue/STM32F429IGTX_RAM.ld" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../07_task_notification_message_queue/cmake-build-debug/.cmake/api/v1/query/cache-v2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../07_task_notification_message_queue/cmake-build-debug/.cmake/api/v1/query/cmakeFiles-v1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../07_task_notification_message_queue/cmake-build-debug/.cmake/api/v1/query/codemodel-v2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../07_task_notification_message_queue/cmake-build-debug/.cmake/api/v1/query/toolchains-v1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../07_task_notification_message_queue/cmake-build-debug/.cmake/api/v1/reply/cache-v2-c48c4b1dbfb460c86129.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../07_task_notification_message_queue/cmake-build-debug/.cmake/api/v1/reply/cmakeFiles-v1-9e8726dc4b4d86b27afc.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../07_task_notification_message_queue/cmake-build-debug/.cmake/api/v1/reply/codemodel-v2-cdf98218ea4ca6d1be9f.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../07_task_notification_message_queue/cmake-build-debug/.cmake/api/v1/reply/directory-.-Debug-d0094a50bb2071803777.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../07_task_notification_message_queue/cmake-build-debug/.cmake/api/v1/reply/index-2024-10-19T01-52-45-0386.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../07_task_notification_message_queue/cmake-build-debug/.cmake/api/v1/reply/target-07_task_notification_message_queue.elf-Debug-cdc2a05413bf70c86ae9.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../07_task_notification_message_queue/cmake-build-debug/.cmake/api/v1/reply/toolchains-v1-4732a29849f5810c336a.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../07_task_notification_message_queue/cmake-build-debug/.ninja_deps" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../07_task_notification_message_queue/cmake-build-debug/.ninja_log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../07_task_notification_message_queue/cmake-build-debug/00_FreeRTOS_Template.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../07_task_notification_message_queue/cmake-build-debug/00_FreeRTOS_Template.elf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../07_task_notification_message_queue/cmake-build-debug/00_FreeRTOS_Template.hex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../07_task_notification_message_queue/cmake-build-debug/00_FreeRTOS_Template.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../07_task_notification_message_queue/cmake-build-debug/00_Template.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../07_task_notification_message_queue/cmake-build-debug/00_Template.elf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../07_task_notification_message_queue/cmake-build-debug/00_Template.hex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../07_task_notification_message_queue/cmake-build-debug/00_Template.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../07_task_notification_message_queue/cmake-build-debug/01_FreeRTOS_Template.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../07_task_notification_message_queue/cmake-build-debug/01_FreeRTOS_Template.elf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../07_task_notification_message_queue/cmake-build-debug/01_FreeRTOS_Template.hex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../07_task_notification_message_queue/cmake-build-debug/01_FreeRTOS_Template.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../07_task_notification_message_queue/cmake-build-debug/05_event.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../07_task_notification_message_queue/cmake-build-debug/05_event.elf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../07_task_notification_message_queue/cmake-build-debug/05_event.hex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../07_task_notification_message_queue/cmake-build-debug/05_event.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../07_task_notification_message_queue/cmake-build-debug/06_soft_timer.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../07_task_notification_message_queue/cmake-build-debug/06_soft_timer.elf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../07_task_notification_message_queue/cmake-build-debug/06_soft_timer.hex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../07_task_notification_message_queue/cmake-build-debug/06_soft_timer.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../07_task_notification_message_queue/cmake-build-debug/07_task_notification_message_queue.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../07_task_notification_message_queue/cmake-build-debug/07_task_notification_message_queue.elf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../07_task_notification_message_queue/cmake-build-debug/07_task_notification_message_queue.hex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../07_task_notification_message_queue/cmake-build-debug/07_task_notification_message_queue.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../07_task_notification_message_queue/cmake-build-debug/CMakeCache.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../07_task_notification_message_queue/cmake-build-debug/CMakeFiles/07_task_notification_message_queue.elf.dir/Core/Src/gpio.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../07_task_notification_message_queue/cmake-build-debug/CMakeFiles/07_task_notification_message_queue.elf.dir/Core/Src/main.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../07_task_notification_message_queue/cmake-build-debug/CMakeFiles/07_task_notification_message_queue.elf.dir/Core/Src/stm32f4xx_hal_msp.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../07_task_notification_message_queue/cmake-build-debug/CMakeFiles/07_task_notification_message_queue.elf.dir/Core/Src/stm32f4xx_it.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../07_task_notification_message_queue/cmake-build-debug/CMakeFiles/07_task_notification_message_queue.elf.dir/Core/Src/syscalls.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../07_task_notification_message_queue/cmake-build-debug/CMakeFiles/07_task_notification_message_queue.elf.dir/Core/Src/sysmem.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../07_task_notification_message_queue/cmake-build-debug/CMakeFiles/07_task_notification_message_queue.elf.dir/Core/Src/system_stm32f4xx.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../07_task_notification_message_queue/cmake-build-debug/CMakeFiles/07_task_notification_message_queue.elf.dir/Core/Startup/startup_stm32f429igtx.s.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../07_task_notification_message_queue/cmake-build-debug/CMakeFiles/07_task_notification_message_queue.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../07_task_notification_message_queue/cmake-build-debug/CMakeFiles/07_task_notification_message_queue.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../07_task_notification_message_queue/cmake-build-debug/CMakeFiles/07_task_notification_message_queue.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../07_task_notification_message_queue/cmake-build-debug/CMakeFiles/07_task_notification_message_queue.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../07_task_notification_message_queue/cmake-build-debug/CMakeFiles/07_task_notification_message_queue.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../07_task_notification_message_queue/cmake-build-debug/CMakeFiles/07_task_notification_message_queue.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../07_task_notification_message_queue/cmake-build-debug/CMakeFiles/07_task_notification_message_queue.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../07_task_notification_message_queue/cmake-build-debug/CMakeFiles/07_task_notification_message_queue.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../07_task_notification_message_queue/cmake-build-debug/CMakeFiles/07_task_notification_message_queue.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../07_task_notification_message_queue/cmake-build-debug/CMakeFiles/07_task_notification_message_queue.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../07_task_notification_message_queue/cmake-build-debug/CMakeFiles/07_task_notification_message_queue.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../07_task_notification_message_queue/cmake-build-debug/CMakeFiles/07_task_notification_message_queue.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../07_task_notification_message_queue/cmake-build-debug/CMakeFiles/07_task_notification_message_queue.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../07_task_notification_message_queue/cmake-build-debug/CMakeFiles/07_task_notification_message_queue.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../07_task_notification_message_queue/cmake-build-debug/CMakeFiles/07_task_notification_message_queue.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../07_task_notification_message_queue/cmake-build-debug/CMakeFiles/07_task_notification_message_queue.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../07_task_notification_message_queue/cmake-build-debug/CMakeFiles/07_task_notification_message_queue.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../07_task_notification_message_queue/cmake-build-debug/CMakeFiles/07_task_notification_message_queue.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../07_task_notification_message_queue/cmake-build-debug/CMakeFiles/07_task_notification_message_queue.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_usart.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../07_task_notification_message_queue/cmake-build-debug/CMakeFiles/07_task_notification_message_queue.elf.dir/FreeRTOS/croutine.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../07_task_notification_message_queue/cmake-build-debug/CMakeFiles/07_task_notification_message_queue.elf.dir/FreeRTOS/event_groups.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../07_task_notification_message_queue/cmake-build-debug/CMakeFiles/07_task_notification_message_queue.elf.dir/FreeRTOS/list.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../07_task_notification_message_queue/cmake-build-debug/CMakeFiles/07_task_notification_message_queue.elf.dir/FreeRTOS/portable/GCC/ARM_CM4F/port.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../07_task_notification_message_queue/cmake-build-debug/CMakeFiles/07_task_notification_message_queue.elf.dir/FreeRTOS/portable/MemMang/heap_4.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../07_task_notification_message_queue/cmake-build-debug/CMakeFiles/07_task_notification_message_queue.elf.dir/FreeRTOS/queue.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../07_task_notification_message_queue/cmake-build-debug/CMakeFiles/07_task_notification_message_queue.elf.dir/FreeRTOS/stream_buffer.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../07_task_notification_message_queue/cmake-build-debug/CMakeFiles/07_task_notification_message_queue.elf.dir/FreeRTOS/tasks.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../07_task_notification_message_queue/cmake-build-debug/CMakeFiles/07_task_notification_message_queue.elf.dir/FreeRTOS/timers.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../07_task_notification_message_queue/cmake-build-debug/CMakeFiles/07_task_notification_message_queue.elf.dir/Hardware/adc/adc.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../07_task_notification_message_queue/cmake-build-debug/CMakeFiles/07_task_notification_message_queue.elf.dir/Hardware/at24cxx/at24cxx.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../07_task_notification_message_queue/cmake-build-debug/CMakeFiles/07_task_notification_message_queue.elf.dir/Hardware/iic/iic.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../07_task_notification_message_queue/cmake-build-debug/CMakeFiles/07_task_notification_message_queue.elf.dir/Hardware/inner_temperature/inner_temperature.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../07_task_notification_message_queue/cmake-build-debug/CMakeFiles/07_task_notification_message_queue.elf.dir/Hardware/key/key.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../07_task_notification_message_queue/cmake-build-debug/CMakeFiles/07_task_notification_message_queue.elf.dir/Hardware/led/led.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../07_task_notification_message_queue/cmake-build-debug/CMakeFiles/07_task_notification_message_queue.elf.dir/Hardware/pcf8574t/pcf8574t.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../07_task_notification_message_queue/cmake-build-debug/CMakeFiles/07_task_notification_message_queue.elf.dir/Hardware/spi/spi.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../07_task_notification_message_queue/cmake-build-debug/CMakeFiles/07_task_notification_message_queue.elf.dir/Hardware/tim/tim.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../07_task_notification_message_queue/cmake-build-debug/CMakeFiles/07_task_notification_message_queue.elf.dir/Hardware/uart/uart.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../07_task_notification_message_queue/cmake-build-debug/CMakeFiles/07_task_notification_message_queue.elf.dir/Hardware/w25qxx/w25qxx.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../07_task_notification_message_queue/cmake-build-debug/CMakeFiles/3.29.6/CMakeASMCompiler.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../07_task_notification_message_queue/cmake-build-debug/CMakeFiles/3.29.6/CMakeCCompiler.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../07_task_notification_message_queue/cmake-build-debug/CMakeFiles/3.29.6/CMakeCXXCompiler.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../07_task_notification_message_queue/cmake-build-debug/CMakeFiles/3.29.6/CMakeDetermineCompilerABI_C.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../07_task_notification_message_queue/cmake-build-debug/CMakeFiles/3.29.6/CMakeDetermineCompilerABI_CXX.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../07_task_notification_message_queue/cmake-build-debug/CMakeFiles/3.29.6/CMakeSystem.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../07_task_notification_message_queue/cmake-build-debug/CMakeFiles/3.29.6/CompilerIdC/CMakeCCompilerId.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../07_task_notification_message_queue/cmake-build-debug/CMakeFiles/3.29.6/CompilerIdC/CMakeCCompilerId.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../07_task_notification_message_queue/cmake-build-debug/CMakeFiles/3.29.6/CompilerIdCXX/CMakeCXXCompilerId.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../07_task_notification_message_queue/cmake-build-debug/CMakeFiles/3.29.6/CompilerIdCXX/CMakeCXXCompilerId.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../07_task_notification_message_queue/cmake-build-debug/CMakeFiles/CMakeConfigureLog.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../07_task_notification_message_queue/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../07_task_notification_message_queue/cmake-build-debug/CMakeFiles/clion-Debug-log.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../07_task_notification_message_queue/cmake-build-debug/CMakeFiles/clion-environment.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../07_task_notification_message_queue/cmake-build-debug/CMakeFiles/cmake.check_cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../07_task_notification_message_queue/cmake-build-debug/CMakeFiles/rules.ninja" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../07_task_notification_message_queue/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../07_task_notification_message_queue/cmake-build-debug/build.ninja" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../07_task_notification_message_queue/cmake-build-debug/cmake_install.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../07_task_notification_message_queue/stm32f429discovery.cfg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../08_task_notification_semaphore/.cproject" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../08_task_notification_semaphore/.idea/00_Template.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../08_task_notification_semaphore/.idea/editor.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../08_task_notification_semaphore/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../08_task_notification_semaphore/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../08_task_notification_semaphore/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../08_task_notification_semaphore/.idea/runConfigurations/OCD_00_Template.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../08_task_notification_semaphore/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../08_task_notification_semaphore/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../08_task_notification_semaphore/.mxproject" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../08_task_notification_semaphore/.project" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../08_task_notification_semaphore/08_task_notification_semaphore.ioc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../08_task_notification_semaphore/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../08_task_notification_semaphore/CMakeLists_template.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../08_task_notification_semaphore/Core/Inc/gpio.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../08_task_notification_semaphore/Core/Inc/main.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../08_task_notification_semaphore/Core/Inc/stm32f4xx_hal_conf.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../08_task_notification_semaphore/Core/Inc/stm32f4xx_it.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../08_task_notification_semaphore/Core/Src/gpio.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../08_task_notification_semaphore/Core/Src/main.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../08_task_notification_semaphore/Core/Src/stm32f4xx_hal_msp.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../08_task_notification_semaphore/Core/Src/stm32f4xx_it.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../08_task_notification_semaphore/Core/Src/syscalls.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../08_task_notification_semaphore/Core/Src/sysmem.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../08_task_notification_semaphore/Core/Src/system_stm32f4xx.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../08_task_notification_semaphore/Core/Startup/startup_stm32f429igtx.s" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../08_task_notification_semaphore/Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f429xx.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../08_task_notification_semaphore/Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../08_task_notification_semaphore/Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../08_task_notification_semaphore/Drivers/CMSIS/Include/arm_common_tables.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../08_task_notification_semaphore/Drivers/CMSIS/Include/arm_const_structs.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../08_task_notification_semaphore/Drivers/CMSIS/Include/arm_math.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../08_task_notification_semaphore/Drivers/CMSIS/Include/core_cm0.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../08_task_notification_semaphore/Drivers/CMSIS/Include/core_cm0plus.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../08_task_notification_semaphore/Drivers/CMSIS/Include/core_cm3.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../08_task_notification_semaphore/Drivers/CMSIS/Include/core_cm4.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../08_task_notification_semaphore/Drivers/CMSIS/Include/core_cm7.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../08_task_notification_semaphore/Drivers/CMSIS/Include/core_cmFunc.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../08_task_notification_semaphore/Drivers/CMSIS/Include/core_cmInstr.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../08_task_notification_semaphore/Drivers/CMSIS/Include/core_cmSimd.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../08_task_notification_semaphore/Drivers/CMSIS/Include/core_sc000.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../08_task_notification_semaphore/Drivers/CMSIS/Include/core_sc300.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../08_task_notification_semaphore/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../08_task_notification_semaphore/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../08_task_notification_semaphore/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_adc.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../08_task_notification_semaphore/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_adc_ex.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../08_task_notification_semaphore/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../08_task_notification_semaphore/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../08_task_notification_semaphore/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../08_task_notification_semaphore/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../08_task_notification_semaphore/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../08_task_notification_semaphore/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../08_task_notification_semaphore/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../08_task_notification_semaphore/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../08_task_notification_semaphore/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../08_task_notification_semaphore/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../08_task_notification_semaphore/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../08_task_notification_semaphore/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../08_task_notification_semaphore/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../08_task_notification_semaphore/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_spi.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../08_task_notification_semaphore/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../08_task_notification_semaphore/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../08_task_notification_semaphore/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../08_task_notification_semaphore/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_usart.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../08_task_notification_semaphore/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../08_task_notification_semaphore/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../08_task_notification_semaphore/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../08_task_notification_semaphore/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../08_task_notification_semaphore/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../08_task_notification_semaphore/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../08_task_notification_semaphore/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../08_task_notification_semaphore/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../08_task_notification_semaphore/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../08_task_notification_semaphore/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../08_task_notification_semaphore/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../08_task_notification_semaphore/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../08_task_notification_semaphore/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../08_task_notification_semaphore/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../08_task_notification_semaphore/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../08_task_notification_semaphore/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../08_task_notification_semaphore/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../08_task_notification_semaphore/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../08_task_notification_semaphore/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_usart.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../08_task_notification_semaphore/FreeRTOS/croutine.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../08_task_notification_semaphore/FreeRTOS/event_groups.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../08_task_notification_semaphore/FreeRTOS/include/FreeRTOS.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../08_task_notification_semaphore/FreeRTOS/include/FreeRTOSConfig.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../08_task_notification_semaphore/FreeRTOS/include/StackMacros.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../08_task_notification_semaphore/FreeRTOS/include/atomic.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../08_task_notification_semaphore/FreeRTOS/include/croutine.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../08_task_notification_semaphore/FreeRTOS/include/deprecated_definitions.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../08_task_notification_semaphore/FreeRTOS/include/event_groups.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../08_task_notification_semaphore/FreeRTOS/include/list.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../08_task_notification_semaphore/FreeRTOS/include/message_buffer.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../08_task_notification_semaphore/FreeRTOS/include/mpu_prototypes.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../08_task_notification_semaphore/FreeRTOS/include/mpu_wrappers.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../08_task_notification_semaphore/FreeRTOS/include/portable.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../08_task_notification_semaphore/FreeRTOS/include/projdefs.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../08_task_notification_semaphore/FreeRTOS/include/queue.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../08_task_notification_semaphore/FreeRTOS/include/semphr.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../08_task_notification_semaphore/FreeRTOS/include/stack_macros.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../08_task_notification_semaphore/FreeRTOS/include/stdint.readme" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../08_task_notification_semaphore/FreeRTOS/include/stream_buffer.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../08_task_notification_semaphore/FreeRTOS/include/task.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../08_task_notification_semaphore/FreeRTOS/include/timers.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../08_task_notification_semaphore/FreeRTOS/list.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../08_task_notification_semaphore/FreeRTOS/manifest.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../08_task_notification_semaphore/FreeRTOS/portable/GCC/ARM_CM4F/port.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../08_task_notification_semaphore/FreeRTOS/portable/GCC/ARM_CM4F/portmacro.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../08_task_notification_semaphore/FreeRTOS/portable/MemMang/heap_4.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../08_task_notification_semaphore/FreeRTOS/queue.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../08_task_notification_semaphore/FreeRTOS/sbom.spdx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../08_task_notification_semaphore/FreeRTOS/stream_buffer.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../08_task_notification_semaphore/FreeRTOS/tasks.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../08_task_notification_semaphore/FreeRTOS/timers.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../08_task_notification_semaphore/Hardware/adc/adc.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../08_task_notification_semaphore/Hardware/adc/adc.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../08_task_notification_semaphore/Hardware/at24cxx/at24cxx.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../08_task_notification_semaphore/Hardware/at24cxx/at24cxx.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../08_task_notification_semaphore/Hardware/iic/iic.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../08_task_notification_semaphore/Hardware/iic/iic.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../08_task_notification_semaphore/Hardware/inner_temperature/inner_temperature.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../08_task_notification_semaphore/Hardware/inner_temperature/inner_temperature.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../08_task_notification_semaphore/Hardware/key/key.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../08_task_notification_semaphore/Hardware/key/key.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../08_task_notification_semaphore/Hardware/led/led.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../08_task_notification_semaphore/Hardware/led/led.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../08_task_notification_semaphore/Hardware/pcf8574t/pcf8574t.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../08_task_notification_semaphore/Hardware/pcf8574t/pcf8574t.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../08_task_notification_semaphore/Hardware/spi/spi.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../08_task_notification_semaphore/Hardware/spi/spi.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../08_task_notification_semaphore/Hardware/tim/tim.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../08_task_notification_semaphore/Hardware/tim/tim.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../08_task_notification_semaphore/Hardware/uart/uart.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../08_task_notification_semaphore/Hardware/uart/uart.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../08_task_notification_semaphore/Hardware/w25qxx/w25qxx.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../08_task_notification_semaphore/Hardware/w25qxx/w25qxx.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../08_task_notification_semaphore/STM32F429IGTX_FLASH.ld" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../08_task_notification_semaphore/STM32F429IGTX_RAM.ld" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../08_task_notification_semaphore/cmake-build-debug/.cmake/api/v1/query/cache-v2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../08_task_notification_semaphore/cmake-build-debug/.cmake/api/v1/query/cmakeFiles-v1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../08_task_notification_semaphore/cmake-build-debug/.cmake/api/v1/query/codemodel-v2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../08_task_notification_semaphore/cmake-build-debug/.cmake/api/v1/query/toolchains-v1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../08_task_notification_semaphore/cmake-build-debug/.cmake/api/v1/reply/cache-v2-b640bc75239e46011a1b.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../08_task_notification_semaphore/cmake-build-debug/.cmake/api/v1/reply/cmakeFiles-v1-635ef54f5f88b6263755.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../08_task_notification_semaphore/cmake-build-debug/.cmake/api/v1/reply/codemodel-v2-1bd522681c85155279d0.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../08_task_notification_semaphore/cmake-build-debug/.cmake/api/v1/reply/directory-.-Debug-d0094a50bb2071803777.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../08_task_notification_semaphore/cmake-build-debug/.cmake/api/v1/reply/index-2024-10-19T06-40-33-0339.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../08_task_notification_semaphore/cmake-build-debug/.cmake/api/v1/reply/target-08_task_notification_semaphore.elf-Debug-3f3daedd0dd0e5dce294.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../08_task_notification_semaphore/cmake-build-debug/.cmake/api/v1/reply/toolchains-v1-4732a29849f5810c336a.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../08_task_notification_semaphore/cmake-build-debug/.ninja_deps" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../08_task_notification_semaphore/cmake-build-debug/.ninja_log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../08_task_notification_semaphore/cmake-build-debug/00_FreeRTOS_Template.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../08_task_notification_semaphore/cmake-build-debug/00_FreeRTOS_Template.elf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../08_task_notification_semaphore/cmake-build-debug/00_FreeRTOS_Template.hex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../08_task_notification_semaphore/cmake-build-debug/00_FreeRTOS_Template.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../08_task_notification_semaphore/cmake-build-debug/00_Template.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../08_task_notification_semaphore/cmake-build-debug/00_Template.elf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../08_task_notification_semaphore/cmake-build-debug/00_Template.hex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../08_task_notification_semaphore/cmake-build-debug/00_Template.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../08_task_notification_semaphore/cmake-build-debug/01_FreeRTOS_Template.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../08_task_notification_semaphore/cmake-build-debug/01_FreeRTOS_Template.elf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../08_task_notification_semaphore/cmake-build-debug/01_FreeRTOS_Template.hex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../08_task_notification_semaphore/cmake-build-debug/01_FreeRTOS_Template.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../08_task_notification_semaphore/cmake-build-debug/05_event.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../08_task_notification_semaphore/cmake-build-debug/05_event.elf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../08_task_notification_semaphore/cmake-build-debug/05_event.hex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../08_task_notification_semaphore/cmake-build-debug/05_event.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../08_task_notification_semaphore/cmake-build-debug/06_soft_timer.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../08_task_notification_semaphore/cmake-build-debug/06_soft_timer.elf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../08_task_notification_semaphore/cmake-build-debug/06_soft_timer.hex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../08_task_notification_semaphore/cmake-build-debug/06_soft_timer.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../08_task_notification_semaphore/cmake-build-debug/07_task_notification_message_queue.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../08_task_notification_semaphore/cmake-build-debug/07_task_notification_message_queue.elf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../08_task_notification_semaphore/cmake-build-debug/07_task_notification_message_queue.hex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../08_task_notification_semaphore/cmake-build-debug/07_task_notification_message_queue.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../08_task_notification_semaphore/cmake-build-debug/08_task_notification_semaphore.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../08_task_notification_semaphore/cmake-build-debug/08_task_notification_semaphore.elf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../08_task_notification_semaphore/cmake-build-debug/08_task_notification_semaphore.hex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../08_task_notification_semaphore/cmake-build-debug/08_task_notification_semaphore.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../08_task_notification_semaphore/cmake-build-debug/CMakeCache.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../08_task_notification_semaphore/cmake-build-debug/CMakeFiles/08_task_notification_semaphore.elf.dir/Core/Src/gpio.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../08_task_notification_semaphore/cmake-build-debug/CMakeFiles/08_task_notification_semaphore.elf.dir/Core/Src/main.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../08_task_notification_semaphore/cmake-build-debug/CMakeFiles/08_task_notification_semaphore.elf.dir/Core/Src/stm32f4xx_hal_msp.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../08_task_notification_semaphore/cmake-build-debug/CMakeFiles/08_task_notification_semaphore.elf.dir/Core/Src/stm32f4xx_it.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../08_task_notification_semaphore/cmake-build-debug/CMakeFiles/08_task_notification_semaphore.elf.dir/Core/Src/syscalls.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../08_task_notification_semaphore/cmake-build-debug/CMakeFiles/08_task_notification_semaphore.elf.dir/Core/Src/sysmem.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../08_task_notification_semaphore/cmake-build-debug/CMakeFiles/08_task_notification_semaphore.elf.dir/Core/Src/system_stm32f4xx.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../08_task_notification_semaphore/cmake-build-debug/CMakeFiles/08_task_notification_semaphore.elf.dir/Core/Startup/startup_stm32f429igtx.s.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../08_task_notification_semaphore/cmake-build-debug/CMakeFiles/08_task_notification_semaphore.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../08_task_notification_semaphore/cmake-build-debug/CMakeFiles/08_task_notification_semaphore.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../08_task_notification_semaphore/cmake-build-debug/CMakeFiles/08_task_notification_semaphore.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../08_task_notification_semaphore/cmake-build-debug/CMakeFiles/08_task_notification_semaphore.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../08_task_notification_semaphore/cmake-build-debug/CMakeFiles/08_task_notification_semaphore.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../08_task_notification_semaphore/cmake-build-debug/CMakeFiles/08_task_notification_semaphore.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../08_task_notification_semaphore/cmake-build-debug/CMakeFiles/08_task_notification_semaphore.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../08_task_notification_semaphore/cmake-build-debug/CMakeFiles/08_task_notification_semaphore.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../08_task_notification_semaphore/cmake-build-debug/CMakeFiles/08_task_notification_semaphore.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../08_task_notification_semaphore/cmake-build-debug/CMakeFiles/08_task_notification_semaphore.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../08_task_notification_semaphore/cmake-build-debug/CMakeFiles/08_task_notification_semaphore.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../08_task_notification_semaphore/cmake-build-debug/CMakeFiles/08_task_notification_semaphore.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../08_task_notification_semaphore/cmake-build-debug/CMakeFiles/08_task_notification_semaphore.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../08_task_notification_semaphore/cmake-build-debug/CMakeFiles/08_task_notification_semaphore.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../08_task_notification_semaphore/cmake-build-debug/CMakeFiles/08_task_notification_semaphore.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../08_task_notification_semaphore/cmake-build-debug/CMakeFiles/08_task_notification_semaphore.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../08_task_notification_semaphore/cmake-build-debug/CMakeFiles/08_task_notification_semaphore.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../08_task_notification_semaphore/cmake-build-debug/CMakeFiles/08_task_notification_semaphore.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../08_task_notification_semaphore/cmake-build-debug/CMakeFiles/08_task_notification_semaphore.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_usart.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../08_task_notification_semaphore/cmake-build-debug/CMakeFiles/08_task_notification_semaphore.elf.dir/FreeRTOS/croutine.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../08_task_notification_semaphore/cmake-build-debug/CMakeFiles/08_task_notification_semaphore.elf.dir/FreeRTOS/event_groups.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../08_task_notification_semaphore/cmake-build-debug/CMakeFiles/08_task_notification_semaphore.elf.dir/FreeRTOS/list.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../08_task_notification_semaphore/cmake-build-debug/CMakeFiles/08_task_notification_semaphore.elf.dir/FreeRTOS/portable/GCC/ARM_CM4F/port.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../08_task_notification_semaphore/cmake-build-debug/CMakeFiles/08_task_notification_semaphore.elf.dir/FreeRTOS/portable/MemMang/heap_4.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../08_task_notification_semaphore/cmake-build-debug/CMakeFiles/08_task_notification_semaphore.elf.dir/FreeRTOS/queue.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../08_task_notification_semaphore/cmake-build-debug/CMakeFiles/08_task_notification_semaphore.elf.dir/FreeRTOS/stream_buffer.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../08_task_notification_semaphore/cmake-build-debug/CMakeFiles/08_task_notification_semaphore.elf.dir/FreeRTOS/tasks.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../08_task_notification_semaphore/cmake-build-debug/CMakeFiles/08_task_notification_semaphore.elf.dir/FreeRTOS/timers.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../08_task_notification_semaphore/cmake-build-debug/CMakeFiles/08_task_notification_semaphore.elf.dir/Hardware/adc/adc.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../08_task_notification_semaphore/cmake-build-debug/CMakeFiles/08_task_notification_semaphore.elf.dir/Hardware/at24cxx/at24cxx.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../08_task_notification_semaphore/cmake-build-debug/CMakeFiles/08_task_notification_semaphore.elf.dir/Hardware/iic/iic.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../08_task_notification_semaphore/cmake-build-debug/CMakeFiles/08_task_notification_semaphore.elf.dir/Hardware/inner_temperature/inner_temperature.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../08_task_notification_semaphore/cmake-build-debug/CMakeFiles/08_task_notification_semaphore.elf.dir/Hardware/key/key.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../08_task_notification_semaphore/cmake-build-debug/CMakeFiles/08_task_notification_semaphore.elf.dir/Hardware/led/led.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../08_task_notification_semaphore/cmake-build-debug/CMakeFiles/08_task_notification_semaphore.elf.dir/Hardware/pcf8574t/pcf8574t.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../08_task_notification_semaphore/cmake-build-debug/CMakeFiles/08_task_notification_semaphore.elf.dir/Hardware/spi/spi.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../08_task_notification_semaphore/cmake-build-debug/CMakeFiles/08_task_notification_semaphore.elf.dir/Hardware/tim/tim.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../08_task_notification_semaphore/cmake-build-debug/CMakeFiles/08_task_notification_semaphore.elf.dir/Hardware/uart/uart.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../08_task_notification_semaphore/cmake-build-debug/CMakeFiles/08_task_notification_semaphore.elf.dir/Hardware/w25qxx/w25qxx.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../08_task_notification_semaphore/cmake-build-debug/CMakeFiles/3.29.6/CMakeASMCompiler.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../08_task_notification_semaphore/cmake-build-debug/CMakeFiles/3.29.6/CMakeCCompiler.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../08_task_notification_semaphore/cmake-build-debug/CMakeFiles/3.29.6/CMakeCXXCompiler.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../08_task_notification_semaphore/cmake-build-debug/CMakeFiles/3.29.6/CMakeDetermineCompilerABI_C.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../08_task_notification_semaphore/cmake-build-debug/CMakeFiles/3.29.6/CMakeDetermineCompilerABI_CXX.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../08_task_notification_semaphore/cmake-build-debug/CMakeFiles/3.29.6/CMakeSystem.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../08_task_notification_semaphore/cmake-build-debug/CMakeFiles/3.29.6/CompilerIdC/CMakeCCompilerId.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../08_task_notification_semaphore/cmake-build-debug/CMakeFiles/3.29.6/CompilerIdC/CMakeCCompilerId.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../08_task_notification_semaphore/cmake-build-debug/CMakeFiles/3.29.6/CompilerIdCXX/CMakeCXXCompilerId.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../08_task_notification_semaphore/cmake-build-debug/CMakeFiles/3.29.6/CompilerIdCXX/CMakeCXXCompilerId.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../08_task_notification_semaphore/cmake-build-debug/CMakeFiles/CMakeConfigureLog.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../08_task_notification_semaphore/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../08_task_notification_semaphore/cmake-build-debug/CMakeFiles/clion-Debug-log.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../08_task_notification_semaphore/cmake-build-debug/CMakeFiles/clion-environment.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../08_task_notification_semaphore/cmake-build-debug/CMakeFiles/cmake.check_cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../08_task_notification_semaphore/cmake-build-debug/CMakeFiles/rules.ninja" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../08_task_notification_semaphore/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../08_task_notification_semaphore/cmake-build-debug/build.ninja" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../08_task_notification_semaphore/cmake-build-debug/cmake_install.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../08_task_notification_semaphore/stm32f429discovery.cfg" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../.." />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/FreeRTOS/include/task.h" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Hardware/uart/uart.h" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://E:/GNU_Tools_ARM_Embedded/10 2020-q4-major/lib/gcc/arm-none-eabi/10.2.1/include-fixed/limits.h" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="ProjectApplicationVersion">
+    <option name="ide" value="CLion" />
+    <option name="majorVersion" value="2024" />
+    <option name="minorVersion" value="2.2" />
+    <option name="productBranch" value="Classic" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
+  <component name="ProjectId" id="2mNOZzVKxqafs6rPGAhPBKOLxdy" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;CMake 调试.00_Template.executor&quot;: &quot;Debug&quot;,
+    &quot;OpenOCD 下载并运行.OCD 00_Template.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.RadMigrateCodeStyle&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.readMode.enableVisualFormatting&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;cf.first.check.clang-format&quot;: &quot;false&quot;,
+    &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/code/STM32/CLion/STM32F429IGT6/01_FreeRTOS_Project/06_soft_timer&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.DirectoryMappings&quot;,
+    &quot;structure.view.defaults.are.configured&quot;: &quot;true&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RunManager" selected="OpenOCD 下载并运行.OCD 00_Template">
+    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="00_Template" type="CMakeListConfigurationType" factoryName="CMakeListConfigurationFactory" temporary="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="09_task_notification_counting_semaphores.elf" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="09_task_notification_counting_semaphores" TARGET_NAME="09_task_notification_counting_semaphores.elf" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="09_task_notification_counting_semaphores" RUN_TARGET_NAME="09_task_notification_counting_semaphores.elf">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="CMake 应用程序.09_task_notification_counting_semaphores.elf" />
+      <item itemvalue="CMake 调试.00_Template" />
+      <item itemvalue="OpenOCD 下载并运行.OCD 00_Template" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="CMake 调试.00_Template" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="默认任务">
+      <changelist id="da78cc21-e242-4cd1-b42c-b49f64e5a434" name="更改" comment="" />
+      <created>1726913627089</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1726913627089</updated>
+      <workItem from="1726913629206" duration="12291000" />
+      <workItem from="1727060529730" duration="84000" />
+      <workItem from="1727092659280" duration="178000" />
+      <workItem from="1728283524974" duration="59000" />
+      <workItem from="1728636244369" duration="155000" />
+      <workItem from="1728636432073" duration="18200000" />
+      <workItem from="1728697834962" duration="1759000" />
+      <workItem from="1728737769704" duration="511000" />
+      <workItem from="1728738324438" duration="3576000" />
+      <workItem from="1728892979109" duration="19109000" />
+      <workItem from="1728958203432" duration="23160000" />
+      <workItem from="1729040665344" duration="4282000" />
+      <workItem from="1729047090856" duration="300000" />
+      <workItem from="1729047743782" duration="340000" />
+      <workItem from="1729048696938" duration="2593000" />
+      <workItem from="1729060149151" duration="7936000" />
+      <workItem from="1729079832345" duration="6273000" />
+      <workItem from="1729127178991" duration="182000" />
+      <workItem from="1729253959387" duration="2355000" />
+      <workItem from="1729258295329" duration="2139000" />
+      <workItem from="1729302758010" duration="4710000" />
+      <workItem from="1729320026953" duration="1678000" />
+      <workItem from="1729322355153" duration="3627000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VCPKGProject">
+    <isAutomaticCheckingOnLaunch value="false" />
+    <isAutomaticFoundErrors value="true" />
+    <isAutomaticReloadCMake value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/../../.." />
+    </ignored-roots>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/Hardware/w25qxx/w25qxx.c</url>
+          <line>29</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="com.jetbrains.cidr.embedded.openocd.conf.type">
+        <watch expression="uart1_data" language="ObjectiveC" />
+        <watch expression="rec" language="ObjectiveC" />
+        <watch expression="W25QXX_TYPE" language="C++" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>
