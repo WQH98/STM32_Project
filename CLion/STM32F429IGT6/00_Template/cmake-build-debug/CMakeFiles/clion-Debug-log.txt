@@ -1,5 +1,5 @@
-D:\CLion\bin\cmake\win\x64\bin\cmake.exe -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=D:/CLion/bin/ninja/win/x64/ninja.exe -G Ninja -S E:\code\STM32\CLion\STM32F429IGT6\00_Template -B E:\code\STM32\CLion\STM32F429IGT6\00_Template\cmake-build-debug
+E:\CLion\bin\cmake\win\x64\bin\cmake.exe -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=E:/CLion/bin/ninja/win/x64/ninja.exe -G Ninja -S D:\code\STM32\CLion\STM32F429IGT6\00_Template -B D:\code\STM32\CLion\STM32F429IGT6\00_Template\cmake-build-debug
 -- Minimal optimization, debug info included
--- Configuring done (1.6s)
--- Generating done (0.2s)
--- Build files have been written to: E:/code/STM32/CLion/STM32F429IGT6/00_Template/cmake-build-debug
+-- Configuring done (0.1s)
+-- Generating done (0.0s)
+-- Build files have been written to: D:/code/STM32/CLion/STM32F429IGT6/00_Template/cmake-build-debug

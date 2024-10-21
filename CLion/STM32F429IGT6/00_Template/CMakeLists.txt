@@ -51,7 +51,7 @@ endif ()
 
 include_directories(Core/Inc Drivers/STM32F4xx_HAL_Driver/Inc Drivers/STM32F4xx_HAL_Driver/Inc/Legacy Drivers/CMSIS/Device/ST/STM32F4xx/Include Drivers/CMSIS/Include
         Hardware/led Hardware/uart Hardware/adc Hardware/inner_temperature Hardware/tim Hardware/key Hardware/iic
-        Hardware/at24cxx Hardware/pcf8574t Hardware/spi Hardware/w25qxx)
+        Hardware/at24cxx Hardware/pcf8574t Hardware/spi Hardware/w25qxx Hardware/dma)
 
 add_definitions(-DDEBUG -DUSE_HAL_DRIVER -DSTM32F429xx)
 

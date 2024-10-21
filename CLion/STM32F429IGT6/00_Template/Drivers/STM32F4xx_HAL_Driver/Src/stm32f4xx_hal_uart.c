@@ -951,20 +951,27 @@ HAL_StatusTypeDef HAL_UART_Transmit_DMA(UART_HandleTypeDef *huart, uint8_t *pDat
     /* Enable the DMA transfer for transmit request by setting the DMAT bit
        in the UART CR3 register */
     huart->Instance->CR3 |= USART_CR3_DMAT;
-    
+    // 加上下面的置位操作可以关闭串口DMA只发送1次的问题
+    // 或者打开DMA中断
+    // huart->State = HAL_UART_STATE_READY;
+    // huart->hdmatx->State = HAL_DMA_STATE_READY;
+    // __HAL_DMA_CLEAR_FLAG(huart->hdmatx, DMA_FLAG_TCIF3_7);
+    // __HAL_DMA_CLEAR_FLAG(huart->hdmatx, DMA_FLAG_HTIF3_7);
+    // __HAL_DMA_CLEAR_FLAG(huart->hdmatx, DMA_FLAG_FEIF3_7);
+    // __HAL_UNLOCK(huart->hdmatx);
     /* Process Unlocked */
     __HAL_UNLOCK(huart);
-    
+
     return HAL_OK;
   }
   else
   {
-    return HAL_BUSY;   
+    return HAL_BUSY;
   }
 }
 
 /**
-  * @brief  Receives an amount of data in non blocking mode. 
+  * @brief  Receives an amount of data in non blocking mode.
   * @param  huart: pointer to a UART_HandleTypeDef structure that contains
   *                the configuration information for the specified UART module.
   * @param  pData: Pointer to data buffer

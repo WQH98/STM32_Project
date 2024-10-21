@@ -31,6 +31,7 @@
 #include "at24cxx.h"
 #include "pcf8574t.h"
 #include "w25qxx.h"
+#include "dma.h"
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
@@ -125,7 +126,20 @@ int main(void) {
     }
     my_printf(&uart1_handler, "w25q256 check ok\r\n");
 
+    dma2_stream0_init();
+    // 等待DMA传输完成
+    while(__HAL_DMA_GET_FLAG(&dma2_stream0_handle, DMA_FLAG_TCIF0_4) == DISABLE){}
+    // 比较源数据和传输后的数据
+    if(buffer_cmp(aSRC_Const_Buffer, aDST_Buffer, BUFFER_SIZE) == 0) {
+        my_printf(&uart1_handler, "DMA transfer ok\r\n");
+    }
+    else {
+        my_printf(&uart1_handler, "DMA transfer failed\r\n");
+    }
 
+    dma2_stream7_init();
+
+    // HAL_UART_Transmit_DMA(&uart1_handler, "Hello World\r\n", 13);
     /* USER CODE BEGIN 2 */
     /* USER CODE END 2 */
 
@@ -135,6 +149,7 @@ int main(void) {
         /* USER CODE END WHILE */
 
         /* USER CODE BEGIN 3 */
+#if 0
         if(HAL_GPIO_ReadPin(KEY0_PORT, KEY0_PIN) == RESET) {
             HAL_Delay(49);
             if(HAL_GPIO_ReadPin(KEY0_PORT, KEY0_PIN) == RESET) {
@@ -173,6 +188,10 @@ int main(void) {
                 my_printf(&uart1_handler, "key2 press\r\n");
             }
         }
+#endif
+        led0_reversal();
+        HAL_UART_Transmit_DMA(&uart1_handler, "Hello World\r\n", 13);
+        HAL_Delay(500);
     }
     /* USER CODE END 3 */
 }
