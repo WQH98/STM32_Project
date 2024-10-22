@@ -1,0 +1,3 @@
+D:/code/STM32/CLion/STM32F429IGT6/02_Shell_Project/01_Shell_Template/cmake-build-debug/CMakeFiles/01_Shell_Template.elf.dir
+D:/code/STM32/CLion/STM32F429IGT6/02_Shell_Project/01_Shell_Template/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/code/STM32/CLion/STM32F429IGT6/02_Shell_Project/01_Shell_Template/cmake-build-debug/CMakeFiles/rebuild_cache.dir

@@ -78,3 +78,6 @@
 21	149	7512046570053001	CMakeFiles/00_Template.elf.dir/Hardware/dma/dma.c.obj	38567d28310dddbe
 3	164	7512046569867777	CMakeFiles/00_Template.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj	e608207f8f06ac8c
 164	391	7512046571475814	00_Template.elf	17b7d53a4f1ffe06
+24	155	7512684513854377	CMakeFiles/00_Template.elf.dir/Hardware/dma/dma.c.obj	38567d28310dddbe
+5	184	7512684513660818	CMakeFiles/00_Template.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj	e608207f8f06ac8c
+184	466	7512684515446385	00_Template.elf	17b7d53a4f1ffe06

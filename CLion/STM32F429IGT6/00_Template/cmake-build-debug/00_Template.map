@@ -3001,7 +3001,7 @@ LOAD e:/gnu_tools_arm_embedded/10 2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.
  .debug_ranges  0x00000890       0x38 CMakeFiles/00_Template.elf.dir/Hardware/uart/uart.c.obj
  .debug_ranges  0x000008c8       0x88 CMakeFiles/00_Template.elf.dir/Hardware/w25qxx/w25qxx.c.obj
 
-.debug_line     0x00000000     0xc1ef
+.debug_line     0x00000000     0xc1f1
  .debug_line    0x00000000      0x18e CMakeFiles/00_Template.elf.dir/Core/Src/gpio.c.obj
  .debug_line    0x0000018e      0x46b CMakeFiles/00_Template.elf.dir/Core/Src/main.c.obj
  .debug_line    0x000005f9      0x19c CMakeFiles/00_Template.elf.dir/Core/Src/stm32f4xx_hal_msp.c.obj
@@ -3017,17 +3017,17 @@ LOAD e:/gnu_tools_arm_embedded/10 2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.
  .debug_line    0x00006cc1      0x503 CMakeFiles/00_Template.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.obj
  .debug_line    0x000071c4      0xade CMakeFiles/00_Template.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj
  .debug_line    0x00007ca2     0x1530 CMakeFiles/00_Template.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c.obj
- .debug_line    0x000091d2     0x1025 CMakeFiles/00_Template.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj
- .debug_line    0x0000a1f7      0x27f CMakeFiles/00_Template.elf.dir/Hardware/at24cxx/at24cxx.c.obj
- .debug_line    0x0000a476      0x329 CMakeFiles/00_Template.elf.dir/Hardware/dma/dma.c.obj
- .debug_line    0x0000a79f      0x3ee CMakeFiles/00_Template.elf.dir/Hardware/iic/iic.c.obj
- .debug_line    0x0000ab8d      0x21b CMakeFiles/00_Template.elf.dir/Hardware/key/key.c.obj
- .debug_line    0x0000ada8      0x296 CMakeFiles/00_Template.elf.dir/Hardware/led/led.c.obj
- .debug_line    0x0000b03e      0x2ab CMakeFiles/00_Template.elf.dir/Hardware/pcf8574t/pcf8574t.c.obj
- .debug_line    0x0000b2e9      0x2e9 CMakeFiles/00_Template.elf.dir/Hardware/spi/spi.c.obj
- .debug_line    0x0000b5d2      0x27f CMakeFiles/00_Template.elf.dir/Hardware/tim/tim.c.obj
- .debug_line    0x0000b851      0x403 CMakeFiles/00_Template.elf.dir/Hardware/uart/uart.c.obj
- .debug_line    0x0000bc54      0x59b CMakeFiles/00_Template.elf.dir/Hardware/w25qxx/w25qxx.c.obj
+ .debug_line    0x000091d2     0x1027 CMakeFiles/00_Template.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj
+ .debug_line    0x0000a1f9      0x27f CMakeFiles/00_Template.elf.dir/Hardware/at24cxx/at24cxx.c.obj
+ .debug_line    0x0000a478      0x329 CMakeFiles/00_Template.elf.dir/Hardware/dma/dma.c.obj
+ .debug_line    0x0000a7a1      0x3ee CMakeFiles/00_Template.elf.dir/Hardware/iic/iic.c.obj
+ .debug_line    0x0000ab8f      0x21b CMakeFiles/00_Template.elf.dir/Hardware/key/key.c.obj
+ .debug_line    0x0000adaa      0x296 CMakeFiles/00_Template.elf.dir/Hardware/led/led.c.obj
+ .debug_line    0x0000b040      0x2ab CMakeFiles/00_Template.elf.dir/Hardware/pcf8574t/pcf8574t.c.obj
+ .debug_line    0x0000b2eb      0x2e9 CMakeFiles/00_Template.elf.dir/Hardware/spi/spi.c.obj
+ .debug_line    0x0000b5d4      0x27f CMakeFiles/00_Template.elf.dir/Hardware/tim/tim.c.obj
+ .debug_line    0x0000b853      0x403 CMakeFiles/00_Template.elf.dir/Hardware/uart/uart.c.obj
+ .debug_line    0x0000bc56      0x59b CMakeFiles/00_Template.elf.dir/Hardware/w25qxx/w25qxx.c.obj
 
 .debug_str      0x00000000     0x3183
  .debug_str     0x00000000      0x2b5 CMakeFiles/00_Template.elf.dir/Core/Src/gpio.c.obj
