@@ -1,0 +1,8 @@
+{
+    "files.associations": {
+        "*.s": "arm",
+        "led.h": "c",
+        "uart.h": "c",
+        "tim.h": "c"
+    }
+}

@@ -1,0 +1,15 @@
+motor_control\event_groups.o: ..\FreeRTOS\event_groups.c
+motor_control\event_groups.o: E:\MDK5\ARM\ARMCC\Bin\..\include\stdlib.h
+motor_control\event_groups.o: ..\FreeRTOS\include\FreeRTOS.h
+motor_control\event_groups.o: E:\MDK5\ARM\ARMCC\Bin\..\include\stddef.h
+motor_control\event_groups.o: E:\MDK5\ARM\ARMCC\Bin\..\include\stdint.h
+motor_control\event_groups.o: ..\FreeRTOS\include\FreeRTOSConfig.h
+motor_control\event_groups.o: ..\FreeRTOS\include\projdefs.h
+motor_control\event_groups.o: ..\FreeRTOS\include\portable.h
+motor_control\event_groups.o: ..\FreeRTOS\include\deprecated_definitions.h
+motor_control\event_groups.o: ..\FreeRTOS\portable\RVDS\ARM_CM3\portmacro.h
+motor_control\event_groups.o: ..\FreeRTOS\include\mpu_wrappers.h
+motor_control\event_groups.o: ..\FreeRTOS\include\task.h
+motor_control\event_groups.o: ..\FreeRTOS\include\list.h
+motor_control\event_groups.o: ..\FreeRTOS\include\timers.h
+motor_control\event_groups.o: ..\FreeRTOS\include\event_groups.h
