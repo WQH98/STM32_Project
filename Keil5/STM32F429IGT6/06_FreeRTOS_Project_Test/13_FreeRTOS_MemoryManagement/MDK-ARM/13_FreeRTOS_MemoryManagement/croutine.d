@@ -1,7 +1,7 @@
 .\13_freertos_memorymanagement\croutine.o: ..\FreeRTOS\croutine.c
 .\13_freertos_memorymanagement\croutine.o: ..\FreeRTOS\include\FreeRTOS.h
-.\13_freertos_memorymanagement\croutine.o: D:\keil5\ARM\ARMCC\Bin\..\include\stddef.h
-.\13_freertos_memorymanagement\croutine.o: D:\keil5\ARM\ARMCC\Bin\..\include\stdint.h
+.\13_freertos_memorymanagement\croutine.o: D:\MDK5\ARM\ARMCC\Bin\..\include\stddef.h
+.\13_freertos_memorymanagement\croutine.o: D:\MDK5\ARM\ARMCC\Bin\..\include\stdint.h
 .\13_freertos_memorymanagement\croutine.o: ..\FreeRTOS\include\FreeRTOSConfig.h
 .\13_freertos_memorymanagement\croutine.o: ..\FreeRTOS\include\projdefs.h
 .\13_freertos_memorymanagement\croutine.o: ..\FreeRTOS\include\portable.h

@@ -1,7 +1,7 @@
 .\08_freertos_timer\croutine.o: ..\FreeRTOS\croutine.c
 .\08_freertos_timer\croutine.o: ..\FreeRTOS\include\FreeRTOS.h
-.\08_freertos_timer\croutine.o: D:\keil5\ARM\ARMCC\Bin\..\include\stddef.h
-.\08_freertos_timer\croutine.o: D:\keil5\ARM\ARMCC\Bin\..\include\stdint.h
+.\08_freertos_timer\croutine.o: D:\MDK5\ARM\ARMCC\Bin\..\include\stddef.h
+.\08_freertos_timer\croutine.o: D:\MDK5\ARM\ARMCC\Bin\..\include\stdint.h
 .\08_freertos_timer\croutine.o: ..\FreeRTOS\include\FreeRTOSConfig.h
 .\08_freertos_timer\croutine.o: ..\FreeRTOS\include\projdefs.h
 .\08_freertos_timer\croutine.o: ..\FreeRTOS\include\portable.h

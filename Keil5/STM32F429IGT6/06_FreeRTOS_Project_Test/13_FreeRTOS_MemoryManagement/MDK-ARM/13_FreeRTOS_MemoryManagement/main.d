@@ -7,14 +7,14 @@
 .\13_freertos_memorymanagement\main.o: ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h
 .\13_freertos_memorymanagement\main.o: ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f429xx.h
 .\13_freertos_memorymanagement\main.o: ../Drivers/CMSIS/Include/core_cm4.h
-.\13_freertos_memorymanagement\main.o: D:\keil5\ARM\ARMCC\Bin\..\include\stdint.h
+.\13_freertos_memorymanagement\main.o: D:\MDK5\ARM\ARMCC\Bin\..\include\stdint.h
 .\13_freertos_memorymanagement\main.o: ../Drivers/CMSIS/Include/core_cmInstr.h
 .\13_freertos_memorymanagement\main.o: ../Drivers/CMSIS/Include/core_cmFunc.h
 .\13_freertos_memorymanagement\main.o: ../Drivers/CMSIS/Include/core_cmSimd.h
 .\13_freertos_memorymanagement\main.o: ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h
 .\13_freertos_memorymanagement\main.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h
 .\13_freertos_memorymanagement\main.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h
-.\13_freertos_memorymanagement\main.o: D:\keil5\ARM\ARMCC\Bin\..\include\stdio.h
+.\13_freertos_memorymanagement\main.o: D:\MDK5\ARM\ARMCC\Bin\..\include\stdio.h
 .\13_freertos_memorymanagement\main.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h
 .\13_freertos_memorymanagement\main.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h
 .\13_freertos_memorymanagement\main.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h
@@ -37,7 +37,7 @@
 .\13_freertos_memorymanagement\main.o: ..\HARDWARE\pcf8574\pcf8574.h
 .\13_freertos_memorymanagement\main.o: ..\HARDWARE\iic\iic.h
 .\13_freertos_memorymanagement\main.o: ..\FreeRTOS\include\FreeRTOS.h
-.\13_freertos_memorymanagement\main.o: D:\keil5\ARM\ARMCC\Bin\..\include\stddef.h
+.\13_freertos_memorymanagement\main.o: D:\MDK5\ARM\ARMCC\Bin\..\include\stddef.h
 .\13_freertos_memorymanagement\main.o: ..\FreeRTOS\include\FreeRTOSConfig.h
 .\13_freertos_memorymanagement\main.o: ..\FreeRTOS\include\projdefs.h
 .\13_freertos_memorymanagement\main.o: ..\FreeRTOS\include\portable.h
@@ -46,4 +46,4 @@
 .\13_freertos_memorymanagement\main.o: ..\FreeRTOS\include\mpu_wrappers.h
 .\13_freertos_memorymanagement\main.o: ..\FreeRTOS\include\task.h
 .\13_freertos_memorymanagement\main.o: ..\FreeRTOS\include\list.h
-.\13_freertos_memorymanagement\main.o: D:\keil5\ARM\ARMCC\Bin\..\include\limits.h
+.\13_freertos_memorymanagement\main.o: D:\MDK5\ARM\ARMCC\Bin\..\include\limits.h

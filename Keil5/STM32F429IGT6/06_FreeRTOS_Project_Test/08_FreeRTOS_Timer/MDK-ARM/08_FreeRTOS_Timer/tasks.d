@@ -1,9 +1,9 @@
 .\08_freertos_timer\tasks.o: ..\FreeRTOS\tasks.c
-.\08_freertos_timer\tasks.o: D:\keil5\ARM\ARMCC\Bin\..\include\stdlib.h
-.\08_freertos_timer\tasks.o: D:\keil5\ARM\ARMCC\Bin\..\include\string.h
+.\08_freertos_timer\tasks.o: D:\MDK5\ARM\ARMCC\Bin\..\include\stdlib.h
+.\08_freertos_timer\tasks.o: D:\MDK5\ARM\ARMCC\Bin\..\include\string.h
 .\08_freertos_timer\tasks.o: ..\FreeRTOS\include\FreeRTOS.h
-.\08_freertos_timer\tasks.o: D:\keil5\ARM\ARMCC\Bin\..\include\stddef.h
-.\08_freertos_timer\tasks.o: D:\keil5\ARM\ARMCC\Bin\..\include\stdint.h
+.\08_freertos_timer\tasks.o: D:\MDK5\ARM\ARMCC\Bin\..\include\stddef.h
+.\08_freertos_timer\tasks.o: D:\MDK5\ARM\ARMCC\Bin\..\include\stdint.h
 .\08_freertos_timer\tasks.o: ..\FreeRTOS\include\FreeRTOSConfig.h
 .\08_freertos_timer\tasks.o: ..\FreeRTOS\include\projdefs.h
 .\08_freertos_timer\tasks.o: ..\FreeRTOS\include\portable.h

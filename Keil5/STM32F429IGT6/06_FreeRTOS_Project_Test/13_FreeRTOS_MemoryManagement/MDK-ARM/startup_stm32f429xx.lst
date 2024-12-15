@@ -906,17 +906,17 @@ ARM Macro Assembler    Page 14
 Command Line: --debug --xref --diag_suppress=9931 --cpu=Cortex-M4.fp.sp --apcs=
 interwork --depend=.\13_freertos_memorymanagement\startup_stm32f429xx.d -o.\13_
 freertos_memorymanagement\startup_stm32f429xx.o -I.\RTE\_13_FreeRTOS_MemoryMana
-gement -ID:\keil5\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include -ID:\keil5\Packs\Kei
-l\STM32F4xx_DFP\2.17.1\Drivers\CMSIS\Device\ST\STM32F4xx\Include --predefine="_
+gement -ID:\MDK5\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include -ID:\MDK5\Packs\Keil\
+STM32F4xx_DFP\2.9.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include --predefine="__MI
 
 
 
 ARM Macro Assembler    Page 15 
 
 
-_MICROLIB SETA 1" --predefine="__UVISION_VERSION SETA 536" --predefine="_RTE_ S
-ETA 1" --predefine="STM32F429xx SETA 1" --predefine="_RTE_ SETA 1" --list=start
-up_stm32f429xx.lst startup_stm32f429xx.s
+CROLIB SETA 1" --predefine="__UVISION_VERSION SETA 536" --predefine="_RTE_ SETA
+ 1" --predefine="STM32F429xx SETA 1" --predefine="_RTE_ SETA 1" --list=startup_
+stm32f429xx.lst startup_stm32f429xx.s
 
 
 

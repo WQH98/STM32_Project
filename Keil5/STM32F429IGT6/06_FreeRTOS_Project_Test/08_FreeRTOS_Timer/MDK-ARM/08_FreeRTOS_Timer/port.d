@@ -1,7 +1,7 @@
 .\08_freertos_timer\port.o: ..\FreeRTOS\portable\RVDS\ARM_CM4F\port.c
 .\08_freertos_timer\port.o: ..\FreeRTOS\include\FreeRTOS.h
-.\08_freertos_timer\port.o: D:\keil5\ARM\ARMCC\Bin\..\include\stddef.h
-.\08_freertos_timer\port.o: D:\keil5\ARM\ARMCC\Bin\..\include\stdint.h
+.\08_freertos_timer\port.o: D:\MDK5\ARM\ARMCC\Bin\..\include\stddef.h
+.\08_freertos_timer\port.o: D:\MDK5\ARM\ARMCC\Bin\..\include\stdint.h
 .\08_freertos_timer\port.o: ..\FreeRTOS\include\FreeRTOSConfig.h
 .\08_freertos_timer\port.o: ..\FreeRTOS\include\projdefs.h
 .\08_freertos_timer\port.o: ..\FreeRTOS\include\portable.h

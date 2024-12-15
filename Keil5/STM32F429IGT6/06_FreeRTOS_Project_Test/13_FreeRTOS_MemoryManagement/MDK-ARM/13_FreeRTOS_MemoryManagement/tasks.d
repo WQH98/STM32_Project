@@ -1,9 +1,9 @@
 .\13_freertos_memorymanagement\tasks.o: ..\FreeRTOS\tasks.c
-.\13_freertos_memorymanagement\tasks.o: D:\keil5\ARM\ARMCC\Bin\..\include\stdlib.h
-.\13_freertos_memorymanagement\tasks.o: D:\keil5\ARM\ARMCC\Bin\..\include\string.h
+.\13_freertos_memorymanagement\tasks.o: D:\MDK5\ARM\ARMCC\Bin\..\include\stdlib.h
+.\13_freertos_memorymanagement\tasks.o: D:\MDK5\ARM\ARMCC\Bin\..\include\string.h
 .\13_freertos_memorymanagement\tasks.o: ..\FreeRTOS\include\FreeRTOS.h
-.\13_freertos_memorymanagement\tasks.o: D:\keil5\ARM\ARMCC\Bin\..\include\stddef.h
-.\13_freertos_memorymanagement\tasks.o: D:\keil5\ARM\ARMCC\Bin\..\include\stdint.h
+.\13_freertos_memorymanagement\tasks.o: D:\MDK5\ARM\ARMCC\Bin\..\include\stddef.h
+.\13_freertos_memorymanagement\tasks.o: D:\MDK5\ARM\ARMCC\Bin\..\include\stdint.h
 .\13_freertos_memorymanagement\tasks.o: ..\FreeRTOS\include\FreeRTOSConfig.h
 .\13_freertos_memorymanagement\tasks.o: ..\FreeRTOS\include\projdefs.h
 .\13_freertos_memorymanagement\tasks.o: ..\FreeRTOS\include\portable.h

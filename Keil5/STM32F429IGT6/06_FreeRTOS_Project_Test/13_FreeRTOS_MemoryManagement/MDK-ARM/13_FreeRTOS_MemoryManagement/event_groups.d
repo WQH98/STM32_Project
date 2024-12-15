@@ -1,8 +1,8 @@
 .\13_freertos_memorymanagement\event_groups.o: ..\FreeRTOS\event_groups.c
-.\13_freertos_memorymanagement\event_groups.o: D:\keil5\ARM\ARMCC\Bin\..\include\stdlib.h
+.\13_freertos_memorymanagement\event_groups.o: D:\MDK5\ARM\ARMCC\Bin\..\include\stdlib.h
 .\13_freertos_memorymanagement\event_groups.o: ..\FreeRTOS\include\FreeRTOS.h
-.\13_freertos_memorymanagement\event_groups.o: D:\keil5\ARM\ARMCC\Bin\..\include\stddef.h
-.\13_freertos_memorymanagement\event_groups.o: D:\keil5\ARM\ARMCC\Bin\..\include\stdint.h
+.\13_freertos_memorymanagement\event_groups.o: D:\MDK5\ARM\ARMCC\Bin\..\include\stddef.h
+.\13_freertos_memorymanagement\event_groups.o: D:\MDK5\ARM\ARMCC\Bin\..\include\stdint.h
 .\13_freertos_memorymanagement\event_groups.o: ..\FreeRTOS\include\FreeRTOSConfig.h
 .\13_freertos_memorymanagement\event_groups.o: ..\FreeRTOS\include\projdefs.h
 .\13_freertos_memorymanagement\event_groups.o: ..\FreeRTOS\include\portable.h

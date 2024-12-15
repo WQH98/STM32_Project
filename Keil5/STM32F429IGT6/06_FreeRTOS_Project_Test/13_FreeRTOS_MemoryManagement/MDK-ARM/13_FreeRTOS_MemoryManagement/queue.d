@@ -1,9 +1,9 @@
 .\13_freertos_memorymanagement\queue.o: ..\FreeRTOS\queue.c
-.\13_freertos_memorymanagement\queue.o: D:\keil5\ARM\ARMCC\Bin\..\include\stdlib.h
-.\13_freertos_memorymanagement\queue.o: D:\keil5\ARM\ARMCC\Bin\..\include\string.h
+.\13_freertos_memorymanagement\queue.o: D:\MDK5\ARM\ARMCC\Bin\..\include\stdlib.h
+.\13_freertos_memorymanagement\queue.o: D:\MDK5\ARM\ARMCC\Bin\..\include\string.h
 .\13_freertos_memorymanagement\queue.o: ..\FreeRTOS\include\FreeRTOS.h
-.\13_freertos_memorymanagement\queue.o: D:\keil5\ARM\ARMCC\Bin\..\include\stddef.h
-.\13_freertos_memorymanagement\queue.o: D:\keil5\ARM\ARMCC\Bin\..\include\stdint.h
+.\13_freertos_memorymanagement\queue.o: D:\MDK5\ARM\ARMCC\Bin\..\include\stddef.h
+.\13_freertos_memorymanagement\queue.o: D:\MDK5\ARM\ARMCC\Bin\..\include\stdint.h
 .\13_freertos_memorymanagement\queue.o: ..\FreeRTOS\include\FreeRTOSConfig.h
 .\13_freertos_memorymanagement\queue.o: ..\FreeRTOS\include\projdefs.h
 .\13_freertos_memorymanagement\queue.o: ..\FreeRTOS\include\portable.h

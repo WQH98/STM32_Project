@@ -1,9 +1,9 @@
 .\08_freertos_timer\heap_4.o: ..\FreeRTOS\portable\MemMang\heap_4.c
-.\08_freertos_timer\heap_4.o: D:\keil5\ARM\ARMCC\Bin\..\include\stdlib.h
-.\08_freertos_timer\heap_4.o: D:\keil5\ARM\ARMCC\Bin\..\include\string.h
+.\08_freertos_timer\heap_4.o: D:\MDK5\ARM\ARMCC\Bin\..\include\stdlib.h
+.\08_freertos_timer\heap_4.o: D:\MDK5\ARM\ARMCC\Bin\..\include\string.h
 .\08_freertos_timer\heap_4.o: ..\FreeRTOS\include\FreeRTOS.h
-.\08_freertos_timer\heap_4.o: D:\keil5\ARM\ARMCC\Bin\..\include\stddef.h
-.\08_freertos_timer\heap_4.o: D:\keil5\ARM\ARMCC\Bin\..\include\stdint.h
+.\08_freertos_timer\heap_4.o: D:\MDK5\ARM\ARMCC\Bin\..\include\stddef.h
+.\08_freertos_timer\heap_4.o: D:\MDK5\ARM\ARMCC\Bin\..\include\stdint.h
 .\08_freertos_timer\heap_4.o: ..\FreeRTOS\include\FreeRTOSConfig.h
 .\08_freertos_timer\heap_4.o: ..\FreeRTOS\include\projdefs.h
 .\08_freertos_timer\heap_4.o: ..\FreeRTOS\include\portable.h

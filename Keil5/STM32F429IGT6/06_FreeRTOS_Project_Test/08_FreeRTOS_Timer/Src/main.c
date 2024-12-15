@@ -74,7 +74,7 @@ uint32_t tmr2_cb_count = 0;
 #if (INCLUDE_xTaskGetSchedulerState==1) 
     if(xTaskGetSchedulerState()!=taskSCHEDULER_NOT_STARTED)
 #endif 
-    xPortSysTickHandler(); 
+// xPortSysTickHandler(); 
 // #if (INCLUDE_xTaskGetSchedulerState==1) 
 //     } 
 // #endif

@@ -1,8 +1,8 @@
 .\08_freertos_timer\event_groups.o: ..\FreeRTOS\event_groups.c
-.\08_freertos_timer\event_groups.o: D:\keil5\ARM\ARMCC\Bin\..\include\stdlib.h
+.\08_freertos_timer\event_groups.o: D:\MDK5\ARM\ARMCC\Bin\..\include\stdlib.h
 .\08_freertos_timer\event_groups.o: ..\FreeRTOS\include\FreeRTOS.h
-.\08_freertos_timer\event_groups.o: D:\keil5\ARM\ARMCC\Bin\..\include\stddef.h
-.\08_freertos_timer\event_groups.o: D:\keil5\ARM\ARMCC\Bin\..\include\stdint.h
+.\08_freertos_timer\event_groups.o: D:\MDK5\ARM\ARMCC\Bin\..\include\stddef.h
+.\08_freertos_timer\event_groups.o: D:\MDK5\ARM\ARMCC\Bin\..\include\stdint.h
 .\08_freertos_timer\event_groups.o: ..\FreeRTOS\include\FreeRTOSConfig.h
 .\08_freertos_timer\event_groups.o: ..\FreeRTOS\include\projdefs.h
 .\08_freertos_timer\event_groups.o: ..\FreeRTOS\include\portable.h
